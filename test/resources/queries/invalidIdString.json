@@ -1,0 +1,19 @@
+{
+	"title": "InvalidIdString",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sect_ions_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sect_ions_dept",
+				"sect_ions_avg"
+			],
+			"ORDER": "sect_ions_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

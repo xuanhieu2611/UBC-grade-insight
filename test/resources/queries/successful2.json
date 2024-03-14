@@ -1,0 +1,1432 @@
+{
+	"title": "successful2",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"OR": [
+					{
+						"NOT": {
+							"IS": {
+								"sections_id": "400"
+							}
+						}
+					},
+					{
+						"AND": [
+							{
+								"IS": {
+									"sections_title": "*s*"
+								}
+							},
+							{
+								"IS": {
+									"sections_uuid": "**"
+								}
+							},
+							{
+								"EQ": {
+									"sections_pass": 0
+								}
+							},
+							{
+								"LT": {
+									"sections_fail": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_dept",
+				"sections_audit"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "busi",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "hatzimanolakis, penny",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "hatzimanolakis, penny",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "hatzimanolakis, penny",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bigelow-ghaname, carrie",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bigelow-ghaname, carrie",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "mcfarlane, rae",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bigelow-ghaname, carrie",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "hatzimanolakis, penny",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "dhyg",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "white, jane",
+			"sections_dept": "eced",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "eced",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "harris, sara;ivanochko, tara",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "lane, erin;steyn, douw gerbrand",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "harris, sara;ivanochko, tara",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "harris, sara;ivanochko, tara",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "harris, sara;ivanochko, tara",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "harris, sara;ivanochko, tara",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "envr",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "justice, daniel",
+			"sections_dept": "fnis",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "fnis",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "rieger, caroline",
+			"sections_dept": "germ",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "rieger, caroline",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "hempen, daniela",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "rieger, caroline",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "hempen, daniela",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "rieger, caroline",
+			"sections_dept": "germ",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "faller, florian",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "rieger, caroline",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "rieger, caroline",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "germ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "kin",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "law",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "lfs",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "seymour, brian",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "li, dong",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "seymour, brian",
+			"sections_dept": "math",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "schotzau, dominik",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wetton, brian thomas",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "balmforth, neil",
+			"sections_dept": "math",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "ward, michael jeffrey",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wei, juncheng",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "li, dong",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "nagata, k wayne",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "seymour, brian",
+			"sections_dept": "math",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "ward, michael jeffrey",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wei, juncheng",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "math",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "ansermino, john mark;barr, alasdair;bernatchez, pascal;bhagavatula, sastry;choi, peter tsz lung;etminan, mahyar;griesdale, donald e;hackett, tillie-louise;horne, andrew;laher, ismail;preston, roanne;schwarz, stephan;warriner, charles brian;wright, james",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "ansermino, john mark;barr, alasdair;bernatchez, pascal;bhagavatula, sastry;choi, peter tsz lung;etminan, mahyar;fedida, david;griesdale, donald e;hackett, tillie-louise;horne, andrew;kurata, harley;laher, ismail;preston, roanne;schwarz, stephan;walker, michael j a;warriner, charles brian;wright, james",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "bhagavatula, sastry",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "pcth",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "crawford, david robert;fielding, david",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "crawford, david robert;fielding, david",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "crawford, david robert;fielding, david",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "crawford, david robert;fielding, david",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "low, alan",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phar",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "lister, alison",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "mattison, thomas",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "tanaka, hirohisa",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "gay, colin",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "tanaka, hirohisa",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "mattison, thomas",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "mattison, thomas",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "mattison, thomas",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "phys",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "polissky, olena",
+			"sections_dept": "russ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "russ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "polissky, olena",
+			"sections_dept": "russ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "russ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "chitnev, veta",
+			"sections_dept": "russ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "russ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "prykhodko, dariya",
+			"sections_dept": "russ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "russ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "polissky, olena",
+			"sections_dept": "russ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "russ",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "chitnev, veta",
+			"sections_dept": "russ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "russ",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "prykhodko, dariya",
+			"sections_dept": "russ",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "russ",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "stainton, timothy",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "migone, andreas",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "johnston, patricia",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "tester, frank",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "yan, miu chung",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "johnston, patricia",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "stainton, timothy",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "sowk",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 3
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 4
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 4
+		},
+		{
+			"sections_instructor": "guhn, martin",
+			"sections_dept": "spph",
+			"sections_audit": 6
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 7
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "craib, kevin j",
+			"sections_dept": "spph",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "craib, kevin j",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 2
+		},
+		{
+			"sections_instructor": "marin, michael",
+			"sections_dept": "spph",
+			"sections_audit": 1
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "spph",
+			"sections_audit": 3
+		},
+		{
+			"sections_instructor": "wyly, elvin",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wyly, elvin kirk",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wyly, elvin kirk",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "owens, cameron",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wyly, elvin kirk",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wyly, elvin kirk",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "wyly, elvin kirk",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		},
+		{
+			"sections_instructor": "",
+			"sections_dept": "urst",
+			"sections_audit": 0
+		}
+	]
+}

@@ -1,0 +1,38 @@
+:root{
+    /* --bs-body-bg: #FBF0F6; */
+    --bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    /* color: #555555; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+table{
+    width: 100%;
+    border: 1px solid;
+}
+
+.container{
+    width: 80%;
+}
+
+.nav-link:hover{
+    color: green;
+    background-color: #f4f4f4;
+}
+
+.showcase{
+    position: relative;
+    overflow: hidden;
+}
+

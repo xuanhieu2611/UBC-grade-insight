@@ -1,0 +1,88 @@
+{
+	"title": "groupingGroupHasNumberKey",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"overallAvg",
+				"overallMin"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"overallAvg": {
+						"AVG": "sections_avg"
+					}
+				},
+				{
+					"overallMin": {
+						"MIN": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 1900,
+			"overallAvg": 79.26,
+			"overallMin": 0
+		},
+		{
+			"sections_year": 2007,
+			"overallAvg": 76.27,
+			"overallMin": 46.5
+		},
+		{
+			"sections_year": 2008,
+			"overallAvg": 77.16,
+			"overallMin": 33.2
+		},
+		{
+			"sections_year": 2009,
+			"overallAvg": 77,
+			"overallMin": 0
+		},
+		{
+			"sections_year": 2010,
+			"overallAvg": 77.48,
+			"overallMin": 33
+		},
+		{
+			"sections_year": 2011,
+			"overallAvg": 77.67,
+			"overallMin": 42
+		},
+		{
+			"sections_year": 2012,
+			"overallAvg": 77.81,
+			"overallMin": 50
+		},
+		{
+			"sections_year": 2013,
+			"overallAvg": 78.01,
+			"overallMin": 4.5
+		},
+		{
+			"sections_year": 2014,
+			"overallAvg": 77.96,
+			"overallMin": 48.9
+		},
+		{
+			"sections_year": 2015,
+			"overallAvg": 78.22,
+			"overallMin": 39.03
+		},
+		{
+			"sections_year": 2016,
+			"overallAvg": 78.17,
+			"overallMin": 4
+		}
+	]
+}

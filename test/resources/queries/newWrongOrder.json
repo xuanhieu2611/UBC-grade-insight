@@ -1,0 +1,38 @@
+{
+	"title": "newWrongOrder",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"EQ": {
+								"sections_avg": 90
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": 1
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"sections_avg"
+			],
+			"ORDER": 1
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "newNotAddedId",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sfu_avg": 90
+							}
+						},
+						{
+							"IS": {
+								"sfu_dept": "adhe"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sfu_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sfu_dept",
+				"sfu_id",
+				"sfu_avg"
+			],
+			"ORDER": "sfu_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,11408 @@
+{
+	"title": "groupingDontShowAppliedThing",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_title"
+			],
+			"APPLY": [
+				{
+					"overallAvg": {
+						"AVG": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "rsrch methdlgy"
+		},
+		{
+			"sections_title": "anml welf rsrch"
+		},
+		{
+			"sections_title": "teach adult"
+		},
+		{
+			"sections_title": "inst adul educ"
+		},
+		{
+			"sections_title": "dev wkshp/sem"
+		},
+		{
+			"sections_title": "com adult educ"
+		},
+		{
+			"sections_title": "adul educ"
+		},
+		{
+			"sections_title": "gross anat limbs"
+		},
+		{
+			"sections_title": "fnd bdy dsgn:bsc"
+		},
+		{
+			"sections_title": "fnc hmn ant h&n"
+		},
+		{
+			"sections_title": "fnc hmn ant musc"
+		},
+		{
+			"sections_title": "eating culture"
+		},
+		{
+			"sections_title": "sex gndr culture"
+		},
+		{
+			"sections_title": "women comp persp"
+		},
+		{
+			"sections_title": "japn pop culture"
+		},
+		{
+			"sections_title": "culture & commnc"
+		},
+		{
+			"sections_title": "first nations bc"
+		},
+		{
+			"sections_title": "intro medcl anth"
+		},
+		{
+			"sections_title": "cult health ill"
+		},
+		{
+			"sections_title": "intro museology"
+		},
+		{
+			"sections_title": "museums, colnlsm"
+		},
+		{
+			"sections_title": "etnogrpy eurasia"
+		},
+		{
+			"sections_title": "ethnogr sth asia"
+		},
+		{
+			"sections_title": "intr anth gender"
+		},
+		{
+			"sections_title": "gender relations"
+		},
+		{
+			"sections_title": "japn cul&society"
+		},
+		{
+			"sections_title": "oral tradition"
+		},
+		{
+			"sections_title": "anth of media"
+		},
+		{
+			"sections_title": "visual media"
+		},
+		{
+			"sections_title": "prncpls fld work"
+		},
+		{
+			"sections_title": "anthro globlizn"
+		},
+		{
+			"sections_title": "anthro statistcs"
+		},
+		{
+			"sections_title": "med, soci, cultr"
+		},
+		{
+			"sections_title": "med tech cul soc"
+		},
+		{
+			"sections_title": "conserv organic"
+		},
+		{
+			"sections_title": "stdy socl inequl"
+		},
+		{
+			"sections_title": "hist anth thght"
+		},
+		{
+			"sections_title": "lang & culture"
+		},
+		{
+			"sections_title": "qualitative meth"
+		},
+		{
+			"sections_title": "archeolgcal meth"
+		},
+		{
+			"sections_title": "sem medical anth"
+		},
+		{
+			"sections_title": "adv quantve meth"
+		},
+		{
+			"sections_title": "adv sem msm anth"
+		},
+		{
+			"sections_title": "sem/wok mus stud"
+		},
+		{
+			"sections_title": "intr soil scie"
+		},
+		{
+			"sections_title": "vascular plants"
+		},
+		{
+			"sections_title": "intro biometeoro"
+		},
+		{
+			"sections_title": "frst &agr climat"
+		},
+		{
+			"sections_title": "agroecology i"
+		},
+		{
+			"sections_title": "food & enviro i"
+		},
+		{
+			"sections_title": "sustain agr&food"
+		},
+		{
+			"sections_title": "animal phys i"
+		},
+		{
+			"sections_title": "animal phys ii"
+		},
+		{
+			"sections_title": "animals&society"
+		},
+		{
+			"sections_title": "an wlfr&ethc a u"
+		},
+		{
+			"sections_title": "eq biol"
+		},
+		{
+			"sections_title": "hort techniques"
+		},
+		{
+			"sections_title": "intr sd plnt tax"
+		},
+		{
+			"sections_title": "intr entomology"
+		},
+		{
+			"sections_title": "weed science"
+		},
+		{
+			"sections_title": "soil biology"
+		},
+		{
+			"sections_title": "plnt phys"
+		},
+		{
+			"sections_title": "agroecology ii"
+		},
+		{
+			"sections_title": "food&enviro ii"
+		},
+		{
+			"sections_title": "key ndctr ag sus"
+		},
+		{
+			"sections_title": "res apl anml bio"
+		},
+		{
+			"sections_title": "soil process"
+		},
+		{
+			"sections_title": "sus soil mgmt"
+		},
+		{
+			"sections_title": "lab soil sci"
+		},
+		{
+			"sections_title": "soil s,a&di"
+		},
+		{
+			"sections_title": "anml hlth&physio"
+		},
+		{
+			"sections_title": "stress & coping"
+		},
+		{
+			"sections_title": "animls globl iss"
+		},
+		{
+			"sections_title": "appld anml behav"
+		},
+		{
+			"sections_title": "animal welfare"
+		},
+		{
+			"sections_title": "prd & psthrv veg"
+		},
+		{
+			"sections_title": "inten fish pro"
+		},
+		{
+			"sections_title": "fish diseases"
+		},
+		{
+			"sections_title": "plnt-micr inter"
+		},
+		{
+			"sections_title": "integr pest man"
+		},
+		{
+			"sections_title": "plant genomics"
+		},
+		{
+			"sections_title": "berry crop biol"
+		},
+		{
+			"sections_title": "agroforestry"
+		},
+		{
+			"sections_title": "adv agroecology"
+		},
+		{
+			"sections_title": "tpcs appl biolgy"
+		},
+		{
+			"sections_title": "wildlife mngment"
+		},
+		{
+			"sections_title": "undergrad essay"
+		},
+		{
+			"sections_title": "undergrad thesis"
+		},
+		{
+			"sections_title": "mngmt & ldrshp"
+		},
+		{
+			"sections_title": "sustn & ldrshp"
+		},
+		{
+			"sections_title": "orgnztnl ldrshp"
+		},
+		{
+			"sections_title": "anyltcs & interp"
+		},
+		{
+			"sections_title": "intro to eng i"
+		},
+		{
+			"sections_title": "intro to eng ii"
+		},
+		{
+			"sections_title": "comp eng design"
+		},
+		{
+			"sections_title": "eng analysis i"
+		},
+		{
+			"sections_title": "eng analysis ii"
+		},
+		{
+			"sections_title": "elec magnet wave"
+		},
+		{
+			"sections_title": "matter&enrgy i"
+		},
+		{
+			"sections_title": "matter&enrgy ii"
+		},
+		{
+			"sections_title": "technical commun"
+		},
+		{
+			"sections_title": "technlgy&soc i"
+		},
+		{
+			"sections_title": "technlgy&soc ii"
+		},
+		{
+			"sections_title": "eng materials"
+		},
+		{
+			"sections_title": "eng mtls lab"
+		},
+		{
+			"sections_title": "weap & arms cntl"
+		},
+		{
+			"sections_title": "mgmt fund tech"
+		},
+		{
+			"sections_title": "prof eng practce"
+		},
+		{
+			"sections_title": "new ven design"
+		},
+		{
+			"sections_title": "tech ent engin"
+		},
+		{
+			"sections_title": "intro: classical"
+		},
+		{
+			"sections_title": "intro classcl ii"
+		},
+		{
+			"sections_title": "intm classicl i"
+		},
+		{
+			"sections_title": "intm classicl ii"
+		},
+		{
+			"sections_title": "themes in arch"
+		},
+		{
+			"sections_title": "arch hist i"
+		},
+		{
+			"sections_title": "arch hist 1a"
+		},
+		{
+			"sections_title": "arch hist ii"
+		},
+		{
+			"sections_title": "arch hist 1b"
+		},
+		{
+			"sections_title": "mtrl&mthd constr"
+		},
+		{
+			"sections_title": "build tech 1"
+		},
+		{
+			"sections_title": "geom model"
+		},
+		{
+			"sections_title": "arch design"
+		},
+		{
+			"sections_title": "arch design ii"
+		},
+		{
+			"sections_title": "arch design 1b"
+		},
+		{
+			"sections_title": "arch technol i"
+		},
+		{
+			"sections_title": "arch technol 1"
+		},
+		{
+			"sections_title": "structures i"
+		},
+		{
+			"sections_title": "arch struct 1"
+		},
+		{
+			"sections_title": "envir sys&cntr i"
+		},
+		{
+			"sections_title": "envir sys&cntr 1"
+		},
+		{
+			"sections_title": "design media i"
+		},
+		{
+			"sections_title": "design media 1"
+		},
+		{
+			"sections_title": "design media ii"
+		},
+		{
+			"sections_title": "design media 2"
+		},
+		{
+			"sections_title": "arch design iii"
+		},
+		{
+			"sections_title": "arch design 2a"
+		},
+		{
+			"sections_title": "arch design iv"
+		},
+		{
+			"sections_title": "arch design 2b"
+		},
+		{
+			"sections_title": "cntmpry theories"
+		},
+		{
+			"sections_title": "arch technol ii"
+		},
+		{
+			"sections_title": "arch technol 2"
+		},
+		{
+			"sections_title": "arch struct ii"
+		},
+		{
+			"sections_title": "arch struct 2"
+		},
+		{
+			"sections_title": "envr sys&cntr ii"
+		},
+		{
+			"sections_title": "envir sys&cntr 2"
+		},
+		{
+			"sections_title": "arch dsgn abroad"
+		},
+		{
+			"sections_title": "arch design v"
+		},
+		{
+			"sections_title": "arch design 3a"
+		},
+		{
+			"sections_title": "proc&prac arch"
+		},
+		{
+			"sections_title": "proc&prac arch 1"
+		},
+		{
+			"sections_title": "profsnl practice"
+		},
+		{
+			"sections_title": "cntmpry practice"
+		},
+		{
+			"sections_title": "proj report prep"
+		},
+		{
+			"sections_title": "grad project  i"
+		},
+		{
+			"sections_title": "grad desgn proj"
+		},
+		{
+			"sections_title": "grad project ii"
+		},
+		{
+			"sections_title": "tpcs arch hst&th"
+		},
+		{
+			"sections_title": "semnr hist&thry"
+		},
+		{
+			"sections_title": "res mthds c&i"
+		},
+		{
+			"sections_title": "res mthdy arch"
+		},
+		{
+			"sections_title": "research methods"
+		},
+		{
+			"sections_title": "masa thesis"
+		},
+		{
+			"sections_title": "research thesis"
+		},
+		{
+			"sections_title": "intr archaeology"
+		},
+		{
+			"sections_title": "orgn humanity"
+		},
+		{
+			"sections_title": "archaeology mthd"
+		},
+		{
+			"sections_title": "grt arch discov"
+		},
+		{
+			"sections_title": "forensic anthro"
+		},
+		{
+			"sections_title": "ancient ltn amer"
+		},
+		{
+			"sections_title": "archlgy intrpret"
+		},
+		{
+			"sections_title": "arch colaps&sust"
+		},
+		{
+			"sections_title": "arc hunt-gth-for"
+		},
+		{
+			"sections_title": "primatology"
+		},
+		{
+			"sections_title": "arch&anth mappng"
+		},
+		{
+			"sections_title": "archaology death"
+		},
+		{
+			"sections_title": "prcting archolgy"
+		},
+		{
+			"sections_title": "info tech&archvs"
+		},
+		{
+			"sections_title": "archival dplmtcs"
+		},
+		{
+			"sections_title": "arr/desc arch"
+		},
+		{
+			"sections_title": "mgmt curr recrds"
+		},
+		{
+			"sections_title": "sel&acq arch doc"
+		},
+		{
+			"sections_title": "arch public serv"
+		},
+		{
+			"sections_title": "advancd arc docs"
+		},
+		{
+			"sections_title": "aud&non-txt arch"
+		},
+		{
+			"sections_title": "database design"
+		},
+		{
+			"sections_title": "presrv dig recds"
+		},
+		{
+			"sections_title": "rcrds&info govrn"
+		},
+		{
+			"sections_title": "foip&priv rcrds"
+		},
+		{
+			"sections_title": "mangmt info orgs"
+		},
+		{
+			"sections_title": "arch sys & prof"
+		},
+		{
+			"sections_title": "rcrds&archvs law"
+		},
+		{
+			"sections_title": "preservation"
+		},
+		{
+			"sections_title": "arch rsrch&schlr"
+		},
+		{
+			"sections_title": "adv sem res meth"
+		},
+		{
+			"sections_title": "adv std min area"
+		},
+		{
+			"sections_title": "ways of seeing"
+		},
+		{
+			"sections_title": "crisis & contrad"
+		},
+		{
+			"sections_title": "pre 1600 eur"
+		},
+		{
+			"sections_title": "art 1600 to now"
+		},
+		{
+			"sections_title": "art 1500 to 1900"
+		},
+		{
+			"sections_title": "vis env mod&post"
+		},
+		{
+			"sections_title": "asian art"
+		},
+		{
+			"sections_title": "asian arts"
+		},
+		{
+			"sections_title": "art hx methods"
+		},
+		{
+			"sections_title": "med art in mona"
+		},
+		{
+			"sections_title": "art&cult 1550-"
+		},
+		{
+			"sections_title": "art&cult 1400-"
+		},
+		{
+			"sections_title": "vis culture 18 c"
+		},
+		{
+			"sections_title": "19th century art"
+		},
+		{
+			"sections_title": "modernism"
+		},
+		{
+			"sections_title": "postmodern art"
+		},
+		{
+			"sections_title": "photo in can"
+		},
+		{
+			"sections_title": "hist of photogry"
+		},
+		{
+			"sections_title": "eur arch"
+		},
+		{
+			"sections_title": "mod/pmod art chi"
+		},
+		{
+			"sections_title": "jpn: prob paint"
+		},
+		{
+			"sections_title": "jpn: print media"
+		},
+		{
+			"sections_title": "northcoast peo"
+		},
+		{
+			"sections_title": "art middle ages"
+		},
+		{
+			"sections_title": "early modern art"
+		},
+		{
+			"sections_title": "18 & 19 cent vis"
+		},
+		{
+			"sections_title": "can art"
+		},
+		{
+			"sections_title": "nor amer arch"
+		},
+		{
+			"sections_title": "japanese art"
+		},
+		{
+			"sections_title": "vis&dig media th"
+		},
+		{
+			"sections_title": "meth art hist"
+		},
+		{
+			"sections_title": "master's thesis"
+		},
+		{
+			"sections_title": "intr trdtl asia"
+		},
+		{
+			"sections_title": "intr modern asia"
+		},
+		{
+			"sections_title": "cult fndt e asia"
+		},
+		{
+			"sections_title": "sex eth asia rel"
+		},
+		{
+			"sections_title": "intro buddhism"
+		},
+		{
+			"sections_title": "jpn sex&gend flm"
+		},
+		{
+			"sections_title": "wrtg&cult e asia"
+		},
+		{
+			"sections_title": "s&se perfor arts"
+		},
+		{
+			"sections_title": "asian horr cinem"
+		},
+		{
+			"sections_title": "korean lang&writ"
+		},
+		{
+			"sections_title": "myth rit&epic"
+		},
+		{
+			"sections_title": "myth lit a india"
+		},
+		{
+			"sections_title": "s asians beyond"
+		},
+		{
+			"sections_title": "premodern japan"
+		},
+		{
+			"sections_title": "japn fdl to mod"
+		},
+		{
+			"sections_title": "rise korean civl"
+		},
+		{
+			"sections_title": "premodern india"
+		},
+		{
+			"sections_title": "hong kong cinema"
+		},
+		{
+			"sections_title": "manga & anime"
+		},
+		{
+			"sections_title": "confucian china"
+		},
+		{
+			"sections_title": "korn ppl mod tms"
+		},
+		{
+			"sections_title": "modern india"
+		},
+		{
+			"sections_title": "mdrn ind con-raj"
+		},
+		{
+			"sections_title": "hist late china"
+		},
+		{
+			"sections_title": "clss chin lit tr"
+		},
+		{
+			"sections_title": "chin lit trns:vr"
+		},
+		{
+			"sections_title": "trd korn lit trn"
+		},
+		{
+			"sections_title": "gr lt wrs cl ind"
+		},
+		{
+			"sections_title": "mod chin fct trn"
+		},
+		{
+			"sections_title": "tpcs trd chin vr"
+		},
+		{
+			"sections_title": "intr japn cinema"
+		},
+		{
+			"sections_title": "chinese cinema"
+		},
+		{
+			"sections_title": "hist chin cinema"
+		},
+		{
+			"sections_title": "korean cinema"
+		},
+		{
+			"sections_title": "mod korn fc trns"
+		},
+		{
+			"sections_title": "taiwan fict&film"
+		},
+		{
+			"sections_title": "punjabi cinema"
+		},
+		{
+			"sections_title": "asian folklore"
+		},
+		{
+			"sections_title": "sanskrit cosmop"
+		},
+		{
+			"sections_title": "fndts chin thght"
+		},
+		{
+			"sections_title": "devl trd chin th"
+		},
+		{
+			"sections_title": "glbl chin cinema"
+		},
+		{
+			"sections_title": "the sikhs"
+		},
+		{
+			"sections_title": "hist korn thght"
+		},
+		{
+			"sections_title": "phl wsd erly ind"
+		},
+		{
+			"sections_title": "buddhism china"
+		},
+		{
+			"sections_title": "chan/zen budhism"
+		},
+		{
+			"sections_title": "chinese gramar 1"
+		},
+		{
+			"sections_title": "japn religions"
+		},
+		{
+			"sections_title": "chinese gramar 2"
+		},
+		{
+			"sections_title": "nar lit prmd ind"
+		},
+		{
+			"sections_title": "cls hnd,bud&jain"
+		},
+		{
+			"sections_title": "int rl prmd e as"
+		},
+		{
+			"sections_title": "chin poli th&ins"
+		},
+		{
+			"sections_title": "mod chinese auth"
+		},
+		{
+			"sections_title": "jpn travel lit"
+		},
+		{
+			"sections_title": "taiwan hist&cult"
+		},
+		{
+			"sections_title": "mod korean novel"
+		},
+		{
+			"sections_title": "dcmntg punjb can"
+		},
+		{
+			"sections_title": "rlg,sc&st md ind"
+		},
+		{
+			"sections_title": "museo imaginatn"
+		},
+		{
+			"sections_title": "issues arts&sci"
+		},
+		{
+			"sections_title": "intr sustainabil"
+		},
+		{
+			"sections_title": "int astronomy i"
+		},
+		{
+			"sections_title": "intr stars&galxs"
+		},
+		{
+			"sections_title": "astro frontiers"
+		},
+		{
+			"sections_title": "strs & stllr pop"
+		},
+		{
+			"sections_title": "galaxies"
+		},
+		{
+			"sections_title": "explring univ i"
+		},
+		{
+			"sections_title": "explring univ ii"
+		},
+		{
+			"sections_title": "exoplnt & astrbi"
+		},
+		{
+			"sections_title": "cosmology"
+		},
+		{
+			"sections_title": "astr&astrphy mea"
+		},
+		{
+			"sections_title": "astronomical lab"
+		},
+		{
+			"sections_title": "high energy astr"
+		},
+		{
+			"sections_title": "planetary scienc"
+		},
+		{
+			"sections_title": "directed researc"
+		},
+		{
+			"sections_title": "honours thesis"
+		},
+		{
+			"sections_title": "astro dynamics"
+		},
+		{
+			"sections_title": "observnl astronm"
+		},
+		{
+			"sections_title": "can,japn&pc cult"
+		},
+		{
+			"sections_title": "can,japn&pc poli"
+		},
+		{
+			"sections_title": "int global citiz"
+		},
+		{
+			"sections_title": "com srv learning"
+		},
+		{
+			"sections_title": "comunty-bsd rsrc"
+		},
+		{
+			"sections_title": "meteor of storms"
+		},
+		{
+			"sections_title": "intro comput lab"
+		},
+		{
+			"sections_title": "dynamic metrlogy"
+		},
+		{
+			"sections_title": "cloud phys&chem"
+		},
+		{
+			"sections_title": "oprtl meteorolgy"
+		},
+		{
+			"sections_title": "num tch oc,at&er"
+		},
+		{
+			"sections_title": "bndry-lyr metrly"
+		},
+		{
+			"sections_title": "num tec oc,at&er"
+		},
+		{
+			"sections_title": "n-anat a&sl path"
+		},
+		{
+			"sections_title": "intro neurolingu"
+		},
+		{
+			"sections_title": "acous & art phon"
+		},
+		{
+			"sections_title": "hearing sci ii"
+		},
+		{
+			"sections_title": "discourse anyl"
+		},
+		{
+			"sections_title": "fundamental audi"
+		},
+		{
+			"sections_title": "comm disorders"
+		},
+		{
+			"sections_title": "comm dvel&disord"
+		},
+		{
+			"sections_title": "disord sp prod"
+		},
+		{
+			"sections_title": "acquired lng dis"
+		},
+		{
+			"sections_title": "intro dysphagia"
+		},
+		{
+			"sections_title": "aural rehb i"
+		},
+		{
+			"sections_title": "hearng and noise"
+		},
+		{
+			"sections_title": "diag audio i"
+		},
+		{
+			"sections_title": "diag audio ii"
+		},
+		{
+			"sections_title": "amplification i"
+		},
+		{
+			"sections_title": "amplification ii"
+		},
+		{
+			"sections_title": "phyl ms aud func"
+		},
+		{
+			"sections_title": "pediatric audio"
+		},
+		{
+			"sections_title": "cochl implants"
+		},
+		{
+			"sections_title": "audi adv prc i"
+		},
+		{
+			"sections_title": "audi prctcm iii"
+		},
+		{
+			"sections_title": "audi adv prc ii"
+		},
+		{
+			"sections_title": "audi prctcm iv"
+		},
+		{
+			"sections_title": "hearing & aging"
+		},
+		{
+			"sections_title": "phono intervent"
+		},
+		{
+			"sections_title": "dev language dis"
+		},
+		{
+			"sections_title": "cog proc & ald"
+		},
+		{
+			"sections_title": "lang dev&dis sch"
+		},
+		{
+			"sections_title": "tpcs flu disord"
+		},
+		{
+			"sections_title": "as in s&s disord"
+		},
+		{
+			"sections_title": "sp percep&hear"
+		},
+		{
+			"sections_title": "pc & s-a issues"
+		},
+		{
+			"sections_title": "adv speech scie"
+		},
+		{
+			"sections_title": "lang dev life"
+		},
+		{
+			"sections_title": "acq lang dis ii"
+		},
+		{
+			"sections_title": "sp-lg pth prc i"
+		},
+		{
+			"sections_title": "sp-lg pth pr iii"
+		},
+		{
+			"sections_title": "found intgr & pd"
+		},
+		{
+			"sections_title": "intgr pd global"
+		},
+		{
+			"sections_title": "mba contxt intgr"
+		},
+		{
+			"sections_title": "commun busns prj"
+		},
+		{
+			"sections_title": "busn economics"
+		},
+		{
+			"sections_title": "conslt&strt mgmt"
+		},
+		{
+			"sections_title": "ethics&sustnblty"
+		},
+		{
+			"sections_title": "busn & valu crtn"
+		},
+		{
+			"sections_title": "glbl iss&macecon"
+		},
+		{
+			"sections_title": "creativity"
+		},
+		{
+			"sections_title": "decision making"
+		},
+		{
+			"sections_title": "ldrshp develpmnt"
+		},
+		{
+			"sections_title": "financial rept'g"
+		},
+		{
+			"sections_title": "fin stmt anly i"
+		},
+		{
+			"sections_title": "fndmntl accnting"
+		},
+		{
+			"sections_title": "cost anl dec mkg"
+		},
+		{
+			"sections_title": "acct perf eval"
+		},
+		{
+			"sections_title": "fndtns  accnting"
+		},
+		{
+			"sections_title": "forecasting mgmt"
+		},
+		{
+			"sections_title": "data anly&utiliz"
+		},
+		{
+			"sections_title": "app stat mgmt"
+		},
+		{
+			"sections_title": "mng new vent grw"
+		},
+		{
+			"sections_title": "grw&exit venture"
+		},
+		{
+			"sections_title": "vent cptl fin&in"
+		},
+		{
+			"sections_title": "entr finance"
+		},
+		{
+			"sections_title": "techno entre i"
+		},
+		{
+			"sections_title": "tech entrprnrshp"
+		},
+		{
+			"sections_title": "entr tch&n-tch i"
+		},
+		{
+			"sections_title": "intrapreneurship"
+		},
+		{
+			"sections_title": "innov&entrepren"
+		},
+		{
+			"sections_title": "fund entrpreneur"
+		},
+		{
+			"sections_title": "intro finance"
+		},
+		{
+			"sections_title": "corp finance"
+		},
+		{
+			"sections_title": "adv corp finance"
+		},
+		{
+			"sections_title": "capitl structure"
+		},
+		{
+			"sections_title": "tpc corp finance"
+		},
+		{
+			"sections_title": "cptl budgeting"
+		},
+		{
+			"sections_title": "mergers & acqsns"
+		},
+		{
+			"sections_title": "invest theory"
+		},
+		{
+			"sections_title": "investments"
+		},
+		{
+			"sections_title": "int rate risk mg"
+		},
+		{
+			"sections_title": "fin engineering"
+		},
+		{
+			"sections_title": "empirical finc"
+		},
+		{
+			"sections_title": "intntl finan env"
+		},
+		{
+			"sections_title": "intl finl mngmnt"
+		},
+		{
+			"sections_title": "principl finance"
+		},
+		{
+			"sections_title": "leadership"
+		},
+		{
+			"sections_title": "2 party negotns"
+		},
+		{
+			"sections_title": "prncp negotiat'n"
+		},
+		{
+			"sections_title": "mng'g change"
+		},
+		{
+			"sections_title": "mng employ rel"
+		},
+		{
+			"sections_title": "org behav"
+		},
+		{
+			"sections_title": "prj mgt bsn sol"
+		},
+		{
+			"sections_title": "prj mgt it&busns"
+		},
+		{
+			"sections_title": "mng bus inf tech"
+		},
+		{
+			"sections_title": "mng info tech"
+		},
+		{
+			"sections_title": "managing e-busi"
+		},
+		{
+			"sections_title": "bus intel manag"
+		},
+		{
+			"sections_title": "info tech mgmt"
+		},
+		{
+			"sections_title": "commercial law"
+		},
+		{
+			"sections_title": "prod mng stratgs"
+		},
+		{
+			"sections_title": "new product dev"
+		},
+		{
+			"sections_title": "int mktg comm"
+		},
+		{
+			"sections_title": "consumer behav"
+		},
+		{
+			"sections_title": "mrkt research"
+		},
+		{
+			"sections_title": "internet mktg"
+		},
+		{
+			"sections_title": "brand management"
+		},
+		{
+			"sections_title": "services mgnt"
+		},
+		{
+			"sections_title": "strtgc mng serv"
+		},
+		{
+			"sections_title": "prod serv manage"
+		},
+		{
+			"sections_title": "marketing"
+		},
+		{
+			"sections_title": "app mng scie i"
+		},
+		{
+			"sections_title": "app mng scie ii"
+		},
+		{
+			"sections_title": "prob mgmt models"
+		},
+		{
+			"sections_title": "stoch processes"
+		},
+		{
+			"sections_title": "sim dec making"
+		},
+		{
+			"sections_title": "visual simultn"
+		},
+		{
+			"sections_title": "optimizatn model"
+		},
+		{
+			"sections_title": "optml dcsnmkg i"
+		},
+		{
+			"sections_title": "appl discret opt"
+		},
+		{
+			"sections_title": "optml dcsnmkg ii"
+		},
+		{
+			"sections_title": "decison analysis"
+		},
+		{
+			"sections_title": "consult prac i"
+		},
+		{
+			"sections_title": "consult prac ii"
+		},
+		{
+			"sections_title": "managerl decisns"
+		},
+		{
+			"sections_title": "oper & log"
+		},
+		{
+			"sections_title": "govrnt & busness"
+		},
+		{
+			"sections_title": "fnd mgr econ"
+		},
+		{
+			"sections_title": "intr lgstcs&oprt"
+		},
+		{
+			"sections_title": "anlyz bus procss"
+		},
+		{
+			"sections_title": "procss fundmtls"
+		},
+		{
+			"sections_title": "supply chain mng"
+		},
+		{
+			"sections_title": "supply ch anyl"
+		},
+		{
+			"sections_title": "bus strategy"
+		},
+		{
+			"sections_title": "corporate strtgy"
+		},
+		{
+			"sections_title": "consult&decision"
+		},
+		{
+			"sections_title": "intrntl trdg env"
+		},
+		{
+			"sections_title": "multi nat entrpr"
+		},
+		{
+			"sections_title": "strat mgmt"
+		},
+		{
+			"sections_title": "real estate inv"
+		},
+		{
+			"sections_title": "intr med bioc"
+		},
+		{
+			"sections_title": "fundamentls bioc"
+		},
+		{
+			"sections_title": "bioc laboratory"
+		},
+		{
+			"sections_title": "general biochem"
+		},
+		{
+			"sections_title": "molecular bioc"
+		},
+		{
+			"sections_title": "contmp bioc rsrc"
+		},
+		{
+			"sections_title": "proteins"
+		},
+		{
+			"sections_title": "enzymology"
+		},
+		{
+			"sections_title": "bioc methods"
+		},
+		{
+			"sections_title": "nucleic acids"
+		},
+		{
+			"sections_title": "adv bioc technqs"
+		},
+		{
+			"sections_title": "recmbnt dna tech"
+		},
+		{
+			"sections_title": "molec bio concpt"
+		},
+		{
+			"sections_title": "membrane bioc"
+		},
+		{
+			"sections_title": "adv techniq bioc"
+		},
+		{
+			"sections_title": "membrane str&fnc"
+		},
+		{
+			"sections_title": "adv tpcs prot ch"
+		},
+		{
+			"sections_title": "adv tpcs mole bi"
+		},
+		{
+			"sections_title": "seminar"
+		},
+		{
+			"sections_title": "prob-bsd lrn bio"
+		},
+		{
+			"sections_title": "stat hi dim biol"
+		},
+		{
+			"sections_title": "m.sc. thesis"
+		},
+		{
+			"sections_title": "intr modern bio"
+		},
+		{
+			"sections_title": "cell & orgsml bio"
+		},
+		{
+			"sections_title": "biology of cell"
+		},
+		{
+			"sections_title": "biol bact cell"
+		},
+		{
+			"sections_title": "unicellular life"
+		},
+		{
+			"sections_title": "gentcs ecol&evol"
+		},
+		{
+			"sections_title": "eco gen evol"
+		},
+		{
+			"sections_title": "lab inv life sc"
+		},
+		{
+			"sections_title": "human biology"
+		},
+		{
+			"sections_title": "fund cell bio"
+		},
+		{
+			"sections_title": "cell biology 1"
+		},
+		{
+			"sections_title": "cell biology 2"
+		},
+		{
+			"sections_title": "intro biochem"
+		},
+		{
+			"sections_title": "eukaryot microbi"
+		},
+		{
+			"sections_title": "vert struct&func"
+		},
+		{
+			"sections_title": "comp invertbrat"
+		},
+		{
+			"sections_title": "non vasc plants"
+		},
+		{
+			"sections_title": "bio alg,fung&bry"
+		},
+		{
+			"sections_title": "fund ecology"
+		},
+		{
+			"sections_title": "genetics life"
+		},
+		{
+			"sections_title": "fund genetics"
+		},
+		{
+			"sections_title": "fund physiology"
+		},
+		{
+			"sections_title": "fund of biostats"
+		},
+		{
+			"sections_title": "biometrics"
+		},
+		{
+			"sections_title": "biomathematics"
+		},
+		{
+			"sections_title": "advanced ecology"
+		},
+		{
+			"sections_title": "animal behaviour"
+		},
+		{
+			"sections_title": "survey of algae"
+		},
+		{
+			"sections_title": "bryophyta"
+		},
+		{
+			"sections_title": "bryophytes"
+		},
+		{
+			"sections_title": "struc&repr fungi"
+		},
+		{
+			"sections_title": "intro seed plnts"
+		},
+		{
+			"sections_title": "intro anml mech"
+		},
+		{
+			"sections_title": "biol invertebrat"
+		},
+		{
+			"sections_title": "exp bio invertbr"
+		},
+		{
+			"sections_title": "intro entomology"
+		},
+		{
+			"sections_title": "int parasitology"
+		},
+		{
+			"sections_title": "developmtal biol"
+		},
+		{
+			"sections_title": "molecular gen"
+		},
+		{
+			"sections_title": "evolutionary bio"
+		},
+		{
+			"sections_title": "evolutionary gen"
+		},
+		{
+			"sections_title": "intr genetcs lab"
+		},
+		{
+			"sections_title": "int cell bio lab"
+		},
+		{
+			"sections_title": "int mole bio lab"
+		},
+		{
+			"sections_title": "intgrt'd bio lab"
+		},
+		{
+			"sections_title": "plants & peoples"
+		},
+		{
+			"sections_title": "human hrdty evol"
+		},
+		{
+			"sections_title": "human ecology"
+		},
+		{
+			"sections_title": "microbes & socty"
+		},
+		{
+			"sections_title": "prin&meth rsch i"
+		},
+		{
+			"sections_title": "plnt phyl 1:nutr"
+		},
+		{
+			"sections_title": "plnt phyl 2:devt"
+		},
+		{
+			"sections_title": "phys sns nrv msc"
+		},
+		{
+			"sections_title": "intro to physio"
+		},
+		{
+			"sections_title": "cellular physio"
+		},
+		{
+			"sections_title": "lab animal physi"
+		},
+		{
+			"sections_title": "animal physiol"
+		},
+		{
+			"sections_title": "ecol methodology"
+		},
+		{
+			"sections_title": "plant ecology i"
+		},
+		{
+			"sections_title": "insect ecology"
+		},
+		{
+			"sections_title": "phytogeography"
+		},
+		{
+			"sections_title": "zoogeography"
+		},
+		{
+			"sections_title": "evol procss plnt"
+		},
+		{
+			"sections_title": "pr conservt biol"
+		},
+		{
+			"sections_title": "phylogenetic bio"
+		},
+		{
+			"sections_title": "evolutionary eco"
+		},
+		{
+			"sections_title": "ocean cons&sustn"
+		},
+		{
+			"sections_title": "biomechanics"
+		},
+		{
+			"sections_title": "ornith&herpetlgy"
+		},
+		{
+			"sections_title": "evl mor mar invr"
+		},
+		{
+			"sections_title": "evolut genetics"
+		},
+		{
+			"sections_title": "adv cell biology"
+		},
+		{
+			"sections_title": "evo cell biology"
+		},
+		{
+			"sections_title": "strat&techn cell"
+		},
+		{
+			"sections_title": "plant genetics"
+		},
+		{
+			"sections_title": "populatn genetcs"
+		},
+		{
+			"sections_title": "integ func genom"
+		},
+		{
+			"sections_title": "anim cell molec"
+		},
+		{
+			"sections_title": "zoologic physics"
+		},
+		{
+			"sections_title": "anim cell biol"
+		},
+		{
+			"sections_title": "cell biol intrfk"
+		},
+		{
+			"sections_title": "darwin's fishes"
+		},
+		{
+			"sections_title": "hist&phil biol"
+		},
+		{
+			"sections_title": "meth bio rsch ii"
+		},
+		{
+			"sections_title": "biology research"
+		},
+		{
+			"sections_title": "molec adap animl"
+		},
+		{
+			"sections_title": "compar physiolgy"
+		},
+		{
+			"sections_title": "comp neurobiolgy"
+		},
+		{
+			"sections_title": "compar endocrin"
+		},
+		{
+			"sections_title": "comp env physiol"
+		},
+		{
+			"sections_title": "devlpmt neurbiol"
+		},
+		{
+			"sections_title": "neurobi sens&mot"
+		},
+		{
+			"sections_title": "ecolg plant bioc"
+		},
+		{
+			"sections_title": "gene regl devl"
+		},
+		{
+			"sections_title": "animal dvl gntcs"
+		},
+		{
+			"sections_title": "div evol fishes"
+		},
+		{
+			"sections_title": "q mth ecol&evol"
+		},
+		{
+			"sections_title": "pop & quant gene"
+		},
+		{
+			"sections_title": "biol of the cell"
+		},
+		{
+			"sections_title": "teach life sci"
+		},
+		{
+			"sections_title": "biomd, phys&anat"
+		},
+		{
+			"sections_title": "clin&ind bio eng"
+		},
+		{
+			"sections_title": "clinical orienta"
+		},
+		{
+			"sections_title": "med tech project"
+		},
+		{
+			"sections_title": "anat & physiolgy"
+		},
+		{
+			"sections_title": "biomed eng tech"
+		},
+		{
+			"sections_title": "cl&ind biomd eng"
+		},
+		{
+			"sections_title": "master eng proj"
+		},
+		{
+			"sections_title": "m.a. sc. thesis"
+		},
+		{
+			"sections_title": "sem in botany"
+		},
+		{
+			"sections_title": "adv plnt comm"
+		},
+		{
+			"sections_title": "topics plnt bioc"
+		},
+		{
+			"sections_title": "plant molec lab"
+		},
+		{
+			"sections_title": "mic fnd rl es ec"
+		},
+		{
+			"sections_title": "cptl mrkts&rl es"
+		},
+		{
+			"sections_title": "bc law & ethics"
+		},
+		{
+			"sections_title": "r prop law&ethic"
+		},
+		{
+			"sections_title": "fndtns rl es mth"
+		},
+		{
+			"sections_title": "rl es fnc ca ctt"
+		},
+		{
+			"sections_title": "appl stat in bus"
+		},
+		{
+			"sections_title": "intr fncl acct"
+		},
+		{
+			"sections_title": "intr mgmt acct"
+		},
+		{
+			"sections_title": "urb&rl es econ"
+		},
+		{
+			"sections_title": "organiztl bhvr"
+		},
+		{
+			"sections_title": "found re apprai"
+		},
+		{
+			"sections_title": "real est inv an"
+		},
+		{
+			"sections_title": "info systems"
+		},
+		{
+			"sections_title": "stat&comp ap val"
+		},
+		{
+			"sections_title": "intm fnc acct i"
+		},
+		{
+			"sections_title": "cost accounting"
+		},
+		{
+			"sections_title": "intr income tax"
+		},
+		{
+			"sections_title": "business finc"
+		},
+		{
+			"sections_title": "intr busnss law"
+		},
+		{
+			"sections_title": "resdnt prp study"
+		},
+		{
+			"sections_title": "res prop anal"
+		},
+		{
+			"sections_title": "com prop anal"
+		},
+		{
+			"sections_title": "real estate busi"
+		},
+		{
+			"sections_title": "rl es manage i"
+		},
+		{
+			"sections_title": "case std aprsl i"
+		},
+		{
+			"sections_title": "assess admin"
+		},
+		{
+			"sections_title": "cpt aid ms pr as"
+		},
+		{
+			"sections_title": "real est dev i"
+		},
+		{
+			"sections_title": "real est devl 2"
+		},
+		{
+			"sections_title": "intm fnc acct ii"
+		},
+		{
+			"sections_title": "rl es manage ii"
+		},
+		{
+			"sections_title": "case appraisl ii"
+		},
+		{
+			"sections_title": "adv accounting"
+		},
+		{
+			"sections_title": "prin audit"
+		},
+		{
+			"sections_title": "re crit analysis"
+		},
+		{
+			"sections_title": "marketing mgmt"
+		},
+		{
+			"sections_title": "fin management"
+		},
+		{
+			"sections_title": "strg mngmnt bus"
+		},
+		{
+			"sections_title": "incom prop study"
+		},
+		{
+			"sections_title": "biom rsrch skill"
+		},
+		{
+			"sections_title": "human physiology"
+		},
+		{
+			"sections_title": "hnrs human phyl"
+		},
+		{
+			"sections_title": "intr mcr hum ant"
+		},
+		{
+			"sections_title": "intr grs hum ant"
+		},
+		{
+			"sections_title": "adv cel&mol phys"
+		},
+		{
+			"sections_title": "cardio&resp phyl"
+		},
+		{
+			"sections_title": "renl&gastro phyl"
+		},
+		{
+			"sections_title": "mam endocrinolgy"
+		},
+		{
+			"sections_title": "adv neurophyl"
+		},
+		{
+			"sections_title": "adv lab physiol"
+		},
+		{
+			"sections_title": "grad essay"
+		},
+		{
+			"sections_title": "sem idys museum"
+		},
+		{
+			"sections_title": "sem cont context"
+		},
+		{
+			"sections_title": "case museum"
+		},
+		{
+			"sections_title": "grad prac"
+		},
+		{
+			"sections_title": "therml enrgy sys"
+		},
+		{
+			"sections_title": "enrgy sys fundam"
+		},
+		{
+			"sections_title": "sust enrgy systs"
+		},
+		{
+			"sections_title": "energy&envirnmnt"
+		},
+		{
+			"sections_title": "project & report"
+		},
+		{
+			"sections_title": "cll&dev bio lit"
+		},
+		{
+			"sections_title": "tpcs dev biol"
+		},
+		{
+			"sections_title": "tpcs cell comm"
+		},
+		{
+			"sections_title": "tpc cytosk&cl mo"
+		},
+		{
+			"sections_title": "tpc int-cel traf"
+		},
+		{
+			"sections_title": "fluor microscpy"
+		},
+		{
+			"sections_title": "tech cel&dev bio"
+		},
+		{
+			"sections_title": "molec gene anlys"
+		},
+		{
+			"sections_title": "cell system biol"
+		},
+		{
+			"sections_title": "molec embryology"
+		},
+		{
+			"sections_title": "mech hmn disease"
+		},
+		{
+			"sections_title": "gen&cell therapy"
+		},
+		{
+			"sections_title": "contr & confl"
+		},
+		{
+			"sections_title": "grt wrks lit"
+		},
+		{
+			"sections_title": "wtches myth rlty"
+		},
+		{
+			"sections_title": "gender & nation"
+		},
+		{
+			"sections_title": "technical comm"
+		},
+		{
+			"sections_title": "comp methods"
+		},
+		{
+			"sections_title": "mass&enrgy balnc"
+		},
+		{
+			"sections_title": "int chem&bio eng"
+		},
+		{
+			"sections_title": "chem & bio thrmo"
+		},
+		{
+			"sections_title": "trans phenmna i"
+		},
+		{
+			"sections_title": "chem eng app lab"
+		},
+		{
+			"sections_title": "chem eng chm lab"
+		},
+		{
+			"sections_title": "unit oper i"
+		},
+		{
+			"sections_title": "unit operatns ii"
+		},
+		{
+			"sections_title": "appl thermody ii"
+		},
+		{
+			"sections_title": "trans phenmna ii"
+		},
+		{
+			"sections_title": "proc dyn&control"
+		},
+		{
+			"sections_title": "chem engr lab ii"
+		},
+		{
+			"sections_title": "proc&env eng lab"
+		},
+		{
+			"sections_title": "enviro chml lab"
+		},
+		{
+			"sections_title": "biotech lab"
+		},
+		{
+			"sections_title": "biolog eng lab"
+		},
+		{
+			"sections_title": "prcs&env eng lab"
+		},
+		{
+			"sections_title": "chemical eng lab"
+		},
+		{
+			"sections_title": "wtr pollution ct"
+		},
+		{
+			"sections_title": "cmpt flwsh&fluid"
+		},
+		{
+			"sections_title": "bioproc eng i"
+		},
+		{
+			"sections_title": "chem pulp tech"
+		},
+		{
+			"sections_title": "indu biotech lab"
+		},
+		{
+			"sections_title": "env prc dsgn prj"
+		},
+		{
+			"sections_title": "bio prc prd dsgn"
+		},
+		{
+			"sections_title": "bio prc dsgn prj"
+		},
+		{
+			"sections_title": "chm prc prd dsgn"
+		},
+		{
+			"sections_title": "proc design proj"
+		},
+		{
+			"sections_title": "kinet react desg"
+		},
+		{
+			"sections_title": ""
+		},
+		{
+			"sections_title": "proc synthesis"
+		},
+		{
+			"sections_title": "chml economics"
+		},
+		{
+			"sections_title": "chem eng lab iv"
+		},
+		{
+			"sections_title": "proc ctrl eng"
+		},
+		{
+			"sections_title": "electrochem eng"
+		},
+		{
+			"sections_title": "bioproces eng ii"
+		},
+		{
+			"sections_title": "energy engineer"
+		},
+		{
+			"sections_title": "green eng proces"
+		},
+		{
+			"sections_title": "air pol prv&ctrl"
+		},
+		{
+			"sections_title": "wst mng res recv"
+		},
+		{
+			"sections_title": "thesis proposal"
+		},
+		{
+			"sections_title": "thesis"
+		},
+		{
+			"sections_title": "ths prpl-env tpc"
+		},
+		{
+			"sections_title": "ths: enviro tpc"
+		},
+		{
+			"sections_title": "ths prop: biotec"
+		},
+		{
+			"sections_title": "ths: biotech tpc"
+		},
+		{
+			"sections_title": "thermodynamics"
+		},
+		{
+			"sections_title": "math operations"
+		},
+		{
+			"sections_title": "moment heat mass"
+		},
+		{
+			"sections_title": "biological eng"
+		},
+		{
+			"sections_title": "particle tech"
+		},
+		{
+			"sections_title": "appl heterog cat"
+		},
+		{
+			"sections_title": "ind biotech lab"
+		},
+		{
+			"sections_title": "env eng&sustain"
+		},
+		{
+			"sections_title": "air polutn cntrl"
+		},
+		{
+			"sections_title": "elec scie eng tc"
+		},
+		{
+			"sections_title": "energy enginring"
+		},
+		{
+			"sections_title": "masc thesis dev"
+		},
+		{
+			"sections_title": "masc thesis"
+		},
+		{
+			"sections_title": "princpls chem i"
+		},
+		{
+			"sections_title": "str bnd equ chem"
+		},
+		{
+			"sections_title": "structural chem"
+		},
+		{
+			"sections_title": "strctr bond chem"
+		},
+		{
+			"sections_title": "phys & org chem"
+		},
+		{
+			"sections_title": "thm kin org chem"
+		},
+		{
+			"sections_title": "chem for engr"
+		},
+		{
+			"sections_title": "intr orgnc chem"
+		},
+		{
+			"sections_title": "physical chem"
+		},
+		{
+			"sections_title": "coord chem"
+		},
+		{
+			"sections_title": "analytical chem"
+		},
+		{
+			"sections_title": "intro chem anlys"
+		},
+		{
+			"sections_title": "organic chemstry"
+		},
+		{
+			"sections_title": "fnmt react inorg"
+		},
+		{
+			"sections_title": "org chem biol sc"
+		},
+		{
+			"sections_title": "org chem lab"
+		},
+		{
+			"sections_title": "inorganic chem"
+		},
+		{
+			"sections_title": "phy chem for eng"
+		},
+		{
+			"sections_title": "org chem engneer"
+		},
+		{
+			"sections_title": "communcting chem"
+		},
+		{
+			"sections_title": "aqueous envirmnt"
+		},
+		{
+			"sections_title": "atmsphr envirmnt"
+		},
+		{
+			"sections_title": "fund phys chem"
+		},
+		{
+			"sections_title": "biophysical chem"
+		},
+		{
+			"sections_title": "s&pblck chem&app"
+		},
+		{
+			"sections_title": "fndtn inorg chem"
+		},
+		{
+			"sections_title": "d&fblck chem&app"
+		},
+		{
+			"sections_title": "chem elements"
+		},
+		{
+			"sections_title": "instrl anly chem"
+		},
+		{
+			"sections_title": "intr quantm mech"
+		},
+		{
+			"sections_title": "adv org life sc"
+		},
+		{
+			"sections_title": "chem integ lab i"
+		},
+		{
+			"sections_title": "integ chem lab i"
+		},
+		{
+			"sections_title": "adv org chem"
+		},
+		{
+			"sections_title": "spctr tec org ch"
+		},
+		{
+			"sections_title": "chem integ lab 2"
+		},
+		{
+			"sections_title": "global challenge"
+		},
+		{
+			"sections_title": "intg chem lab 2"
+		},
+		{
+			"sections_title": "prn spectroscopy"
+		},
+		{
+			"sections_title": "difraction mthds"
+		},
+		{
+			"sections_title": "surface chm&anls"
+		},
+		{
+			"sections_title": "polymer chem"
+		},
+		{
+			"sections_title": "stat'l mech chem"
+		},
+		{
+			"sections_title": "solid state chem"
+		},
+		{
+			"sections_title": "syn&chem nat pro"
+		},
+		{
+			"sections_title": "atoms&molecules"
+		},
+		{
+			"sections_title": "bioorgan chem"
+		},
+		{
+			"sections_title": "phy&theor orgnic"
+		},
+		{
+			"sections_title": "nuclear chemisty"
+		},
+		{
+			"sections_title": "organometallic"
+		},
+		{
+			"sections_title": "chem materials"
+		},
+		{
+			"sections_title": "bio-inorganic"
+		},
+		{
+			"sections_title": "seminar & thesis"
+		},
+		{
+			"sections_title": "quant mech chem"
+		},
+		{
+			"sections_title": "adv phys chem"
+		},
+		{
+			"sections_title": "stat mech chem"
+		},
+		{
+			"sections_title": "crystal structre"
+		},
+		{
+			"sections_title": "orgnometlc cmpds"
+		},
+		{
+			"sections_title": "bioinorganc chem"
+		},
+		{
+			"sections_title": "materials chem"
+		},
+		{
+			"sections_title": "str mthd iorg ch"
+		},
+		{
+			"sections_title": "bioanalyt chem"
+		},
+		{
+			"sections_title": "prin chem separ"
+		},
+		{
+			"sections_title": "chroma&mass spec"
+		},
+		{
+			"sections_title": "physical organic"
+		},
+		{
+			"sections_title": "organic synthsis"
+		},
+		{
+			"sections_title": "adv bioorg chem"
+		},
+		{
+			"sections_title": "adv mech enzym"
+		},
+		{
+			"sections_title": "organc stru prob"
+		},
+		{
+			"sections_title": "child's lit"
+		},
+		{
+			"sections_title": "basic chin i 1"
+		},
+		{
+			"sections_title": "basic chin i 2"
+		},
+		{
+			"sections_title": "in basic chin i"
+		},
+		{
+			"sections_title": "basic chin ii 1"
+		},
+		{
+			"sections_title": "basic chin ii 2"
+		},
+		{
+			"sections_title": "in basic chin ii"
+		},
+		{
+			"sections_title": "int chinese i: 1"
+		},
+		{
+			"sections_title": "int chinese i: 2"
+		},
+		{
+			"sections_title": "intermed chin i"
+		},
+		{
+			"sections_title": "int chinese ii 1"
+		},
+		{
+			"sections_title": "int chinese ii 2"
+		},
+		{
+			"sections_title": "int chin ii"
+		},
+		{
+			"sections_title": "adv chin r&wr i"
+		},
+		{
+			"sections_title": "adv chin r&wr ii"
+		},
+		{
+			"sections_title": "chin spk&wrt i"
+		},
+		{
+			"sections_title": "ad chin sp&wr ii"
+		},
+		{
+			"sections_title": "ad chin r&wr i"
+		},
+		{
+			"sections_title": "busi chinese i"
+		},
+		{
+			"sections_title": "busi chinese ii"
+		},
+		{
+			"sections_title": "intmod chinlit 1"
+		},
+		{
+			"sections_title": "intmod chinlit 2"
+		},
+		{
+			"sections_title": "class chin early"
+		},
+		{
+			"sections_title": "class chin 1"
+		},
+		{
+			"sections_title": "adv clas chin 1"
+		},
+		{
+			"sections_title": "class chin later"
+		},
+		{
+			"sections_title": "class chin 2"
+		},
+		{
+			"sections_title": "adv clas chin 2"
+		},
+		{
+			"sections_title": "clas poet han"
+		},
+		{
+			"sections_title": "clas poet tang"
+		},
+		{
+			"sections_title": "cl chin poet 2"
+		},
+		{
+			"sections_title": "cls chin poet 1"
+		},
+		{
+			"sections_title": "late clas poet"
+		},
+		{
+			"sections_title": "clas chin poet 2"
+		},
+		{
+			"sections_title": "mod chin lit 1"
+		},
+		{
+			"sections_title": "mod chin lit 2"
+		},
+		{
+			"sections_title": "int md ch lit h"
+		},
+		{
+			"sections_title": "database systems"
+		},
+		{
+			"sections_title": "ad software proj"
+		},
+		{
+			"sections_title": "eng&sustain dev"
+		},
+		{
+			"sections_title": "civl engineer i"
+		},
+		{
+			"sections_title": "civl engineer ii"
+		},
+		{
+			"sections_title": "soil mech i"
+		},
+		{
+			"sections_title": "fluid mech i"
+		},
+		{
+			"sections_title": "intro struct eng"
+		},
+		{
+			"sections_title": "solid mech i"
+		},
+		{
+			"sections_title": "solid mech ii"
+		},
+		{
+			"sections_title": "const eng & mgmt"
+		},
+		{
+			"sections_title": "opt&dcs anl civl"
+		},
+		{
+			"sections_title": "intro envr eng"
+		},
+		{
+			"sections_title": "env impact study"
+		},
+		{
+			"sections_title": "soil mechanic ii"
+		},
+		{
+			"sections_title": "fluid mech ii"
+		},
+		{
+			"sections_title": "open chnl hydral"
+		},
+		{
+			"sections_title": "civl eng matl"
+		},
+		{
+			"sections_title": "steel&timbr dsgn"
+		},
+		{
+			"sections_title": "struc analys"
+		},
+		{
+			"sections_title": "transport eng i"
+		},
+		{
+			"sections_title": "law & contracts"
+		},
+		{
+			"sections_title": "engr econ anlys"
+		},
+		{
+			"sections_title": "intro solid wast"
+		},
+		{
+			"sections_title": "wtr treat&wst mg"
+		},
+		{
+			"sections_title": "envr'tl lab anly"
+		},
+		{
+			"sections_title": "geo-enviro eng"
+		},
+		{
+			"sections_title": "dsg wtr sply&wst"
+		},
+		{
+			"sections_title": "foundat'n eng i"
+		},
+		{
+			"sections_title": "foundat'n eng ii"
+		},
+		{
+			"sections_title": "earth dams"
+		},
+		{
+			"sections_title": "wtr resource eng"
+		},
+		{
+			"sections_title": "envir hydraulics"
+		},
+		{
+			"sections_title": "coastal eng"
+		},
+		{
+			"sections_title": "eng hydrology"
+		},
+		{
+			"sections_title": "concrete techlgy"
+		},
+		{
+			"sections_title": "pro cvl eng mat"
+		},
+		{
+			"sections_title": "vrtu dsgn&constr"
+		},
+		{
+			"sections_title": "dsgn concr struc"
+		},
+		{
+			"sections_title": "adv steel design"
+		},
+		{
+			"sections_title": "adv conc design"
+		},
+		{
+			"sections_title": "adv struc analys"
+		},
+		{
+			"sections_title": "matrx struc anly"
+		},
+		{
+			"sections_title": "int ship structr"
+		},
+		{
+			"sections_title": "dsgn tmbr struct"
+		},
+		{
+			"sections_title": "transprt'n eng 2"
+		},
+		{
+			"sections_title": "trns sys pl&anly"
+		},
+		{
+			"sections_title": "eng desig&anly 1"
+		},
+		{
+			"sections_title": "eng desig & anly"
+		},
+		{
+			"sections_title": "desig & analys 2"
+		},
+		{
+			"sections_title": "env eng design"
+		},
+		{
+			"sections_title": "bldg science"
+		},
+		{
+			"sections_title": "construction met"
+		},
+		{
+			"sections_title": "sesm&ses des par"
+		},
+		{
+			"sections_title": "seismic rsp strc"
+		},
+		{
+			"sections_title": "dynam struct 1"
+		},
+		{
+			"sections_title": "dynam struct 2"
+		},
+		{
+			"sections_title": "nonlin strct anl"
+		},
+		{
+			"sections_title": "adv tpcs stl str"
+		},
+		{
+			"sections_title": "concrete structs"
+		},
+		{
+			"sections_title": "behv timber stru"
+		},
+		{
+			"sections_title": "adv tpcs tmbr st"
+		},
+		{
+			"sections_title": "rel & str safety"
+		},
+		{
+			"sections_title": "cnstr plan cntrl"
+		},
+		{
+			"sections_title": "const meth & per"
+		},
+		{
+			"sections_title": "prjct cnstr econ"
+		},
+		{
+			"sections_title": "proj mngmt eng"
+		},
+		{
+			"sections_title": "legal cnstr mngt"
+		},
+		{
+			"sections_title": "visul dsgn & con"
+		},
+		{
+			"sections_title": "3d mdl cost est"
+		},
+		{
+			"sections_title": "inf asmt & rehab"
+		},
+		{
+			"sections_title": "comput'l mech i"
+		},
+		{
+			"sections_title": "comput'l mech ii"
+		},
+		{
+			"sections_title": "adv coastal eng"
+		},
+		{
+			"sections_title": "waves & effects"
+		},
+		{
+			"sections_title": "optimiz eng syst"
+		},
+		{
+			"sections_title": "anly civl sys"
+		},
+		{
+			"sections_title": "mdling & optimiz"
+		},
+		{
+			"sections_title": "risk mgmt chem"
+		},
+		{
+			"sections_title": "env contamnt anl"
+		},
+		{
+			"sections_title": "mgmt solid waste"
+		},
+		{
+			"sections_title": "phys-chml trt pr"
+		},
+		{
+			"sections_title": "srcs&fate pol aq"
+		},
+		{
+			"sections_title": "biol wstwtr trt"
+		},
+		{
+			"sections_title": "adv soil mech"
+		},
+		{
+			"sections_title": "soil mechanics"
+		},
+		{
+			"sections_title": "exper soil mech"
+		},
+		{
+			"sections_title": "soil dynmc desgn"
+		},
+		{
+			"sections_title": "soil dynamics"
+		},
+		{
+			"sections_title": "trnsp engr impct"
+		},
+		{
+			"sections_title": "urbn engr m&m"
+		},
+		{
+			"sections_title": "urbn trans systm"
+		},
+		{
+			"sections_title": "clascl ch 1 (nh)"
+		},
+		{
+			"sections_title": "clascl ch 2 (nh)"
+		},
+		{
+			"sections_title": "adv rdng cl chin"
+		},
+		{
+			"sections_title": "grek & romn myth"
+		},
+		{
+			"sections_title": "power&arts athen"
+		},
+		{
+			"sections_title": "gldn age athens"
+		},
+		{
+			"sections_title": "pwr&arts imp rom"
+		},
+		{
+			"sections_title": "repb & imp rome"
+		},
+		{
+			"sections_title": "intro class arch"
+		},
+		{
+			"sections_title": "arch greece&rome"
+		},
+		{
+			"sections_title": "greek phil i"
+		},
+		{
+			"sections_title": "greek phil ii"
+		},
+		{
+			"sections_title": "ancient greece"
+		},
+		{
+			"sections_title": "ancient rome"
+		},
+		{
+			"sections_title": "greek roman game"
+		},
+		{
+			"sections_title": "tech terms medic"
+		},
+		{
+			"sections_title": "greek law"
+		},
+		{
+			"sections_title": "wmn bronz"
+		},
+		{
+			"sections_title": "womn roman"
+		},
+		{
+			"sections_title": "classicl tragedy"
+		},
+		{
+			"sections_title": "classical comedy"
+		},
+		{
+			"sections_title": "the roman army"
+		},
+		{
+			"sections_title": "slvry anc grk rm"
+		},
+		{
+			"sections_title": "ancient history"
+		},
+		{
+			"sections_title": "greek art & arch"
+		},
+		{
+			"sections_title": "roman art & arch"
+		},
+		{
+			"sections_title": "greek religion"
+		},
+		{
+			"sections_title": "roman religion"
+		},
+		{
+			"sections_title": "erly roman empre"
+		},
+		{
+			"sections_title": "athens & empire"
+		},
+		{
+			"sections_title": "alxndr & empire"
+		},
+		{
+			"sections_title": "top&mon of rome"
+		},
+		{
+			"sections_title": "basic intvw skls"
+		},
+		{
+			"sections_title": "career counselng"
+		},
+		{
+			"sections_title": "fmly ed & consul"
+		},
+		{
+			"sections_title": "int thry counsel"
+		},
+		{
+			"sections_title": "role tcher guid"
+		},
+		{
+			"sections_title": "guid pln dcsn mk"
+		},
+		{
+			"sections_title": "psnl soc dv adlt"
+		},
+		{
+			"sections_title": "schl counselling"
+		},
+		{
+			"sections_title": "counsl adolescnt"
+		},
+		{
+			"sections_title": "counslng adults"
+		},
+		{
+			"sections_title": "adlt psychpathlg"
+		},
+		{
+			"sections_title": "family counsl ii"
+		},
+		{
+			"sections_title": "group counsling"
+		},
+		{
+			"sections_title": "career planning"
+		},
+		{
+			"sections_title": "research in cnps"
+		},
+		{
+			"sections_title": "prgm devl cnsl"
+		},
+		{
+			"sections_title": "cross-cltr cnsl"
+		},
+		{
+			"sections_title": "theories myth"
+		},
+		{
+			"sections_title": "honours essay"
+		},
+		{
+			"sections_title": "sem mediter stdy"
+		},
+		{
+			"sections_title": "basic cnto 1"
+		},
+		{
+			"sections_title": "basic cnto 2"
+		},
+		{
+			"sections_title": "data desc displ"
+		},
+		{
+			"sections_title": "financial accoun"
+		},
+		{
+			"sections_title": "govt & business"
+		},
+		{
+			"sections_title": "int cog sys"
+		},
+		{
+			"sections_title": "dsgn cog systems"
+		},
+		{
+			"sections_title": "res meth cog sys"
+		},
+		{
+			"sections_title": "seminar cog sys"
+		},
+		{
+			"sections_title": "rsrch cog system"
+		},
+		{
+			"sections_title": "bus&mngmt values"
+		},
+		{
+			"sections_title": "crit think: valu"
+		},
+		{
+			"sections_title": "recruit & selctn"
+		},
+		{
+			"sections_title": "stratgc staffing"
+		},
+		{
+			"sections_title": "train & develpmt"
+		},
+		{
+			"sections_title": "trn, devel, perf"
+		},
+		{
+			"sections_title": "compensation"
+		},
+		{
+			"sections_title": "strat compnsaton"
+		},
+		{
+			"sections_title": "intr org consult"
+		},
+		{
+			"sections_title": "organztnl change"
+		},
+		{
+			"sections_title": "power & politics"
+		},
+		{
+			"sections_title": "mnging fam busi"
+		},
+		{
+			"sections_title": "organztnl design"
+		},
+		{
+			"sections_title": "mngng&bldg teams"
+		},
+		{
+			"sections_title": "employment law"
+		},
+		{
+			"sections_title": "employment law a"
+		},
+		{
+			"sections_title": "intro business"
+		},
+		{
+			"sections_title": "busn fundamental"
+		},
+		{
+			"sections_title": "busi immersion"
+		},
+		{
+			"sections_title": "career fundmtls"
+		},
+		{
+			"sections_title": "employment relat"
+		},
+		{
+			"sections_title": "log&ops managmnt"
+		},
+		{
+			"sections_title": "int mgmt info sy"
+		},
+		{
+			"sections_title": "entrepreneurship"
+		},
+		{
+			"sections_title": "int quan dec mak"
+		},
+		{
+			"sections_title": "mngmt&orgnz bhvr"
+		},
+		{
+			"sections_title": "financial acctng"
+		},
+		{
+			"sections_title": "managerial acctg"
+		},
+		{
+			"sections_title": "managerial econ"
+		},
+		{
+			"sections_title": "intro marketing"
+		},
+		{
+			"sections_title": "intro to finance"
+		},
+		{
+			"sections_title": "urban land econ"
+		},
+		{
+			"sections_title": "real est invest"
+		},
+		{
+			"sections_title": "research theory"
+		},
+		{
+			"sections_title": "org behaviour"
+		},
+		{
+			"sections_title": "info sys mngt"
+		},
+		{
+			"sections_title": "intro to e-busi"
+		},
+		{
+			"sections_title": "fin acctg-int i"
+		},
+		{
+			"sections_title": "cost accting"
+		},
+		{
+			"sections_title": "income tax"
+		},
+		{
+			"sections_title": "buyer behavr"
+		},
+		{
+			"sections_title": "consumer behavr"
+		},
+		{
+			"sections_title": "marktng analysis"
+		},
+		{
+			"sections_title": "market research"
+		},
+		{
+			"sections_title": "business finance"
+		},
+		{
+			"sections_title": "thry of finance"
+		},
+		{
+			"sections_title": "appl fin mrkt"
+		},
+		{
+			"sections_title": "security mrkt"
+		},
+		{
+			"sections_title": "int fin mar/inst"
+		},
+		{
+			"sections_title": "econ entre&innov"
+		},
+		{
+			"sections_title": "entrepren financ"
+		},
+		{
+			"sections_title": "dsgn stat prct"
+		},
+		{
+			"sections_title": "dsn mtd bus invt"
+		},
+		{
+			"sections_title": "creativity busns"
+		},
+		{
+			"sections_title": "business writing"
+		},
+		{
+			"sections_title": "busn communicati"
+		},
+		{
+			"sections_title": "busi process&ops"
+		},
+		{
+			"sections_title": "real est finan"
+		},
+		{
+			"sections_title": "real estate econ"
+		},
+		{
+			"sections_title": "urbn public econ"
+		},
+		{
+			"sections_title": "real est develop"
+		},
+		{
+			"sections_title": "negotiation"
+		},
+		{
+			"sections_title": "quant poli anyl"
+		},
+		{
+			"sections_title": "law of bus assoc"
+		},
+		{
+			"sections_title": "land law"
+		},
+		{
+			"sections_title": "inf sys anly&des"
+		},
+		{
+			"sections_title": "database tech"
+		},
+		{
+			"sections_title": "bus telecommun"
+		},
+		{
+			"sections_title": "adv bus logistic"
+		},
+		{
+			"sections_title": "air transport"
+		},
+		{
+			"sections_title": "ship&intn'l log"
+		},
+		{
+			"sections_title": "mar&intn'l trans"
+		},
+		{
+			"sections_title": "trans econ"
+		},
+		{
+			"sections_title": "prj apprl & mgmt"
+		},
+		{
+			"sections_title": "appld proj mgmt"
+		},
+		{
+			"sections_title": "supply-chain mng"
+		},
+		{
+			"sections_title": "fin acctg-int ii"
+		},
+		{
+			"sections_title": "income & taxes"
+		},
+		{
+			"sections_title": "finan acct adv"
+		},
+		{
+			"sections_title": "acc mgt ctrl&inc"
+		},
+		{
+			"sections_title": "prncpls of audit"
+		},
+		{
+			"sections_title": "fndtls fin acct"
+		},
+		{
+			"sections_title": "fndtls mngl acct"
+		},
+		{
+			"sections_title": "fin statmnt anly"
+		},
+		{
+			"sections_title": "soc&nonprf markt"
+		},
+		{
+			"sections_title": "pub/nonprft mngt"
+		},
+		{
+			"sections_title": "sales management"
+		},
+		{
+			"sections_title": "integ mrktg comm"
+		},
+		{
+			"sections_title": "e-marketing"
+		},
+		{
+			"sections_title": "new venture des"
+		},
+		{
+			"sections_title": "mkt applications"
+		},
+		{
+			"sections_title": "intl mrkt"
+		},
+		{
+			"sections_title": "financial mgmt"
+		},
+		{
+			"sections_title": "mgrs & acquisitn"
+		},
+		{
+			"sections_title": "fixed inc mrk"
+		},
+		{
+			"sections_title": "invest policy"
+		},
+		{
+			"sections_title": "risk mgt&fnc eng"
+		},
+		{
+			"sections_title": "envr management"
+		},
+		{
+			"sections_title": "strategic mangmt"
+		},
+		{
+			"sections_title": "bus & sustan dev"
+		},
+		{
+			"sections_title": "new enter devel"
+		},
+		{
+			"sections_title": "int'l bus mngt"
+		},
+		{
+			"sections_title": "int org res mthd"
+		},
+		{
+			"sections_title": "stats methlgy i"
+		},
+		{
+			"sections_title": "emp res meth"
+		},
+		{
+			"sections_title": "emp acct rsrch"
+		},
+		{
+			"sections_title": "sem in marketing"
+		},
+		{
+			"sections_title": "buyer behaviour"
+		},
+		{
+			"sections_title": "theory of financ"
+		},
+		{
+			"sections_title": "adv tpc th co pr"
+		},
+		{
+			"sections_title": "rsrch meth 1"
+		},
+		{
+			"sections_title": "adv tpc emp corp"
+		},
+		{
+			"sections_title": "intro to conserv"
+		},
+		{
+			"sections_title": "observing earth"
+		},
+		{
+			"sections_title": "fndt conservat'n"
+		},
+		{
+			"sections_title": "visual clim chng"
+		},
+		{
+			"sections_title": "genomcs & enviro"
+		},
+		{
+			"sections_title": "consrv sci&sustn"
+		},
+		{
+			"sections_title": "conservat'n biol"
+		},
+		{
+			"sections_title": "intr gis frs&con"
+		},
+		{
+			"sections_title": "aborignl forestr"
+		},
+		{
+			"sections_title": "1st nations & fr"
+		},
+		{
+			"sections_title": "sustain energy"
+		},
+		{
+			"sections_title": "intgrtd fld schl"
+		},
+		{
+			"sections_title": "glbl perspct cap"
+		},
+		{
+			"sections_title": "cons pln&rec"
+		},
+		{
+			"sections_title": "fish cons/mgmt"
+		},
+		{
+			"sections_title": "problem wildlife"
+		},
+		{
+			"sections_title": "ths or spec proj"
+		},
+		{
+			"sections_title": "intr microcomput"
+		},
+		{
+			"sections_title": "prin sftwr const"
+		},
+		{
+			"sections_title": "dig syst dsgn"
+		},
+		{
+			"sections_title": "dig syst&mcrocom"
+		},
+		{
+			"sections_title": "software enginrn"
+		},
+		{
+			"sections_title": "operating system"
+		},
+		{
+			"sections_title": "syst softwre eng"
+		},
+		{
+			"sections_title": "com sys dsgn stu"
+		},
+		{
+			"sections_title": "comptr architctr"
+		},
+		{
+			"sections_title": "mcro syst dsgn"
+		},
+		{
+			"sections_title": "soft proj mgmt"
+		},
+		{
+			"sections_title": "sftw test & anyl"
+		},
+		{
+			"sections_title": "dist sftware app"
+		},
+		{
+			"sections_title": "comptr security"
+		},
+		{
+			"sections_title": "econ anlys proj"
+		},
+		{
+			"sections_title": "capstn dsgn proj"
+		},
+		{
+			"sections_title": "software eng prj"
+		},
+		{
+			"sections_title": "comptn, progrmng"
+		},
+		{
+			"sections_title": "model comptn"
+		},
+		{
+			"sections_title": "sftwr constructn"
+		},
+		{
+			"sections_title": "intro comp sys"
+		},
+		{
+			"sections_title": "basic alg&data"
+		},
+		{
+			"sections_title": "dta&alg elec eng"
+		},
+		{
+			"sections_title": "basics comp syst"
+		},
+		{
+			"sections_title": "comptng life sci"
+		},
+		{
+			"sections_title": "num comp alg prb"
+		},
+		{
+			"sections_title": "num approx/discr"
+		},
+		{
+			"sections_title": "intr rel databse"
+		},
+		{
+			"sections_title": "intr sftwr eng"
+		},
+		{
+			"sections_title": "programmng langs"
+		},
+		{
+			"sections_title": "func & logic prg"
+		},
+		{
+			"sections_title": "comp hard&os"
+		},
+		{
+			"sections_title": "comp graphics"
+		},
+		{
+			"sections_title": "internet comp"
+		},
+		{
+			"sections_title": "softwr eng proj"
+		},
+		{
+			"sections_title": "intr alg dsgn&an"
+		},
+		{
+			"sections_title": "artificial intel"
+		},
+		{
+			"sections_title": "machine lrn mine"
+		},
+		{
+			"sections_title": "hum-com interact"
+		},
+		{
+			"sections_title": "adv rel databse"
+		},
+		{
+			"sections_title": "adv software eng"
+		},
+		{
+			"sections_title": "compiler constrc"
+		},
+		{
+			"sections_title": "adv opertng sysm"
+		},
+		{
+			"sections_title": "distrbt'd systms"
+		},
+		{
+			"sections_title": "parallel comput"
+		},
+		{
+			"sections_title": "adv alg dsgn&anl"
+		},
+		{
+			"sections_title": "theory comptg"
+		},
+		{
+			"sections_title": "intel systems"
+		},
+		{
+			"sections_title": "computer vision"
+		},
+		{
+			"sections_title": "comptr & society"
+		},
+		{
+			"sections_title": "hmn-cp interactn"
+		},
+		{
+			"sections_title": "alg in bioin"
+		},
+		{
+			"sections_title": "student seminar"
+		},
+		{
+			"sections_title": "fund alg dsgn&an"
+		},
+		{
+			"sections_title": "thry of automata"
+		},
+		{
+			"sections_title": "artif intell 1"
+		},
+		{
+			"sections_title": "computl ling 1"
+		},
+		{
+			"sections_title": "software eng"
+		},
+		{
+			"sections_title": "prog lang princ"
+		},
+		{
+			"sections_title": "intgrt sys desgn"
+		},
+		{
+			"sections_title": "comput robotics"
+		},
+		{
+			"sections_title": "para algs & arch"
+		},
+		{
+			"sections_title": "artif intell 2"
+		},
+		{
+			"sections_title": "comp comm protcl"
+		},
+		{
+			"sections_title": "machine learn i"
+		},
+		{
+			"sections_title": "phy user intfc"
+		},
+		{
+			"sections_title": "hmn-cmpt intract"
+		},
+		{
+			"sections_title": "info visualizatn"
+		},
+		{
+			"sections_title": "m.sc major essay"
+		},
+		{
+			"sections_title": "intr cr writing"
+		},
+		{
+			"sections_title": "intr writ poetry"
+		},
+		{
+			"sections_title": "child & yng adlt"
+		},
+		{
+			"sections_title": "intr crtv nonfic"
+		},
+		{
+			"sections_title": "intr scrnplay i"
+		},
+		{
+			"sections_title": "intr wrt screen"
+		},
+		{
+			"sections_title": "intr graph forms"
+		},
+		{
+			"sections_title": "intr graph novel"
+		},
+		{
+			"sections_title": "intr writ fictin"
+		},
+		{
+			"sections_title": "intr writ nw med"
+		},
+		{
+			"sections_title": "intr writ comdic"
+		},
+		{
+			"sections_title": "prep writ career"
+		},
+		{
+			"sections_title": "elem danish 1"
+		},
+		{
+			"sections_title": "elem danish 2"
+		},
+		{
+			"sections_title": "int danish 1"
+		},
+		{
+			"sections_title": "int danish 2"
+		},
+		{
+			"sections_title": "dentistry i"
+		},
+		{
+			"sections_title": "dentistry ii"
+		},
+		{
+			"sections_title": "dent ii"
+		},
+		{
+			"sections_title": "dentistry iii"
+		},
+		{
+			"sections_title": "dentistry lv"
+		},
+		{
+			"sections_title": "endo micro-surg"
+		},
+		{
+			"sections_title": "dent traumatolgy"
+		},
+		{
+			"sections_title": "ped patient i"
+		},
+		{
+			"sections_title": "ped case rev i"
+		},
+		{
+			"sections_title": "ped case rev ii"
+		},
+		{
+			"sections_title": "cr-fc grwth&dev"
+		},
+		{
+			"sections_title": "prosth lit rv i"
+		},
+		{
+			"sections_title": "prosth lit rv ii"
+		},
+		{
+			"sections_title": "prs pln&outc i"
+		},
+		{
+			"sections_title": "prs pln&outc ii"
+		},
+		{
+			"sections_title": "prs pln&outc iii"
+		},
+		{
+			"sections_title": "maxlofcl prostho"
+		},
+		{
+			"sections_title": "biomaterials"
+		},
+		{
+			"sections_title": "prosthodontcs i"
+		},
+		{
+			"sections_title": "prosthodontcs ii"
+		},
+		{
+			"sections_title": "stats methods"
+		},
+		{
+			"sections_title": "rs mth&sem orbi"
+		},
+		{
+			"sections_title": "oral cell bio"
+		},
+		{
+			"sections_title": "adv occl&articul"
+		},
+		{
+			"sections_title": "adv tpcs oral mb"
+		},
+		{
+			"sections_title": "or microbi&immun"
+		},
+		{
+			"sections_title": "oral pathology"
+		},
+		{
+			"sections_title": "biomec cr-fac i"
+		},
+		{
+			"sections_title": "biomec cr-fac ii"
+		},
+		{
+			"sections_title": "orth&cr-fac i"
+		},
+		{
+			"sections_title": "orth&cr-fac ii"
+		},
+		{
+			"sections_title": "orth&cr-fac iii"
+		},
+		{
+			"sections_title": "prdntl case mgmt"
+		},
+		{
+			"sections_title": "lit rvw prdt i"
+		},
+		{
+			"sections_title": "lit rvw prdt ii"
+		},
+		{
+			"sections_title": "prdt trtmt pln s"
+		},
+		{
+			"sections_title": "implant therapy"
+		},
+		{
+			"sections_title": "endo lit rev i"
+		},
+		{
+			"sections_title": "endo lit rev ii"
+		},
+		{
+			"sections_title": "endo case man i"
+		},
+		{
+			"sections_title": "endo case man ii"
+		},
+		{
+			"sections_title": "endo trt plan i"
+		},
+		{
+			"sections_title": "endo trt plan ii"
+		},
+		{
+			"sections_title": "endo trt pln iii"
+		},
+		{
+			"sections_title": "masters thesis"
+		},
+		{
+			"sections_title": "clin endo yr 1"
+		},
+		{
+			"sections_title": "clin endo yr 2"
+		},
+		{
+			"sections_title": "clin endo yr 3"
+		},
+		{
+			"sections_title": "oral microbiolog"
+		},
+		{
+			"sections_title": "orl health sci i"
+		},
+		{
+			"sections_title": "dnt hyg try & pr"
+		},
+		{
+			"sections_title": "head & neck anat"
+		},
+		{
+			"sections_title": "oral hlth sci ii"
+		},
+		{
+			"sections_title": "dt hy th & pr ii"
+		},
+		{
+			"sections_title": "d hg th & pr iii"
+		},
+		{
+			"sections_title": "appld pharmacolg"
+		},
+		{
+			"sections_title": "curr iss oral hl"
+		},
+		{
+			"sections_title": "oral epidemiolgy"
+		},
+		{
+			"sections_title": "dentalhyg prac i"
+		},
+		{
+			"sections_title": "oral micr&immun"
+		},
+		{
+			"sections_title": "dt hg th & pr iv"
+		},
+		{
+			"sections_title": "trends & topics"
+		},
+		{
+			"sections_title": "adv periodont"
+		},
+		{
+			"sections_title": "oral med&path"
+		},
+		{
+			"sections_title": "lit review i"
+		},
+		{
+			"sections_title": "lit review ii"
+		},
+		{
+			"sections_title": "intro ece & care"
+		},
+		{
+			"sections_title": "sup ych&wb ece"
+		},
+		{
+			"sections_title": "erly curr presch"
+		},
+		{
+			"sections_title": "prekinder currlm"
+		},
+		{
+			"sections_title": "kinder curriclm"
+		},
+		{
+			"sections_title": "home/schl/cmnty"
+		},
+		{
+			"sections_title": "obsv&doc erly ch"
+		},
+		{
+			"sections_title": "obsvtn & recrdng"
+		},
+		{
+			"sections_title": "asmnt spec needs"
+		},
+		{
+			"sections_title": "supp comm sp nds"
+		},
+		{
+			"sections_title": "interv child"
+		},
+		{
+			"sections_title": "sup indg inftnts"
+		},
+		{
+			"sections_title": "prncpls micrecon"
+		},
+		{
+			"sections_title": "princpl macrecon"
+		},
+		{
+			"sections_title": "microecon policy"
+		},
+		{
+			"sections_title": "macroecon policy"
+		},
+		{
+			"sections_title": "int stra think"
+		},
+		{
+			"sections_title": "econ data"
+		},
+		{
+			"sections_title": "wea pov nation"
+		},
+		{
+			"sections_title": "under glob"
+		},
+		{
+			"sections_title": "intrm micro anly"
+		},
+		{
+			"sections_title": "intrm macro anly"
+		},
+		{
+			"sections_title": "int microecon ii"
+		},
+		{
+			"sections_title": "hons i-med micro"
+		},
+		{
+			"sections_title": "hons i-med macro"
+		},
+		{
+			"sections_title": "macroecon anl ii"
+		},
+		{
+			"sections_title": "intrmd microecon"
+		},
+		{
+			"sections_title": "opn econ macroec"
+		},
+		{
+			"sections_title": "microeconomics"
+		},
+		{
+			"sections_title": "macroeconomics"
+		},
+		{
+			"sections_title": "poverty&ineqalty"
+		},
+		{
+			"sections_title": "hist& phil econ"
+		},
+		{
+			"sections_title": "hist & phil econ"
+		},
+		{
+			"sections_title": "empirical econ"
+		},
+		{
+			"sections_title": "mtds empirc resr"
+		},
+		{
+			"sections_title": "intr empir mthds"
+		},
+		{
+			"sections_title": "mthds empir rsrc"
+		},
+		{
+			"sections_title": "ec hist mod eur"
+		},
+		{
+			"sections_title": "fer/fam/hum mig"
+		},
+		{
+			"sections_title": "econ hist of can"
+		},
+		{
+			"sections_title": "econ hist us"
+		},
+		{
+			"sections_title": "econ tech chnges"
+		},
+		{
+			"sections_title": "money & banking"
+		},
+		{
+			"sections_title": "tops public fin"
+		},
+		{
+			"sections_title": "women in economy"
+		},
+		{
+			"sections_title": "intro int trade"
+		},
+		{
+			"sections_title": "intro int fin"
+		},
+		{
+			"sections_title": "tpcs canadn ind"
+		},
+		{
+			"sections_title": "econ anly of law"
+		},
+		{
+			"sections_title": "b-c anly&proj ev"
+		},
+		{
+			"sections_title": "econ of envirnmt"
+		},
+		{
+			"sections_title": "land economics"
+		},
+		{
+			"sections_title": "int econ resrch"
+		},
+		{
+			"sections_title": "topcs microecon"
+		},
+		{
+			"sections_title": "topcs macroecon"
+		},
+		{
+			"sections_title": "intr game thr ap"
+		},
+		{
+			"sections_title": "econometrics"
+		},
+		{
+			"sections_title": "process econ dev"
+		},
+		{
+			"sections_title": "adv  microec ana"
+		},
+		{
+			"sections_title": "monetary theory"
+		},
+		{
+			"sections_title": "public expendtrs"
+		},
+		{
+			"sections_title": "internatl trade"
+		},
+		{
+			"sections_title": "inter macro/finc"
+		},
+		{
+			"sections_title": "internatl relatn"
+		},
+		{
+			"sections_title": "labour markets"
+		},
+		{
+			"sections_title": "market structure"
+		},
+		{
+			"sections_title": "econ gov reg bus"
+		},
+		{
+			"sections_title": "nonrenew resrces"
+		},
+		{
+			"sections_title": "renew resrces"
+		},
+		{
+			"sections_title": "transportation"
+		},
+		{
+			"sections_title": "conseq of relig"
+		},
+		{
+			"sections_title": "applied econ"
+		},
+		{
+			"sections_title": "honours seminar"
+		},
+		{
+			"sections_title": "macro economics"
+		},
+		{
+			"sections_title": "info & incentves"
+		},
+		{
+			"sections_title": "spc tpcs macroec"
+		},
+		{
+			"sections_title": "behav economics"
+		},
+		{
+			"sections_title": "math for econmic"
+		},
+		{
+			"sections_title": "problty & stat"
+		},
+		{
+			"sections_title": "econometric meth"
+		},
+		{
+			"sections_title": "hist mod europe"
+		},
+		{
+			"sections_title": "economic devel 1"
+		},
+		{
+			"sections_title": "pol econ&bsns"
+		},
+		{
+			"sections_title": "montry thry pol"
+		},
+		{
+			"sections_title": "govt expenditres"
+		},
+		{
+			"sections_title": "internatl financ"
+		},
+		{
+			"sections_title": "emp tpc intl ecn"
+		},
+		{
+			"sections_title": "labour economics"
+		},
+		{
+			"sections_title": "industrial relat"
+		},
+		{
+			"sections_title": "res des&polcy ev"
+		},
+		{
+			"sections_title": "busines perform"
+		},
+		{
+			"sections_title": "org thry&non all"
+		},
+		{
+			"sections_title": "envr econ"
+		},
+		{
+			"sections_title": "soc & econ measu"
+		},
+		{
+			"sections_title": "microecon i"
+		},
+		{
+			"sections_title": "microecon ii"
+		},
+		{
+			"sections_title": "macroecon i"
+		},
+		{
+			"sections_title": "macroecon ii"
+		},
+		{
+			"sections_title": "econ thry i"
+		},
+		{
+			"sections_title": "econ thry ii"
+		},
+		{
+			"sections_title": "tpcs app econ i"
+		},
+		{
+			"sections_title": "ph d resrch sem"
+		},
+		{
+			"sections_title": "music education"
+		},
+		{
+			"sections_title": "ceramics: art ed"
+		},
+		{
+			"sections_title": "textiles: art ed"
+		},
+		{
+			"sections_title": "digtl med: intro"
+		},
+		{
+			"sections_title": "math prblm slvng"
+		},
+		{
+			"sections_title": "ds tec ii sc c&p"
+		},
+		{
+			"sections_title": "curric dev tech"
+		},
+		{
+			"sections_title": "mus&mov elem c&p"
+		},
+		{
+			"sections_title": "ict educ ethics"
+		},
+		{
+			"sections_title": "hmec ii sec c&p"
+		},
+		{
+			"sections_title": "home ec: 2nd ii"
+		},
+		{
+			"sections_title": "home ec: textile"
+		},
+		{
+			"sections_title": "curr inq home ec"
+		},
+		{
+			"sections_title": "rev res curr&ped"
+		},
+		{
+			"sections_title": "vid eth ed res"
+		},
+		{
+			"sections_title": "case res&analys"
+		},
+		{
+			"sections_title": "cur innov physed"
+		},
+		{
+			"sections_title": "foundations hmed"
+		},
+		{
+			"sections_title": "narrativity"
+		},
+		{
+			"sections_title": "mth ed: crnt iss"
+		},
+		{
+			"sections_title": "mth e: bynd erly"
+		},
+		{
+			"sections_title": "crit anly sci ed"
+		},
+		{
+			"sections_title": "thry&rs soc cont"
+		},
+		{
+			"sections_title": "res tch & lrn sc"
+		},
+		{
+			"sections_title": "curric iss&thry"
+		},
+		{
+			"sections_title": "txt pol& id cdev"
+		},
+		{
+			"sections_title": "curr chng&imple"
+		},
+		{
+			"sections_title": "curr hist contxt"
+		},
+		{
+			"sections_title": "rsc trd edu admn"
+		},
+		{
+			"sections_title": "trad adult edu"
+		},
+		{
+			"sections_title": "fnds ad lrng ed"
+		},
+		{
+			"sections_title": "fn & educ change"
+		},
+		{
+			"sections_title": "cnd educ past"
+		},
+		{
+			"sections_title": "org&admin hi edu"
+		},
+		{
+			"sections_title": "adu edu pro"
+		},
+		{
+			"sections_title": "srvy rsrch meth"
+		},
+		{
+			"sections_title": "thy rea adu lea"
+		},
+		{
+			"sections_title": "adlt edu pract"
+		},
+		{
+			"sections_title": "fdns highr educ"
+		},
+		{
+			"sections_title": "high ed pol"
+		},
+		{
+			"sections_title": "ldrshp educ org"
+		},
+		{
+			"sections_title": "int adult educ"
+		},
+		{
+			"sections_title": "comp&intl ad ed"
+		},
+		{
+			"sections_title": "adu lea con per"
+		},
+		{
+			"sections_title": "und research"
+		},
+		{
+			"sections_title": "glo/loc learn"
+		},
+		{
+			"sections_title": "tcher union educ"
+		},
+		{
+			"sections_title": "tpcs sociol educ"
+		},
+		{
+			"sections_title": "sem sociol educ"
+		},
+		{
+			"sections_title": "qst, theor, mthd"
+		},
+		{
+			"sections_title": "work & learning"
+		},
+		{
+			"sections_title": "sem work & educ"
+		},
+		{
+			"sections_title": "contxt ed policy"
+		},
+		{
+			"sections_title": "ldr adm aim educ"
+		},
+		{
+			"sections_title": "stdy educ organ"
+		},
+		{
+			"sections_title": "env phil & educ"
+		},
+		{
+			"sections_title": "theories of educ"
+		},
+		{
+			"sections_title": "educ theories"
+		},
+		{
+			"sections_title": "intr first natns"
+		},
+		{
+			"sections_title": "intr indig study"
+		},
+		{
+			"sections_title": "language & curr"
+		},
+		{
+			"sections_title": "iss first ntns"
+		},
+		{
+			"sections_title": "iss indig educ"
+		},
+		{
+			"sections_title": "teachng chemistr"
+		},
+		{
+			"sections_title": "global education"
+		},
+		{
+			"sections_title": "tch mathematcs 2"
+		},
+		{
+			"sections_title": "teaching biology"
+		},
+		{
+			"sections_title": "res mthd in educ"
+		},
+		{
+			"sections_title": "adv microsys des"
+		},
+		{
+			"sections_title": "comp security"
+		},
+		{
+			"sections_title": "error resil syst"
+		},
+		{
+			"sections_title": "fault tol dig sy"
+		},
+		{
+			"sections_title": "softw verif&test"
+		},
+		{
+			"sections_title": "hmn intrfce tech"
+		},
+		{
+			"sections_title": "adv comp archtct"
+		},
+		{
+			"sections_title": "par&reconfg comp"
+		},
+		{
+			"sections_title": "nanosc model&sim"
+		},
+		{
+			"sections_title": "biomed microdev"
+		},
+		{
+			"sections_title": "grn nanoelec dev"
+		},
+		{
+			"sections_title": "adv biophotonics"
+		},
+		{
+			"sections_title": "multimedia sys"
+		},
+		{
+			"sections_title": "med imaging"
+		},
+		{
+			"sections_title": "dyn mdl elec"
+		},
+		{
+			"sections_title": "power elec dsgn"
+		},
+		{
+			"sections_title": "power syst anlys"
+		},
+		{
+			"sections_title": "power syst dynam"
+		},
+		{
+			"sections_title": "network analysis"
+		},
+		{
+			"sections_title": "stat sig proc"
+		},
+		{
+			"sections_title": "wireless com sys"
+		},
+		{
+			"sections_title": "dtc&est sgnl nse"
+		},
+		{
+			"sections_title": "comm networks"
+		},
+		{
+			"sections_title": "data communicat"
+		},
+		{
+			"sections_title": "comm & info thry"
+		},
+		{
+			"sections_title": "mobile com netwk"
+		},
+		{
+			"sections_title": "mic&nano fab tec"
+		},
+		{
+			"sections_title": "self-tuning ctrl"
+		},
+		{
+			"sections_title": "semicon thy appl"
+		},
+		{
+			"sections_title": "ad top vlsi desg"
+		},
+		{
+			"sections_title": "elec mat & dev"
+		},
+		{
+			"sections_title": "cad algrthm i cr"
+		},
+		{
+			"sections_title": "nanophoton fab"
+		},
+		{
+			"sections_title": "arch learn systs"
+		},
+		{
+			"sections_title": "circuits & systs"
+		},
+		{
+			"sections_title": "eng report"
+		},
+		{
+			"sections_title": "circuit anlys 1"
+		},
+		{
+			"sections_title": "circuit anlys 2"
+		},
+		{
+			"sections_title": "bsc circ analy"
+		},
+		{
+			"sections_title": "linear circuits"
+		},
+		{
+			"sections_title": "electronics lab"
+		},
+		{
+			"sections_title": "eng electrmgntcs"
+		},
+		{
+			"sections_title": "signals & system"
+		},
+		{
+			"sections_title": "tpcs biomed eng"
+		},
+		{
+			"sections_title": "eece dsgn studio"
+		},
+		{
+			"sections_title": "biom dsgn studio"
+		},
+		{
+			"sections_title": "elec circuits"
+		},
+		{
+			"sections_title": "circts elecmech"
+		},
+		{
+			"sections_title": "elcmgnt flds&wvs"
+		},
+		{
+			"sections_title": "elec matrl&devic"
+		},
+		{
+			"sections_title": "stchstc sgnl sys"
+		},
+		{
+			"sections_title": "computer comm"
+		},
+		{
+			"sections_title": "systms & control"
+		},
+		{
+			"sections_title": "elctr-mch enrgy"
+		},
+		{
+			"sections_title": "electromechanics"
+		},
+		{
+			"sections_title": "appl el & elmech"
+		},
+		{
+			"sections_title": "elect energy sys"
+		},
+		{
+			"sections_title": "biomed instrumen"
+		},
+		{
+			"sections_title": "elec eng studio"
+		},
+		{
+			"sections_title": "ana cmos des"
+		},
+		{
+			"sections_title": "intr vlsi sys"
+		},
+		{
+			"sections_title": "adv dig vlsi sys"
+		},
+		{
+			"sections_title": "antenn & propgtn"
+		},
+		{
+			"sections_title": "opt wavegds&phns"
+		},
+		{
+			"sections_title": "semi condct lasr"
+		},
+		{
+			"sections_title": "semiconduct devi"
+		},
+		{
+			"sections_title": "dig sig&img prcs"
+		},
+		{
+			"sections_title": "biosignl&systems"
+		},
+		{
+			"sections_title": "communictns sys"
+		},
+		{
+			"sections_title": "digital communic"
+		},
+		{
+			"sections_title": "control systems"
+		},
+		{
+			"sections_title": "power electrnics"
+		},
+		{
+			"sections_title": "power sys analys"
+		},
+		{
+			"sections_title": "pwr syst anyl ii"
+		},
+		{
+			"sections_title": "power sys protct"
+		},
+		{
+			"sections_title": "mthd pwr syst op"
+		},
+		{
+			"sections_title": "optimiz pwr syst"
+		},
+		{
+			"sections_title": "nanotec eletrncs"
+		},
+		{
+			"sections_title": "snsr&act micrsys"
+		},
+		{
+			"sections_title": "mic/nan inst lab"
+		},
+		{
+			"sections_title": "microsys design"
+		},
+		{
+			"sections_title": "medical imaging"
+		},
+		{
+			"sections_title": "biological mems"
+		},
+		{
+			"sections_title": "biophotonics"
+		},
+		{
+			"sections_title": "el enrg syst dsn"
+		},
+		{
+			"sections_title": "nantec & micrsys"
+		},
+		{
+			"sections_title": "biomed cpstn dsn"
+		},
+		{
+			"sections_title": "sustain by desig"
+		},
+		{
+			"sections_title": "arch contxt&cltr"
+		},
+		{
+			"sections_title": "envr des 1"
+		},
+		{
+			"sections_title": "envr des stdio i"
+		},
+		{
+			"sections_title": "envr des 2"
+		},
+		{
+			"sections_title": "envr des stdo ii"
+		},
+		{
+			"sections_title": "dsg, med&rep"
+		},
+		{
+			"sections_title": "env des 3"
+		},
+		{
+			"sections_title": "env desn std iii"
+		},
+		{
+			"sections_title": "ends design 4"
+		},
+		{
+			"sections_title": "ends design iv"
+		},
+		{
+			"sections_title": "technol&techn"
+		},
+		{
+			"sections_title": "envir&urban form"
+		},
+		{
+			"sections_title": "ecol& urbn des"
+		},
+		{
+			"sections_title": "read, write lit"
+		},
+		{
+			"sections_title": "intro literature"
+		},
+		{
+			"sections_title": "intro nonfiction"
+		},
+		{
+			"sections_title": "strat univ writ"
+		},
+		{
+			"sections_title": "univrsty writing"
+		},
+		{
+			"sections_title": "chall lang myths"
+		},
+		{
+			"sections_title": "intro engl honrs"
+		},
+		{
+			"sections_title": "honrs seminar"
+		},
+		{
+			"sections_title": "lit engl 18c"
+		},
+		{
+			"sections_title": "engl lit to 18c"
+		},
+		{
+			"sections_title": "lit brit 18c+"
+		},
+		{
+			"sections_title": "brit lit 18c-21c"
+		},
+		{
+			"sections_title": "lit canada"
+		},
+		{
+			"sections_title": "lit in canada"
+		},
+		{
+			"sections_title": "lit in u.s."
+		},
+		{
+			"sections_title": "lit in u.s.a."
+		},
+		{
+			"sections_title": "world lit engl"
+		},
+		{
+			"sections_title": "world lit in eng"
+		},
+		{
+			"sections_title": "poetry"
+		},
+		{
+			"sections_title": "prose"
+		},
+		{
+			"sections_title": "indigenous lits"
+		},
+		{
+			"sections_title": "intr indig lit"
+		},
+		{
+			"sections_title": "appr media studi"
+		},
+		{
+			"sections_title": "tech writing"
+		},
+		{
+			"sections_title": "sci/med rhetoric"
+		},
+		{
+			"sections_title": "rhet scie tech"
+		},
+		{
+			"sections_title": "rhetoric theory1"
+		},
+		{
+			"sections_title": "hst & thry rhtrc"
+		},
+		{
+			"sections_title": "rhetoric theory2"
+		},
+		{
+			"sections_title": "rhtrc later thry"
+		},
+		{
+			"sections_title": "engl: early hist"
+		},
+		{
+			"sections_title": "engl: later hist"
+		},
+		{
+			"sections_title": "traditnl grammar"
+		},
+		{
+			"sections_title": "grammar & usage"
+		},
+		{
+			"sections_title": "metaphor&thought"
+		},
+		{
+			"sections_title": "met lang thought"
+		},
+		{
+			"sections_title": "str sentences"
+		},
+		{
+			"sections_title": "engl structure 2"
+		},
+		{
+			"sections_title": "intro old engl"
+		},
+		{
+			"sections_title": "old english lit"
+		},
+		{
+			"sections_title": "old engl lit"
+		},
+		{
+			"sections_title": "18th cent genre"
+		},
+		{
+			"sections_title": "18c genre"
+		},
+		{
+			"sections_title": "st 19th cent gen"
+		},
+		{
+			"sections_title": "19c genre"
+		},
+		{
+			"sections_title": "transnat studies"
+		},
+		{
+			"sections_title": "maj seminar lang"
+		},
+		{
+			"sections_title": "major seminr lit"
+		},
+		{
+			"sections_title": "majors seminar"
+		},
+		{
+			"sections_title": "exper techniques"
+		},
+		{
+			"sections_title": "physics lab tech"
+		},
+		{
+			"sections_title": "eng phys prj1"
+		},
+		{
+			"sections_title": "eng phys prj ii"
+		},
+		{
+			"sections_title": "entreprn proj  i"
+		},
+		{
+			"sections_title": "intr envrmnt sci"
+		},
+		{
+			"sections_title": "envrmnt stdy i"
+		},
+		{
+			"sections_title": "int res envr sci"
+		},
+		{
+			"sections_title": "envrmnt stdy ii"
+		},
+		{
+			"sections_title": "cmnty pr env sci"
+		},
+		{
+			"sections_title": "rsrc prj env sci"
+		},
+		{
+			"sections_title": "enrg, envr & soc"
+		},
+		{
+			"sections_title": "ecohydrol water"
+		},
+		{
+			"sections_title": "ecol dmns sustbl"
+		},
+		{
+			"sections_title": "the solid earth"
+		},
+		{
+			"sections_title": "lab expl earth"
+		},
+		{
+			"sections_title": "fluid earth"
+		},
+		{
+			"sections_title": "catastroph earth"
+		},
+		{
+			"sections_title": "mesozoic earth"
+		},
+		{
+			"sections_title": "dinosaurs' earth"
+		},
+		{
+			"sections_title": "gold & gems"
+		},
+		{
+			"sections_title": "earth sci eng"
+		},
+		{
+			"sections_title": "computer earth"
+		},
+		{
+			"sections_title": "earth&planet sci"
+		},
+		{
+			"sections_title": "intro mineralogy"
+		},
+		{
+			"sections_title": "intro petrology"
+		},
+		{
+			"sections_title": "geo time & strat"
+		},
+		{
+			"sections_title": "geological time"
+		},
+		{
+			"sections_title": "field techniques"
+		},
+		{
+			"sections_title": "site investigtn"
+		},
+		{
+			"sections_title": "flds and fluxes"
+		},
+		{
+			"sections_title": "marine ecosystem"
+		},
+		{
+			"sections_title": "marine biodvrsty"
+		},
+		{
+			"sections_title": "earth&solar sys"
+		},
+		{
+			"sections_title": "earth&its rsrces"
+		},
+		{
+			"sections_title": "ocean environmnt"
+		},
+		{
+			"sections_title": "ocean ecosystem"
+		},
+		{
+			"sections_title": "sedimentology"
+		},
+		{
+			"sections_title": "igneous petrolgy"
+		},
+		{
+			"sections_title": "igneous & mmorph"
+		},
+		{
+			"sections_title": "metmorph petrlgy"
+		},
+		{
+			"sections_title": "struc geology i"
+		},
+		{
+			"sections_title": "erth&life th tme"
+		},
+		{
+			"sections_title": "field geology"
+		},
+		{
+			"sections_title": "grdwater hydrlgy"
+		},
+		{
+			"sections_title": "prnc geomorphlgy"
+		},
+		{
+			"sections_title": "intr minrl depst"
+		},
+		{
+			"sections_title": "intr min dep&exp"
+		},
+		{
+			"sections_title": "geol evol n amer"
+		},
+		{
+			"sections_title": "elem&iso geochem"
+		},
+		{
+			"sections_title": "glbl climat chng"
+		},
+		{
+			"sections_title": "env,geotech i"
+		},
+		{
+			"sections_title": "geop cntum dyncs"
+		},
+		{
+			"sections_title": "seismology"
+		},
+		{
+			"sections_title": "anl time series"
+		},
+		{
+			"sections_title": "circltn & plnktn"
+		},
+		{
+			"sections_title": "climate&ecosystm"
+		},
+		{
+			"sections_title": "volcanology"
+		},
+		{
+			"sections_title": "struc geology ii"
+		},
+		{
+			"sections_title": "adv mnrl deposts"
+		},
+		{
+			"sections_title": "paleontology"
+		},
+		{
+			"sections_title": "fld tec grdwt hy"
+		},
+		{
+			"sections_title": "grdwater contam"
+		},
+		{
+			"sections_title": "aqueous geochem"
+		},
+		{
+			"sections_title": "fossil fuels"
+		},
+		{
+			"sections_title": "geotech eng prac"
+		},
+		{
+			"sections_title": "geo eng soil&roc"
+		},
+		{
+			"sections_title": "env hydr geo eng"
+		},
+		{
+			"sections_title": "clim meas & anly"
+		},
+		{
+			"sections_title": "engrng dsgn proj"
+		},
+		{
+			"sections_title": "field mtd earth"
+		},
+		{
+			"sections_title": "phys earth&plnts"
+		},
+		{
+			"sections_title": "appl geophysics"
+		},
+		{
+			"sections_title": "biolgl oceangrhy"
+		},
+		{
+			"sections_title": "mrne chem geochm"
+		},
+		{
+			"sections_title": "methods in ocgy"
+		},
+		{
+			"sections_title": "mrne pollution"
+		},
+		{
+			"sections_title": "mrne microbiolgy"
+		},
+		{
+			"sections_title": "intro fish scien"
+		},
+		{
+			"sections_title": "dta anl at,er&oc"
+		},
+		{
+			"sections_title": "adv geo fld dyn"
+		},
+		{
+			"sections_title": "wavelets"
+		},
+		{
+			"sections_title": "geol fluid mech"
+		},
+		{
+			"sections_title": "adv mineralogy"
+		},
+		{
+			"sections_title": "mth&mdl ptrl&gch"
+		},
+		{
+			"sections_title": "mech nat defrmtn"
+		},
+		{
+			"sections_title": "adv geotechnics"
+		},
+		{
+			"sections_title": "expl methodology"
+		},
+		{
+			"sections_title": "fld lab grdwtr h"
+		},
+		{
+			"sections_title": "adv grdwtr hydgy"
+		},
+		{
+			"sections_title": "geoeng: soil&rck"
+		},
+		{
+			"sections_title": "tran porus media"
+		},
+		{
+			"sections_title": "adv rock engnrng"
+		},
+		{
+			"sections_title": "diamond expl"
+		},
+		{
+			"sections_title": "adv grnd geochem"
+		},
+		{
+			"sections_title": "adv volcanology"
+		},
+		{
+			"sections_title": "solid earth sci"
+		},
+		{
+			"sections_title": "adv field earth"
+		},
+		{
+			"sections_title": "tnl&undergrd eng"
+		},
+		{
+			"sections_title": "linear inv thry"
+		},
+		{
+			"sections_title": "meth in seis int"
+		},
+		{
+			"sections_title": "mech erth quake"
+		},
+		{
+			"sections_title": "mth oceanography"
+		},
+		{
+			"sections_title": "bio&eco zooplank"
+		},
+		{
+			"sections_title": "biol ocean sem"
+		},
+		{
+			"sections_title": "dynamic ocgy"
+		},
+		{
+			"sections_title": "m.eng. grad papr"
+		},
+		{
+			"sections_title": "ed adolescnt yrs"
+		},
+		{
+			"sections_title": "tch'g hghly able"
+		},
+		{
+			"sections_title": "intro excp child"
+		},
+		{
+			"sections_title": "lrn'g disablties"
+		},
+		{
+			"sections_title": "incl bl vis-imp"
+		},
+		{
+			"sections_title": "tchg st visl imp"
+		},
+		{
+			"sections_title": "fam prac ch spec"
+		},
+		{
+			"sections_title": "ed st dvl ds inc"
+		},
+		{
+			"sections_title": "typ atyp inf/ch"
+		},
+		{
+			"sections_title": "ed prg hghly abl"
+		},
+		{
+			"sections_title": "augmt&alt comm"
+		},
+		{
+			"sections_title": "tech for vis imp"
+		},
+		{
+			"sections_title": "assess lrn diffi"
+		},
+		{
+			"sections_title": "prg child sp lrn"
+		},
+		{
+			"sections_title": "classroom mgmt"
+		},
+		{
+			"sections_title": "surv bhvr dis ch"
+		},
+		{
+			"sections_title": "intrv ch&ad bh d"
+		},
+		{
+			"sections_title": "educ stds autism"
+		},
+		{
+			"sections_title": "intro rsrch educ"
+		},
+		{
+			"sections_title": "intr stat rs edu"
+		},
+		{
+			"sections_title": "hn dev, lrn, cul"
+		},
+		{
+			"sections_title": "cog lang proc ed"
+		},
+		{
+			"sections_title": "cltl learn dev"
+		},
+		{
+			"sections_title": "hn dev: inf-adlt"
+		},
+		{
+			"sections_title": "ch&ad psyco-path"
+		},
+		{
+			"sections_title": "crit spec ed"
+		},
+		{
+			"sections_title": "able&creatv lrnr"
+		},
+		{
+			"sections_title": "dev el sk df&hrd"
+		},
+		{
+			"sections_title": "cur dev e df&hrd"
+		},
+		{
+			"sections_title": "std in sign lang"
+		},
+		{
+			"sections_title": "specific lrn dis"
+		},
+		{
+			"sections_title": "basic princ meas"
+		},
+		{
+			"sections_title": "dev scale&measur"
+		},
+		{
+			"sections_title": "test constructio"
+		},
+		{
+			"sections_title": "curric as&interv"
+		},
+		{
+			"sections_title": "acad assess schl"
+		},
+		{
+			"sections_title": "socl&emtl assess"
+		},
+		{
+			"sections_title": "educ std vis imp"
+		},
+		{
+			"sections_title": "ind skl vis imp"
+		},
+		{
+			"sections_title": "sem in autism"
+		},
+		{
+			"sections_title": "prof,eth&lgl iss"
+		},
+		{
+			"sections_title": "thy cognt assess"
+		},
+		{
+			"sections_title": "dev neuropsych"
+		},
+		{
+			"sections_title": "soc-psych fndtns"
+		},
+		{
+			"sections_title": "prin behav anlys"
+		},
+		{
+			"sections_title": "inst mthd chalng"
+		},
+		{
+			"sections_title": "asmt&beh support"
+		},
+		{
+			"sections_title": "asmt&beh suprt 2"
+		},
+		{
+			"sections_title": "motivation educ"
+		},
+		{
+			"sections_title": "discourse & talk"
+		},
+		{
+			"sections_title": "thry&prc prg evl"
+		},
+		{
+			"sections_title": "exp des anl ed"
+		},
+		{
+			"sections_title": "dsgn&anl smp&sub"
+		},
+		{
+			"sections_title": "mt-anl qnt rs sy"
+		},
+		{
+			"sections_title": "qlt rsrch mthd"
+		},
+		{
+			"sections_title": "qlt mthd ed psy"
+		},
+		{
+			"sections_title": "cor des ed res"
+		},
+		{
+			"sections_title": "coll&uni teachng"
+		},
+		{
+			"sections_title": "mult des anal rs"
+		},
+		{
+			"sections_title": "hier lin modelng"
+		},
+		{
+			"sections_title": "item respns thry"
+		},
+		{
+			"sections_title": "res meth educ"
+		},
+		{
+			"sections_title": "des tech"
+		},
+		{
+			"sections_title": "found ed tech"
+		},
+		{
+			"sections_title": "appl lear theor"
+		},
+		{
+			"sections_title": "plan man learn"
+		},
+		{
+			"sections_title": "indig, tech&ed"
+		},
+		{
+			"sections_title": "ventr learn tech"
+		},
+		{
+			"sections_title": "constr strat"
+		},
+		{
+			"sections_title": "curric issu"
+		},
+		{
+			"sections_title": "tech arts hum"
+		},
+		{
+			"sections_title": "tech math sci"
+		},
+		{
+			"sections_title": "text tech"
+		},
+		{
+			"sections_title": "sh fic rmnce lit"
+		},
+		{
+			"sections_title": "intr hst flm prd"
+		},
+		{
+			"sections_title": "intro screen act"
+		},
+		{
+			"sections_title": "intr mtn pct dir"
+		},
+		{
+			"sections_title": "video prod i"
+		},
+		{
+			"sections_title": "plan&prof practc"
+		},
+		{
+			"sections_title": "int directing"
+		},
+		{
+			"sections_title": "mo pict prod i"
+		},
+		{
+			"sections_title": "cinmtgry&light i"
+		},
+		{
+			"sections_title": "snd rec film&vid"
+		},
+		{
+			"sections_title": "motn pictr sound"
+		},
+		{
+			"sections_title": "post-prod tec i"
+		},
+		{
+			"sections_title": "mo pict prod ii"
+		},
+		{
+			"sections_title": "prodcing film&tv"
+		},
+		{
+			"sections_title": "cinematograph ii"
+		},
+		{
+			"sections_title": "adv doc dev&prod"
+		},
+		{
+			"sections_title": "fisheries mngmt"
+		},
+		{
+			"sections_title": "quant an fish i"
+		},
+		{
+			"sections_title": "fsh econ & mgmnt"
+		},
+		{
+			"sections_title": "bayesn dcsn anl"
+		},
+		{
+			"sections_title": "cons, govr, eval"
+		},
+		{
+			"sections_title": "intro film stdy"
+		},
+		{
+			"sections_title": "intro can cin"
+		},
+		{
+			"sections_title": "silent cinema"
+		},
+		{
+			"sections_title": "early cinema"
+		},
+		{
+			"sections_title": "hollywood cinema"
+		},
+		{
+			"sections_title": "int asian cinema"
+		},
+		{
+			"sections_title": "media industries"
+		},
+		{
+			"sections_title": "cult cinema"
+		},
+		{
+			"sections_title": "stdy film theory"
+		},
+		{
+			"sections_title": "stdy genre/perio"
+		},
+		{
+			"sections_title": "asian & aust cin"
+		},
+		{
+			"sections_title": "amer cin 1960 "
+		},
+		{
+			"sections_title": "maj & hon semin"
+		},
+		{
+			"sections_title": "fmly human dvlpm"
+		},
+		{
+			"sections_title": "fam resrc mngmt"
+		},
+		{
+			"sections_title": "parent-child rel"
+		},
+		{
+			"sections_title": "relation develop"
+		},
+		{
+			"sections_title": "human sexuality"
+		},
+		{
+			"sections_title": "fam econ issues"
+		},
+		{
+			"sections_title": "families & work"
+		},
+		{
+			"sections_title": "intro salish i"
+		},
+		{
+			"sections_title": "intro salish ii"
+		},
+		{
+			"sections_title": "intro endg lang"
+		},
+		{
+			"sections_title": "intmed salish i"
+		},
+		{
+			"sections_title": "intmed salish ii"
+		},
+		{
+			"sections_title": "consrv&revitlzt"
+		},
+		{
+			"sections_title": "struc endg lang"
+		},
+		{
+			"sections_title": "tech endg lang"
+		},
+		{
+			"sections_title": "topics in fnel"
+		},
+		{
+			"sections_title": "explor our food"
+		},
+		{
+			"sections_title": "nutr conc & cont"
+		},
+		{
+			"sections_title": "prnc food eng"
+		},
+		{
+			"sections_title": "food chemistry i"
+		},
+		{
+			"sections_title": "food analysis"
+		},
+		{
+			"sections_title": "food prod develp"
+		},
+		{
+			"sections_title": "food proc sc"
+		},
+		{
+			"sections_title": "microorg in food"
+		},
+		{
+			"sections_title": "food sci lab 1"
+		},
+		{
+			"sections_title": "food sci lab ii"
+		},
+		{
+			"sections_title": "intro wine scie"
+		},
+		{
+			"sections_title": "intro wine sci 2"
+		},
+		{
+			"sections_title": "food theory"
+		},
+		{
+			"sections_title": "food theor app"
+		},
+		{
+			"sections_title": "consmr food prac"
+		},
+		{
+			"sections_title": "aspc consmr food"
+		},
+		{
+			"sections_title": "fundtl nutrition"
+		},
+		{
+			"sections_title": "vit min & health"
+		},
+		{
+			"sections_title": "wor prob in nut"
+		},
+		{
+			"sections_title": "internat'l nutri"
+		},
+		{
+			"sections_title": "nutrition asmt"
+		},
+		{
+			"sections_title": "res mth hum nutr"
+		},
+		{
+			"sections_title": "food & nutraceu"
+		},
+		{
+			"sections_title": "food law reg qua"
+		},
+		{
+			"sections_title": "food safety"
+		},
+		{
+			"sections_title": "fnh busns concep"
+		},
+		{
+			"sections_title": "food sci lab iii"
+		},
+		{
+			"sections_title": "enol & wine biot"
+		},
+		{
+			"sections_title": "food ser sys mgt"
+		},
+		{
+			"sections_title": "nu met imp hlth"
+		},
+		{
+			"sections_title": "apld intl nutrit"
+		},
+		{
+			"sections_title": "int nut fld stdy"
+		},
+		{
+			"sections_title": "clin dietetc i"
+		},
+		{
+			"sections_title": "fdn ntrn care i"
+		},
+		{
+			"sections_title": "nutri & disease"
+		},
+		{
+			"sections_title": "hum nut lif span"
+		},
+		{
+			"sections_title": "nutr ed in comm"
+		},
+		{
+			"sections_title": "sport nutrition"
+		},
+		{
+			"sections_title": "clin dietetc ii"
+		},
+		{
+			"sections_title": "adv top cli nut"
+		},
+		{
+			"sections_title": "nutr&diseas prev"
+		},
+		{
+			"sections_title": "top food nu hea"
+		},
+		{
+			"sections_title": "indigenous fdns"
+		},
+		{
+			"sections_title": "pol & self-dtrmn"
+		},
+		{
+			"sections_title": "rep & cltr poltc"
+		},
+		{
+			"sections_title": "theory seminar"
+		},
+		{
+			"sections_title": "methods seminar"
+		},
+		{
+			"sections_title": "practicm/adv res"
+		},
+		{
+			"sections_title": "indig feminisms"
+		},
+		{
+			"sections_title": "indig soc movmnt"
+		},
+		{
+			"sections_title": "advances fd sci"
+		},
+		{
+			"sections_title": "hazard anal food"
+		},
+		{
+			"sections_title": "fnd agr-food bsn"
+		},
+		{
+			"sections_title": "adv food anlysis"
+		},
+		{
+			"sections_title": "adv food analysis"
+		},
+		{
+			"sections_title": "adv food biotech"
+		},
+		{
+			"sections_title": "adv food chemist"
+		},
+		{
+			"sections_title": "adv food microbi"
+		},
+		{
+			"sections_title": "adv food process"
+		},
+		{
+			"sections_title": "adv food toxicol"
+		},
+		{
+			"sections_title": "intl fd law&regs"
+		},
+		{
+			"sections_title": "sns eval lab mtd"
+		},
+		{
+			"sections_title": "bsc geomatics nr"
+		},
+		{
+			"sections_title": "forest oper's i"
+		},
+		{
+			"sections_title": "frst accss&trans"
+		},
+		{
+			"sections_title": "geo frst & trans"
+		},
+		{
+			"sections_title": "forest oper's ii"
+		},
+		{
+			"sections_title": "sustnbt&frst ops"
+		},
+		{
+			"sections_title": "forst operatn ii"
+		},
+		{
+			"sections_title": "harvest syst&ops"
+		},
+		{
+			"sections_title": "anl mthd frst hy"
+		},
+		{
+			"sections_title": "econ, cont, fina"
+		},
+		{
+			"sections_title": "forest tran sys"
+		},
+		{
+			"sections_title": "forstry machines"
+		},
+		{
+			"sections_title": "sm bus man agri"
+		},
+		{
+			"sections_title": "int glo food mkt"
+		},
+		{
+			"sections_title": "inter agri dev"
+		},
+		{
+			"sections_title": "land resrce econ"
+		},
+		{
+			"sections_title": "land econ"
+		},
+		{
+			"sections_title": "qt bus & res mgt"
+		},
+		{
+			"sections_title": "econ int trd&env"
+		},
+		{
+			"sections_title": "tr dom pol"
+		},
+		{
+			"sections_title": "econ food consum"
+		},
+		{
+			"sections_title": "food&resrc econ"
+		},
+		{
+			"sections_title": "comm mkt&pr"
+		},
+		{
+			"sections_title": "food mrkt anyl"
+		},
+		{
+			"sections_title": "pol anyl fre"
+		},
+		{
+			"sections_title": "agribus managemt"
+		},
+		{
+			"sections_title": "fincl mktg food"
+		},
+		{
+			"sections_title": "env econ&policy"
+		},
+		{
+			"sections_title": "appld econometrc"
+		},
+		{
+			"sections_title": "grad project"
+		},
+		{
+			"sections_title": "qntv mthd rsrces"
+		},
+		{
+			"sections_title": "beginner fren i"
+		},
+		{
+			"sections_title": "beginner fren ii"
+		},
+		{
+			"sections_title": "beginnr fren iii"
+		},
+		{
+			"sections_title": "intermed fren 1"
+		},
+		{
+			"sections_title": "beginnr fren iv"
+		},
+		{
+			"sections_title": "intermed fren 2"
+		},
+		{
+			"sections_title": "fren lang&lit i"
+		},
+		{
+			"sections_title": "fren lang&lit ii"
+		},
+		{
+			"sections_title": "oral fr practice"
+		},
+		{
+			"sections_title": "fr  lit &txt anl"
+		},
+		{
+			"sections_title": "mod lit & txt an"
+		},
+		{
+			"sections_title": "fr lang&style i"
+		},
+		{
+			"sections_title": "fr lang&style ii"
+		},
+		{
+			"sections_title": "intrd app fren i"
+		},
+		{
+			"sections_title": "intrd app frn ii"
+		},
+		{
+			"sections_title": "euro french lit"
+		},
+		{
+			"sections_title": "quebecois  lit"
+		},
+		{
+			"sections_title": "fr civilzatn ii"
+		},
+		{
+			"sections_title": "fr prc nnspec i"
+		},
+		{
+			"sections_title": "fr prc nnspec ii"
+		},
+		{
+			"sections_title": "fr lit in tran i"
+		},
+		{
+			"sections_title": "fr lit in trn ii"
+		},
+		{
+			"sections_title": "french grammar"
+		},
+		{
+			"sections_title": "advanced comp"
+		},
+		{
+			"sections_title": "translation i"
+		},
+		{
+			"sections_title": "intro old french"
+		},
+		{
+			"sections_title": "intr fren ling"
+		},
+		{
+			"sections_title": "int lit thry&mth"
+		},
+		{
+			"sections_title": "translation ii"
+		},
+		{
+			"sections_title": "sustain forests"
+		},
+		{
+			"sections_title": "for plant bio i"
+		},
+		{
+			"sections_title": "forest ecology"
+		},
+		{
+			"sections_title": "for plant bio ii"
+		},
+		{
+			"sections_title": "frst class&silvc"
+		},
+		{
+			"sections_title": "intr biometrics"
+		},
+		{
+			"sections_title": "computer ap frst"
+		},
+		{
+			"sections_title": "tr std lev meas"
+		},
+		{
+			"sections_title": "cmty frsts&frsty"
+		},
+		{
+			"sections_title": "forest genetics"
+		},
+		{
+			"sections_title": "prin frst sci"
+		},
+		{
+			"sections_title": "sci frst issues"
+		},
+		{
+			"sections_title": "silviculture 1"
+		},
+		{
+			"sections_title": "silviculture"
+		},
+		{
+			"sections_title": "biotic disturbnc"
+		},
+		{
+			"sections_title": "frst entomology"
+		},
+		{
+			"sections_title": "frst pathology"
+		},
+		{
+			"sections_title": "plant physlgy i"
+		},
+		{
+			"sections_title": "frst & cons econ"
+		},
+		{
+			"sections_title": "prin frst econ"
+		},
+		{
+			"sections_title": "abiotic disturbn"
+		},
+		{
+			"sections_title": "frst meas & prod"
+		},
+		{
+			"sections_title": "int field school"
+		},
+		{
+			"sections_title": "wtrshed hydro"
+		},
+		{
+			"sections_title": "aqua ecosys&fish"
+		},
+		{
+			"sections_title": "aqua eco in frst"
+		},
+		{
+			"sections_title": "for wildlif ecol"
+		},
+		{
+			"sections_title": "intro rsrch meth"
+		},
+		{
+			"sections_title": "complex adapt sy"
+		},
+		{
+			"sections_title": "ecol plnt bioch"
+		},
+		{
+			"sections_title": "sust frst policy"
+		},
+		{
+			"sections_title": "forest policy"
+		},
+		{
+			"sections_title": "intgr res man i"
+		},
+		{
+			"sections_title": "sust frst mgmt"
+		},
+		{
+			"sections_title": "adv biometrics"
+		},
+		{
+			"sections_title": "moleclar ecology"
+		},
+		{
+			"sections_title": "growth & yield"
+		},
+		{
+			"sections_title": "intl forestry"
+		},
+		{
+			"sections_title": "remote sensing"
+		},
+		{
+			"sections_title": "cst fld school"
+		},
+		{
+			"sections_title": "visual res mgmt"
+		},
+		{
+			"sections_title": "bio div&frst mgt"
+		},
+		{
+			"sections_title": "graduating essay"
+		},
+		{
+			"sections_title": "bsc thesis"
+		},
+		{
+			"sections_title": "plnt molec biol"
+		},
+		{
+			"sections_title": "frst insect ecol"
+		},
+		{
+			"sections_title": "bgrd frst ecosys"
+		},
+		{
+			"sections_title": "tree physiology"
+		},
+		{
+			"sections_title": "frsts & society"
+		},
+		{
+			"sections_title": "ind peo frst lnd"
+		},
+		{
+			"sections_title": "socl commty indg"
+		},
+		{
+			"sections_title": "for & env policy"
+		},
+		{
+			"sections_title": "envir perception"
+		},
+		{
+			"sections_title": "eco economics"
+		},
+		{
+			"sections_title": "mult regres meth"
+		},
+		{
+			"sections_title": "natural res econ"
+		},
+		{
+			"sections_title": "dvl frst institu"
+		},
+		{
+			"sections_title": "tech comm skills"
+		},
+		{
+			"sections_title": "tec comm skls ii"
+		},
+		{
+			"sections_title": "forestry in b.c."
+		},
+		{
+			"sections_title": "sustain lndsc pl"
+		},
+		{
+			"sections_title": "frst governance"
+		},
+		{
+			"sections_title": "lnd info acq&anl"
+		},
+		{
+			"sections_title": "ste-lvl lnd mgmt"
+		},
+		{
+			"sections_title": "landscp lnd mgmt"
+		},
+		{
+			"sections_title": "ntrl rsorce plan"
+		},
+		{
+			"sections_title": "frst busn enterp"
+		},
+		{
+			"sections_title": "ds intl forstry"
+		},
+		{
+			"sections_title": "adv wood mech"
+		},
+		{
+			"sections_title": "hdwtr systems"
+		},
+		{
+			"sections_title": "fluvil ecohydrol"
+		},
+		{
+			"sections_title": "stat mth hydrlgy"
+		},
+		{
+			"sections_title": "building blocks"
+		},
+		{
+			"sections_title": "biomass fraction"
+		},
+		{
+			"sections_title": "changing envr"
+		},
+		{
+			"sections_title": "int phy geog:a&w"
+		},
+		{
+			"sections_title": "chng env: wt&lnd"
+		},
+		{
+			"sections_title": "int phy geog:w&l"
+		},
+		{
+			"sections_title": "atmos environs"
+		},
+		{
+			"sections_title": "int biometeorlgy"
+		},
+		{
+			"sections_title": "frst&ag clmtolgy"
+		},
+		{
+			"sections_title": "geomrph proc&haz"
+		},
+		{
+			"sections_title": "princpl geomorph"
+		},
+		{
+			"sections_title": "intr biogeogrphy"
+		},
+		{
+			"sections_title": "geog inform sci"
+		},
+		{
+			"sections_title": "micro wthr&clim"
+		},
+		{
+			"sections_title": "intr hydrology"
+		},
+		{
+			"sections_title": "biogeog global"
+		},
+		{
+			"sections_title": "quatrny&app geo"
+		},
+		{
+			"sections_title": "biogeosc field"
+		},
+		{
+			"sections_title": "phys geog field"
+		},
+		{
+			"sections_title": "advanced gis"
+		},
+		{
+			"sections_title": "cartography"
+		},
+		{
+			"sections_title": "intr remote sens"
+		},
+		{
+			"sections_title": "urban meteorolgy"
+		},
+		{
+			"sections_title": "air pol meteorol"
+		},
+		{
+			"sections_title": "watershed geomor"
+		},
+		{
+			"sections_title": "veg dynamics"
+		},
+		{
+			"sections_title": "slf-dir fld stdy"
+		},
+		{
+			"sections_title": "res cartography"
+		},
+		{
+			"sections_title": "cntp rs trds phy"
+		},
+		{
+			"sections_title": "geomorphlgy proc"
+		},
+		{
+			"sections_title": "geog mod glob i"
+		},
+		{
+			"sections_title": "geog enviro glob"
+		},
+		{
+			"sections_title": "geog mod glob ii"
+		},
+		{
+			"sections_title": "geog mod glob"
+		},
+		{
+			"sections_title": "state of earth"
+		},
+		{
+			"sections_title": "geopolitics"
+		},
+		{
+			"sections_title": "cities"
+		},
+		{
+			"sections_title": "geog pacific rim"
+		},
+		{
+			"sections_title": "intr geog canada"
+		},
+		{
+			"sections_title": "envir & resource"
+		},
+		{
+			"sections_title": "envir & sust"
+		},
+		{
+			"sections_title": "urban envr"
+		},
+		{
+			"sections_title": "globl climt syst"
+		},
+		{
+			"sections_title": "clmt chng sc soc"
+		},
+		{
+			"sections_title": "geog natural haz"
+		},
+		{
+			"sections_title": "env chg and qual"
+		},
+		{
+			"sections_title": "sust chng envr"
+		},
+		{
+			"sections_title": "env impact assmt"
+		},
+		{
+			"sections_title": "hist geog urbanz"
+		},
+		{
+			"sections_title": "hist canada i"
+		},
+		{
+			"sections_title": "creating canada"
+		},
+		{
+			"sections_title": "hist canada ii"
+		},
+		{
+			"sections_title": "construct canada"
+		},
+		{
+			"sections_title": "intr poli geog"
+		},
+		{
+			"sections_title": "thry&prac h geog"
+		},
+		{
+			"sections_title": "urban geog"
+		},
+		{
+			"sections_title": "urbanztn glb sth"
+		},
+		{
+			"sections_title": "geog mig & set"
+		},
+		{
+			"sections_title": "intr social geog"
+		},
+		{
+			"sections_title": "soci&behav geog"
+		},
+		{
+			"sections_title": "intr econ geog"
+		},
+		{
+			"sections_title": "geog econ devlop"
+		},
+		{
+			"sections_title": "glbl, city, regn"
+		},
+		{
+			"sections_title": "res str hum geog"
+		},
+		{
+			"sections_title": "statistics geog"
+		},
+		{
+			"sections_title": "statistcs geog 1"
+		},
+		{
+			"sections_title": "geography asia"
+		},
+		{
+			"sections_title": "geography europe"
+		},
+		{
+			"sections_title": "mdrn eur pl&brd"
+		},
+		{
+			"sections_title": "chg lndsc l amer"
+		},
+		{
+			"sections_title": "intr geog amer"
+		},
+		{
+			"sections_title": "env & society"
+		},
+		{
+			"sections_title": "water mgmt"
+		},
+		{
+			"sections_title": "resrch envir geo"
+		},
+		{
+			"sections_title": "dev envnmt thght"
+		},
+		{
+			"sections_title": "feminist geog"
+		},
+		{
+			"sections_title": "hist geog of bc"
+		},
+		{
+			"sections_title": "resrch hist geog"
+		},
+		{
+			"sections_title": "tops in geog"
+		},
+		{
+			"sections_title": "topics in geog"
+		},
+		{
+			"sections_title": "urban research"
+		},
+		{
+			"sections_title": "urban analysis"
+		},
+		{
+			"sections_title": "social geography"
+		},
+		{
+			"sections_title": "soc & behav geog"
+		},
+		{
+			"sections_title": "geography china"
+		},
+		{
+			"sections_title": "socl movmnt amer"
+		},
+		{
+			"sections_title": "soc&env latin am"
+		},
+		{
+			"sections_title": "the arctic"
+		},
+		{
+			"sections_title": "arctic geography"
+		},
+		{
+			"sections_title": "thms&intr iss md"
+		},
+		{
+			"sections_title": "cult nat cp ecol"
+		},
+		{
+			"sections_title": "intl migr&settlm"
+		},
+		{
+			"sections_title": "begin germ i"
+		},
+		{
+			"sections_title": "begin germ 2"
+		},
+		{
+			"sections_title": "inter germ i"
+		},
+		{
+			"sections_title": "inter germ ii"
+		},
+		{
+			"sections_title": "inter germ iii"
+		},
+		{
+			"sections_title": "grm lit 1900-45"
+		},
+		{
+			"sections_title": "20th germ lit tr"
+		},
+		{
+			"sections_title": "grm lit pst 1945"
+		},
+		{
+			"sections_title": "cont germ lit tr"
+		},
+		{
+			"sections_title": "germ lit <1900"
+		},
+		{
+			"sections_title": "germ cinema engl"
+		},
+		{
+			"sections_title": "inter germ iv"
+		},
+		{
+			"sections_title": "conv german ii"
+		},
+		{
+			"sections_title": "busi germ"
+		},
+		{
+			"sections_title": "germ translation"
+		},
+		{
+			"sections_title": "heaven & earth"
+		},
+		{
+			"sections_title": "trad & change"
+		},
+		{
+			"sections_title": "adv germ"
+		},
+		{
+			"sections_title": "wrd&mus germ lit"
+		},
+		{
+			"sections_title": "adv german ii"
+		},
+		{
+			"sections_title": "cntrvrs germ cul"
+		},
+		{
+			"sections_title": "germ read know 1"
+		},
+		{
+			"sections_title": "germ read know 2"
+		},
+		{
+			"sections_title": "cultural studies"
+		},
+		{
+			"sections_title": "major essay"
+		},
+		{
+			"sections_title": "microecon analys"
+		},
+		{
+			"sections_title": "intrnl macroecon"
+		},
+		{
+			"sections_title": "measr data anlys"
+		},
+		{
+			"sections_title": "plcy analys eval"
+		},
+		{
+			"sections_title": "dmstc glbl polcy"
+		},
+		{
+			"sections_title": "public managemnt"
+		},
+		{
+			"sections_title": "envrl law policy"
+		},
+		{
+			"sections_title": "phl ethc fnd pol"
+		},
+		{
+			"sections_title": "commnicat policy"
+		},
+		{
+			"sections_title": "tops public plcy"
+		},
+		{
+			"sections_title": "1yr anc greek i"
+		},
+		{
+			"sections_title": "1yr anc greek ii"
+		},
+		{
+			"sections_title": "2yr anc greek i"
+		},
+		{
+			"sections_title": "2yr anc greek ii"
+		},
+		{
+			"sections_title": "int anc grek prs"
+		},
+		{
+			"sections_title": "int anc grek vrs"
+		},
+		{
+			"sections_title": "gdr,race,sex&pwr"
+		},
+		{
+			"sections_title": "decol&fmnst pers"
+		},
+		{
+			"sections_title": "grs&rep mod asia"
+		},
+		{
+			"sections_title": "grs&soc str asia"
+		},
+		{
+			"sections_title": "thinking gender"
+		},
+		{
+			"sections_title": "gndr&indg can"
+		},
+		{
+			"sections_title": "gndr, law, soc"
+		},
+		{
+			"sections_title": "iss cmn int org"
+		},
+		{
+			"sections_title": "glob & soc justc"
+		},
+		{
+			"sections_title": "grs&pop cultr"
+		},
+		{
+			"sections_title": "issus gndr&hlth"
+		},
+		{
+			"sections_title": "blk wmn americas"
+		},
+		{
+			"sections_title": "fem anti-rc ped"
+		},
+		{
+			"sections_title": "decol qual mthds"
+		},
+		{
+			"sections_title": "politics gender"
+		},
+		{
+			"sections_title": "feminist theory"
+		},
+		{
+			"sections_title": "fem subjectivity"
+		},
+		{
+			"sections_title": "bdy, gen, soc"
+		},
+		{
+			"sections_title": "adv res sem wmst"
+		},
+		{
+			"sections_title": "intersectnl issu"
+		},
+		{
+			"sections_title": "decol & femn mth"
+		},
+		{
+			"sections_title": "gndr sex crt rce"
+		},
+		{
+			"sections_title": "extended essay"
+		},
+		{
+			"sections_title": "intsv lab course"
+		},
+		{
+			"sections_title": "adv gsat concept"
+		},
+		{
+			"sections_title": "elem bib hebr i"
+		},
+		{
+			"sections_title": "elem bib hebr ii"
+		},
+		{
+			"sections_title": "intmd bib hebr 1"
+		},
+		{
+			"sections_title": "intmd bib hebr 2"
+		},
+		{
+			"sections_title": "h gwaii cse stdy"
+		},
+		{
+			"sections_title": "hist resrce mgmt"
+		},
+		{
+			"sections_title": "frst ntns rsorcs"
+		},
+		{
+			"sections_title": "rnfrst ecology"
+		},
+		{
+			"sections_title": "rsrc-dpndnt comm"
+		},
+		{
+			"sections_title": "coast terr esyst"
+		},
+		{
+			"sections_title": "bio dyn mar-ter"
+		},
+		{
+			"sections_title": "islnd wild mgmt"
+		},
+		{
+			"sections_title": "app eco knowledg"
+		},
+		{
+			"sections_title": "sys resrc mgmt"
+		},
+		{
+			"sections_title": "eco-based mgmt"
+		},
+		{
+			"sections_title": "intr hindi-urdu"
+		},
+		{
+			"sections_title": "hist to oc cont"
+		},
+		{
+			"sections_title": "hist 1500 - 20 c"
+		},
+		{
+			"sections_title": "hist post 1900"
+		},
+		{
+			"sections_title": "tpcs world hist"
+		},
+		{
+			"sections_title": "cont glbl issues"
+		},
+		{
+			"sections_title": "globl  envr hist"
+		},
+		{
+			"sections_title": "hist of canada"
+		},
+		{
+			"sections_title": "publ hist canada"
+		},
+		{
+			"sections_title": "hist of africa"
+		},
+		{
+			"sections_title": "medieval tech"
+		},
+		{
+			"sections_title": "scie & society"
+		},
+		{
+			"sections_title": "hist of india"
+		},
+		{
+			"sections_title": "sth asian hist"
+		},
+		{
+			"sections_title": "islam wrld hist"
+		},
+		{
+			"sections_title": "indigen ppl na"
+		},
+		{
+			"sections_title": "british columbia"
+		},
+		{
+			"sections_title": "brit emp to 1850"
+		},
+		{
+			"sections_title": "brit empire 1850"
+		},
+		{
+			"sections_title": "africa imp indep"
+		},
+		{
+			"sections_title": "brit 1750 - 1850"
+		},
+		{
+			"sections_title": "brit 1850-1918"
+		},
+		{
+			"sections_title": "early 20c brit"
+		},
+		{
+			"sections_title": "brit 1946 - pres"
+		},
+		{
+			"sections_title": "atlantic revltns"
+		},
+		{
+			"sections_title": "inventing canada"
+		},
+		{
+			"sections_title": "canada 1896-1945"
+		},
+		{
+			"sections_title": "can since 1945"
+		},
+		{
+			"sections_title": "amer colonial"
+		},
+		{
+			"sections_title": "colonial america"
+		},
+		{
+			"sections_title": "am rev & form us"
+		},
+		{
+			"sections_title": "rebels in americ"
+		},
+		{
+			"sections_title": "us 1896 - 1945"
+		},
+		{
+			"sections_title": "usa 1890 - 1945"
+		},
+		{
+			"sections_title": "us 1945 - presnt"
+		},
+		{
+			"sections_title": "the soviet union"
+		},
+		{
+			"sections_title": "20th cen germany"
+		},
+		{
+			"sections_title": "st&soc 20c cuba"
+		},
+		{
+			"sections_title": "eur ear mid-ages"
+		},
+		{
+			"sections_title": "eur late mid-age"
+		},
+		{
+			"sections_title": "renssance europe"
+		},
+		{
+			"sections_title": "eur enlightnment"
+		},
+		{
+			"sections_title": "europe 19th cent"
+		},
+		{
+			"sections_title": "europe 1900-50"
+		},
+		{
+			"sections_title": "europ since 1950"
+		},
+		{
+			"sections_title": "japan since 1800"
+		},
+		{
+			"sections_title": "hist early china"
+		},
+		{
+			"sections_title": "early china"
+		},
+		{
+			"sections_title": "late imprl china"
+		},
+		{
+			"sections_title": "pst-col se asia"
+		},
+		{
+			"sections_title": "human rights"
+		},
+		{
+			"sections_title": "sctfc revolution"
+		},
+		{
+			"sections_title": "hist phil scie"
+		},
+		{
+			"sections_title": "darwin, evolutn"
+		},
+		{
+			"sections_title": "mideast 1914 on"
+		},
+		{
+			"sections_title": "us forn reltions"
+		},
+		{
+			"sections_title": "us f pol to 1945"
+		},
+		{
+			"sections_title": "us for pol 1945+"
+		},
+		{
+			"sections_title": "us for rel 1945+"
+		},
+		{
+			"sections_title": "1960s glbl persp"
+		},
+		{
+			"sections_title": "cdn crim&punish"
+		},
+		{
+			"sections_title": "mod war& society"
+		},
+		{
+			"sections_title": "int rel grt pwrs"
+		},
+		{
+			"sections_title": "4th yr honrs sem"
+		},
+		{
+			"sections_title": "hist holocaust"
+		},
+		{
+			"sections_title": "gendr&sex lat am"
+		},
+		{
+			"sections_title": "1st contct pacfc"
+		},
+		{
+			"sections_title": "medieval legal"
+		},
+		{
+			"sections_title": "laso mid ages"
+		},
+		{
+			"sections_title": "asian migr amer"
+		},
+		{
+			"sections_title": "asian migr van"
+		},
+		{
+			"sections_title": "chinese hist rdg"
+		},
+		{
+			"sections_title": "oral hist"
+		},
+		{
+			"sections_title": "ma research sem"
+		},
+		{
+			"sections_title": "phd research sem"
+		},
+		{
+			"sections_title": "res mthds hunu"
+		},
+		{
+			"sections_title": "cur iss appl ntr"
+		},
+		{
+			"sections_title": "cur iss ntr&dis"
+		},
+		{
+			"sections_title": "int tech commun"
+		},
+		{
+			"sections_title": "intr eng design"
+		},
+		{
+			"sections_title": "intrmdt eng desn"
+		},
+		{
+			"sections_title": "tech entreprenr"
+		},
+		{
+			"sections_title": "adv eng design"
+		},
+		{
+			"sections_title": "pipeline eng"
+		},
+		{
+			"sections_title": "pipeline systs"
+		},
+		{
+			"sections_title": "pipeline design"
+		},
+		{
+			"sections_title": "ntwrks crwd comm"
+		},
+		{
+			"sections_title": "size of things"
+		},
+		{
+			"sections_title": "intrdsc sc fld"
+		},
+		{
+			"sections_title": "rsrch devel proj"
+		},
+		{
+			"sections_title": "darwin medicine"
+		},
+		{
+			"sections_title": "sys app reg sus"
+		},
+		{
+			"sections_title": "mdls in science"
+		},
+		{
+			"sections_title": "ethical iss scie"
+		},
+		{
+			"sections_title": "1st yr italian i"
+		},
+		{
+			"sections_title": "1st yr ital ii"
+		},
+		{
+			"sections_title": "2nd-year ital i"
+		},
+		{
+			"sections_title": "2nd-year ital ii"
+		},
+		{
+			"sections_title": "3rd year ital i"
+		},
+		{
+			"sections_title": "ty italian ii"
+		},
+		{
+			"sections_title": "ital lit cult"
+		},
+		{
+			"sections_title": "advanced ital i"
+		},
+		{
+			"sections_title": "advanced ital ii"
+		},
+		{
+			"sections_title": "dante's div com"
+		},
+		{
+			"sections_title": "lit middle ages"
+		},
+		{
+			"sections_title": "lit:renaissance"
+		},
+		{
+			"sections_title": "tpcs 19c ita lit"
+		},
+		{
+			"sections_title": "tps mod ital lit"
+		},
+		{
+			"sections_title": "ital cine cult"
+		},
+		{
+			"sections_title": "intr lit & cultr"
+		},
+		{
+			"sections_title": "intr ital cult i"
+		},
+		{
+			"sections_title": "intr ital cinema"
+		},
+		{
+			"sections_title": "novella in lit"
+		},
+		{
+			"sections_title": "italian fascism"
+		},
+		{
+			"sections_title": "cinema: neoreal"
+		},
+		{
+			"sections_title": "div comedy trans"
+		},
+		{
+			"sections_title": "ital lit/cul ren"
+		},
+		{
+			"sections_title": "indust h20 treat"
+		},
+		{
+			"sections_title": "begin japn i"
+		},
+		{
+			"sections_title": "begin japn ib"
+		},
+		{
+			"sections_title": "begin japn ii"
+		},
+		{
+			"sections_title": "in begin japn i"
+		},
+		{
+			"sections_title": "in begin japn ii"
+		},
+		{
+			"sections_title": "intm japn i a"
+		},
+		{
+			"sections_title": "int jpn i b"
+		},
+		{
+			"sections_title": "intmed japn iia"
+		},
+		{
+			"sections_title": "intmed japn iib"
+		},
+		{
+			"sections_title": "intns int japn 1"
+		},
+		{
+			"sections_title": "intns int japn 2"
+		},
+		{
+			"sections_title": "adv  read&writ i"
+		},
+		{
+			"sections_title": "adv  read&writ"
+		},
+		{
+			"sections_title": "adv read&writ ii"
+		},
+		{
+			"sections_title": "adv read&writ"
+		},
+		{
+			"sections_title": "adv conv&comp i"
+		},
+		{
+			"sections_title": "adv conv & comp"
+		},
+		{
+			"sections_title": "adv conv&comp ii"
+		},
+		{
+			"sections_title": "adv conv&comp"
+		},
+		{
+			"sections_title": "class japn i (a)"
+		},
+		{
+			"sections_title": "class japn i (b)"
+		},
+		{
+			"sections_title": "japn prof life i"
+		},
+		{
+			"sections_title": "japn prof lif ii"
+		},
+		{
+			"sections_title": "rdgs mod japn es"
+		},
+		{
+			"sections_title": "rdgs mod japn lt"
+		},
+		{
+			"sections_title": "adv oral comm"
+		},
+		{
+			"sections_title": "newspaper japn"
+		},
+		{
+			"sections_title": "ethics & the law"
+		},
+		{
+			"sections_title": "media ethics&ldr"
+		},
+		{
+			"sections_title": "media law"
+		},
+		{
+			"sections_title": "press & society"
+		},
+		{
+			"sections_title": "active health"
+		},
+		{
+			"sections_title": "biomech i"
+		},
+		{
+			"sections_title": "leisure sport sc"
+		},
+		{
+			"sections_title": "antmy & physio i"
+		},
+		{
+			"sections_title": "antmy & physi ii"
+		},
+		{
+			"sections_title": "hmn mtr behavr i"
+		},
+		{
+			"sections_title": "sport&exer psyc"
+		},
+		{
+			"sections_title": "hlth pol & soci"
+		},
+		{
+			"sections_title": "exer physolgy i"
+		},
+		{
+			"sections_title": "phy grw&mtr devl"
+		},
+		{
+			"sections_title": "high perf cond"
+		},
+		{
+			"sections_title": "hmn mot behav ii"
+		},
+		{
+			"sections_title": "biol athlet perf"
+		},
+		{
+			"sections_title": "biomech ii"
+		},
+		{
+			"sections_title": "spt, peace, cnfl"
+		},
+		{
+			"sections_title": "intr athl traing"
+		},
+		{
+			"sections_title": "adapted phys act"
+		},
+		{
+			"sections_title": "phys act indv sn"
+		},
+		{
+			"sections_title": "fndtns coaching"
+		},
+		{
+			"sections_title": "mvmt exp yg chld"
+		},
+		{
+			"sections_title": "leis & disbl prs"
+		},
+		{
+			"sections_title": "leis serv disbl"
+		},
+		{
+			"sections_title": "inst anly&design"
+		},
+		{
+			"sections_title": "intr stats kin"
+		},
+		{
+			"sections_title": "resrch meth kin"
+		},
+		{
+			"sections_title": "exer physolgy ii"
+		},
+		{
+			"sections_title": "leis sport& cltr"
+		},
+		{
+			"sections_title": "meaning & values"
+		},
+		{
+			"sections_title": "modern olympics"
+		},
+		{
+			"sections_title": "nrmscl intg hm m"
+		},
+		{
+			"sections_title": "pln pe,sp&ex prg"
+		},
+		{
+			"sections_title": "cncptl game educ"
+		},
+		{
+			"sections_title": "prev spts inj i"
+		},
+		{
+			"sections_title": "skl mus physiol"
+		},
+		{
+			"sections_title": "hlth pro phy act"
+		},
+		{
+			"sections_title": "intclt hlth&phys"
+		},
+		{
+			"sections_title": "exercise prscptn"
+		},
+		{
+			"sections_title": "chrn hlth iss"
+		},
+		{
+			"sections_title": "prev spts inj ii"
+		},
+		{
+			"sections_title": "neuroant hum mvm"
+		},
+		{
+			"sections_title": "pulm phys exerci"
+		},
+		{
+			"sections_title": "spt mrktg & comm"
+		},
+		{
+			"sections_title": "kin project"
+		},
+		{
+			"sections_title": "spec tpcs kin"
+		},
+		{
+			"sections_title": "gap analysis"
+		},
+		{
+			"sections_title": "bioenrgtc ph act"
+		},
+		{
+			"sections_title": "py-sc asp ph act"
+		},
+		{
+			"sections_title": "phyl asp phy act"
+		},
+		{
+			"sections_title": "human motor perf"
+		},
+		{
+			"sections_title": "sem hum mtr perf"
+		},
+		{
+			"sections_title": "res mthds kin"
+		},
+		{
+			"sections_title": "qual mthds sprt"
+		},
+		{
+			"sections_title": "coaching sc i"
+		},
+		{
+			"sections_title": "prfrmnc planning"
+		},
+		{
+			"sections_title": "coaching sc ii"
+		},
+		{
+			"sections_title": "coaching effctv"
+		},
+		{
+			"sections_title": "graduating paper"
+		},
+		{
+			"sections_title": "dir fld st sp&ph"
+		},
+		{
+			"sections_title": "basic korean 2"
+		},
+		{
+			"sections_title": "basic korean"
+		},
+		{
+			"sections_title": "intermed korean"
+		},
+		{
+			"sections_title": "read:korn tpcs 1"
+		},
+		{
+			"sections_title": "read korn tpcs 2"
+		},
+		{
+			"sections_title": "doc proseminar"
+		},
+		{
+			"sections_title": "tree shrb lnd"
+		},
+		{
+			"sections_title": "land technlgy i"
+		},
+		{
+			"sections_title": "site analys 2"
+		},
+		{
+			"sections_title": "dsgn std i: intr"
+		},
+		{
+			"sections_title": "dsgn std 1: intr"
+		},
+		{
+			"sections_title": "la dsgn std i"
+		},
+		{
+			"sections_title": "dsgn std ii: dmt"
+		},
+		{
+			"sections_title": "dsgn std 2: d mt"
+		},
+		{
+			"sections_title": "la dsgn std ii"
+		},
+		{
+			"sections_title": "dsn std iii:dev"
+		},
+		{
+			"sections_title": "dsgn std 3: dev"
+		},
+		{
+			"sections_title": "la dsn std iii"
+		},
+		{
+			"sections_title": "dsn std iv: u&r"
+		},
+		{
+			"sections_title": "dsgn std 4: ur&r"
+		},
+		{
+			"sections_title": "la dsn std iv"
+		},
+		{
+			"sections_title": "la dsn std v"
+		},
+		{
+			"sections_title": "intr workshop"
+		},
+		{
+			"sections_title": "larc history"
+		},
+		{
+			"sections_title": "lndscp arch thry"
+		},
+		{
+			"sections_title": "dsgn-res mthds"
+		},
+		{
+			"sections_title": "land tech i site"
+		},
+		{
+			"sections_title": "landscp tech i"
+		},
+		{
+			"sections_title": "ldsc tech ii str"
+		},
+		{
+			"sections_title": "landscp tech ii"
+		},
+		{
+			"sections_title": "ste analy  plan 2"
+		},
+		{
+			"sections_title": "site analys&plan"
+		},
+		{
+			"sections_title": "landsc plan&mgmt"
+		},
+		{
+			"sections_title": "aesthcs&sustain"
+		},
+		{
+			"sections_title": "prof prct larc"
+		},
+		{
+			"sections_title": "grad project i"
+		},
+		{
+			"sections_title": "grad proj devel"
+		},
+		{
+			"sections_title": "intr law&society"
+		},
+		{
+			"sections_title": "intr latn am std"
+		},
+		{
+			"sections_title": "pop cult ltn am"
+		},
+		{
+			"sections_title": "1yr latin i"
+		},
+		{
+			"sections_title": "1yr latin ii"
+		},
+		{
+			"sections_title": "2yr latin i"
+		},
+		{
+			"sections_title": "2yr latin ii"
+		},
+		{
+			"sections_title": "latn lit cls prs"
+		},
+		{
+			"sections_title": "latn lit cls vrs"
+		},
+		{
+			"sections_title": "cdn const law"
+		},
+		{
+			"sections_title": "contracts"
+		},
+		{
+			"sections_title": "crim law & procd"
+		},
+		{
+			"sections_title": "property law"
+		},
+		{
+			"sections_title": "torts"
+		},
+		{
+			"sections_title": "public law"
+		},
+		{
+			"sections_title": "transnational"
+		},
+		{
+			"sections_title": "lgl rsrch&writng"
+		},
+		{
+			"sections_title": "jurisp & crit pr"
+		},
+		{
+			"sections_title": "wstrn idea law"
+		},
+		{
+			"sections_title": "law, soc & state"
+		},
+		{
+			"sections_title": "internation law"
+		},
+		{
+			"sections_title": "conflict of laws"
+		},
+		{
+			"sections_title": "intro asian lgl"
+		},
+		{
+			"sections_title": "chinese law"
+		},
+		{
+			"sections_title": "comparative law"
+		},
+		{
+			"sections_title": "aborig & cdn law"
+		},
+		{
+			"sections_title": "abor & trty rght"
+		},
+		{
+			"sections_title": "1st ntns & econ"
+		},
+		{
+			"sections_title": "family law"
+		},
+		{
+			"sections_title": "administratv law"
+		},
+		{
+			"sections_title": "tpc socl justice"
+		},
+		{
+			"sections_title": "municipal law"
+		},
+		{
+			"sections_title": "immigration law"
+		},
+		{
+			"sections_title": "law & medicine"
+		},
+		{
+			"sections_title": "sustain develop"
+		},
+		{
+			"sections_title": "environmentl law"
+		},
+		{
+			"sections_title": "mining law"
+		},
+		{
+			"sections_title": "forest law"
+		},
+		{
+			"sections_title": "oil & gas law"
+		},
+		{
+			"sections_title": "adv crim procedr"
+		},
+		{
+			"sections_title": "homicide law"
+		},
+		{
+			"sections_title": "taxation"
+		},
+		{
+			"sections_title": "taxatn corp&shar"
+		},
+		{
+			"sections_title": "taxation ii"
+		},
+		{
+			"sections_title": "taxn of prtnrshp"
+		},
+		{
+			"sections_title": "intl taxation"
+		},
+		{
+			"sections_title": "taxn trst&estate"
+		},
+		{
+			"sections_title": "labour law"
+		},
+		{
+			"sections_title": "intellect propty"
+		},
+		{
+			"sections_title": "adv lgl research"
+		},
+		{
+			"sections_title": "restitution"
+		},
+		{
+			"sections_title": "commercial trans"
+		},
+		{
+			"sections_title": "secured trans"
+		},
+		{
+			"sections_title": "construction law"
+		},
+		{
+			"sections_title": "insurance"
+		},
+		{
+			"sections_title": "creditors' remed"
+		},
+		{
+			"sections_title": "insolvency law"
+		},
+		{
+			"sections_title": "sports law"
+		},
+		{
+			"sections_title": "media/entrmt law"
+		},
+		{
+			"sections_title": "trusts"
+		},
+		{
+			"sections_title": "olympic games"
+		},
+		{
+			"sections_title": "succession"
+		},
+		{
+			"sections_title": "equitable remedi"
+		},
+		{
+			"sections_title": "real estate tran"
+		},
+		{
+			"sections_title": "real estate dvlp"
+		},
+		{
+			"sections_title": "busns organzatns"
+		},
+		{
+			"sections_title": "adv corp law"
+		},
+		{
+			"sections_title": "corporations ii"
+		},
+		{
+			"sections_title": "corporate trans"
+		},
+		{
+			"sections_title": "close corporatn"
+		},
+		{
+			"sections_title": "secur regulation"
+		},
+		{
+			"sections_title": "competition plcy"
+		},
+		{
+			"sections_title": "intro corp finan"
+		},
+		{
+			"sections_title": "bus law capstone"
+		},
+		{
+			"sections_title": "ethics & prof"
+		},
+		{
+			"sections_title": "prof responsblty"
+		},
+		{
+			"sections_title": "civil procedure"
+		},
+		{
+			"sections_title": "innocence projct"
+		},
+		{
+			"sections_title": "appellate advoc"
+		},
+		{
+			"sections_title": "evidence"
+		},
+		{
+			"sections_title": "psyc & litigatin"
+		},
+		{
+			"sections_title": "negtn & disp res"
+		},
+		{
+			"sections_title": "clincl trm paper"
+		},
+		{
+			"sections_title": "can public law"
+		},
+		{
+			"sections_title": "administrtve law"
+		},
+		{
+			"sections_title": "can crim law&pro"
+		},
+		{
+			"sections_title": "adv lgl rsrc&wrt"
+		},
+		{
+			"sections_title": "top common law"
+		},
+		{
+			"sections_title": "corp&shrhld tax"
+		},
+		{
+			"sections_title": "partnership tax"
+		},
+		{
+			"sections_title": "trust&estate tax"
+		},
+		{
+			"sections_title": "internationl tax"
+		},
+		{
+			"sections_title": "tax policy"
+		},
+		{
+			"sections_title": "tax law & policy"
+		},
+		{
+			"sections_title": "tax admin&disput"
+		},
+		{
+			"sections_title": "in land food com"
+		},
+		{
+			"sections_title": "schol writ&argue"
+		},
+		{
+			"sections_title": "lnd,fod&comm i"
+		},
+		{
+			"sections_title": "lnd, food&comnty"
+		},
+		{
+			"sections_title": "hlth&trad plnts"
+		},
+		{
+			"sections_title": "land food comm 2"
+		},
+		{
+			"sections_title": "dig comm&tpcs ag"
+		},
+		{
+			"sections_title": "audio strytellng"
+		},
+		{
+			"sections_title": "land food comm 3"
+		},
+		{
+			"sections_title": "integ knowledge"
+		},
+		{
+			"sections_title": "admin of sch lrc"
+		},
+		{
+			"sections_title": "select libr res"
+		},
+		{
+			"sections_title": "org lrn res"
+		},
+		{
+			"sections_title": "info services i"
+		},
+		{
+			"sections_title": "info org mgmt"
+		},
+		{
+			"sections_title": "rsrch methods"
+		},
+		{
+			"sections_title": "human-infrmation"
+		},
+		{
+			"sections_title": "meths of resrch"
+		},
+		{
+			"sections_title": "info practices"
+		},
+		{
+			"sections_title": "resdesc knoworg"
+		},
+		{
+			"sections_title": "catlg & class"
+		},
+		{
+			"sections_title": "indexing"
+		},
+		{
+			"sections_title": "info asset mgmt"
+		},
+		{
+			"sections_title": "child literature"
+		},
+		{
+			"sections_title": "contmp child lit"
+		},
+		{
+			"sections_title": "cdn chld lit"
+		},
+		{
+			"sections_title": "serv for chld"
+		},
+		{
+			"sections_title": "young adlt serv"
+		},
+		{
+			"sections_title": "fam serv & litcy"
+		},
+		{
+			"sections_title": "client-ctrd serv"
+		},
+		{
+			"sections_title": "sci/tech serv"
+		},
+		{
+			"sections_title": "legal inf serv"
+		},
+		{
+			"sections_title": "health info serv"
+		},
+		{
+			"sections_title": "instructnl role"
+		},
+		{
+			"sections_title": "automation & sys"
+		},
+		{
+			"sections_title": "in desg i - syst"
+		},
+		{
+			"sections_title": "info retrvl sys"
+		},
+		{
+			"sections_title": "fncl management"
+		},
+		{
+			"sections_title": "proj management"
+		},
+		{
+			"sections_title": "acad libraries"
+		},
+		{
+			"sections_title": "collection mgmt"
+		},
+		{
+			"sections_title": "dgtl libraries"
+		},
+		{
+			"sections_title": "dgtl img & text"
+		},
+		{
+			"sections_title": "dir res project"
+		},
+		{
+			"sections_title": "directed study"
+		},
+		{
+			"sections_title": "research collbrt"
+		},
+		{
+			"sections_title": "intr lang&ling"
+		},
+		{
+			"sections_title": "lang of world"
+		},
+		{
+			"sections_title": "challg lang myth"
+		},
+		{
+			"sections_title": "ling thry&anl i"
+		},
+		{
+			"sections_title": "ling thry&anl ii"
+		},
+		{
+			"sections_title": "tpc sp,lang,hrng"
+		},
+		{
+			"sections_title": "lang acquisition"
+		},
+		{
+			"sections_title": "stdy grammar"
+		},
+		{
+			"sections_title": "stdy phonology"
+		},
+		{
+			"sections_title": "intr speech scie"
+		},
+		{
+			"sections_title": "instr phonetics"
+		},
+		{
+			"sections_title": "comp & hist ling"
+		},
+		{
+			"sections_title": "intro semantics"
+		},
+		{
+			"sections_title": "rsrch mthds ling"
+		},
+		{
+			"sections_title": "pragmatics"
+		},
+		{
+			"sections_title": "morphology"
+		},
+		{
+			"sections_title": "field methods i"
+		},
+		{
+			"sections_title": "field methods ii"
+		},
+		{
+			"sections_title": "natv lang  amers"
+		},
+		{
+			"sections_title": "sociolinguistics"
+		},
+		{
+			"sections_title": "acq phonology"
+		},
+		{
+			"sections_title": "acq syntax"
+		},
+		{
+			"sections_title": "phonetic theory"
+		},
+		{
+			"sections_title": "phon thry&anl"
+		},
+		{
+			"sections_title": "adv rsch seminar"
+		},
+		{
+			"sections_title": "syn theor analys"
+		},
+		{
+			"sections_title": "sem theor"
+		},
+		{
+			"sections_title": "fld mthd ling i"
+		},
+		{
+			"sections_title": "fld mthd ling ii"
+		},
+		{
+			"sections_title": "intro acad writ"
+		},
+		{
+			"sections_title": "crit read&writ"
+		},
+		{
+			"sections_title": "images in texts"
+		},
+		{
+			"sections_title": "soc proc incl/ex"
+		},
+		{
+			"sections_title": "lang communites"
+		},
+		{
+			"sections_title": "intrclt comm"
+		},
+		{
+			"sections_title": "trans globe soc"
+		},
+		{
+			"sections_title": "lang maintenance"
+		},
+		{
+			"sections_title": "lang practices"
+		},
+		{
+			"sections_title": "world englishes"
+		},
+		{
+			"sections_title": "thr & pr rdg ins"
+		},
+		{
+			"sections_title": "intr tch ch lit"
+		},
+		{
+			"sections_title": "tch illus mater"
+		},
+		{
+			"sections_title": "t & l kind & prm"
+		},
+		{
+			"sections_title": "lit cont int-sec"
+		},
+		{
+			"sections_title": "disc lit int-sec"
+		},
+		{
+			"sections_title": "trnd iss rdg ins"
+		},
+		{
+			"sections_title": "sch lrc prog"
+		},
+		{
+			"sections_title": "resource-bsd tch"
+		},
+		{
+			"sections_title": "educ immig stdts"
+		},
+		{
+			"sections_title": "2nd lang assess: c&e app"
+		},
+		{
+			"sections_title": "theory fdtn read"
+		},
+		{
+			"sections_title": "fam lit"
+		},
+		{
+			"sections_title": "thry/res engl ed"
+		},
+		{
+			"sections_title": "clt&pol sec lang"
+		},
+		{
+			"sections_title": "thr lng&lit rsrc"
+		},
+		{
+			"sections_title": "doctoral seminar"
+		},
+		{
+			"sections_title": "crt anly iss&mth"
+		},
+		{
+			"sections_title": "df calc ap ph sc"
+		},
+		{
+			"sections_title": "int calc ap ph s"
+		},
+		{
+			"sections_title": "df calc app lf s"
+		},
+		{
+			"sections_title": "int calc ap lf s"
+		},
+		{
+			"sections_title": "dff calc ap c&ss"
+		},
+		{
+			"sections_title": "int calc ap c&ss"
+		},
+		{
+			"sections_title": "diff calculus"
+		},
+		{
+			"sections_title": "differ calculus"
+		},
+		{
+			"sections_title": "integral calculu"
+		},
+		{
+			"sections_title": "linear systems"
+		},
+		{
+			"sections_title": "dif calc phys ap"
+		},
+		{
+			"sections_title": "calc socsci comm"
+		},
+		{
+			"sections_title": "calculus survey"
+		},
+		{
+			"sections_title": "calculus 3"
+		},
+		{
+			"sections_title": "intro math compu"
+		},
+		{
+			"sections_title": "elem diff eq i"
+		},
+		{
+			"sections_title": "mltvar&vctr calc"
+		},
+		{
+			"sections_title": "math proof"
+		},
+		{
+			"sections_title": "matrix algebra"
+		},
+		{
+			"sections_title": "linear algebra i"
+		},
+		{
+			"sections_title": "adv calculus i"
+		},
+		{
+			"sections_title": "adv calculus ii"
+		},
+		{
+			"sections_title": "multivrbl calc"
+		},
+		{
+			"sections_title": "ord diff equtns"
+		},
+		{
+			"sections_title": "diff equations"
+		},
+		{
+			"sections_title": "partl diff equat"
+		},
+		{
+			"sections_title": "vctr calc el eng"
+		},
+		{
+			"sections_title": "intr complex var"
+		},
+		{
+			"sections_title": "applied analysis"
+		},
+		{
+			"sections_title": "intr probability"
+		},
+		{
+			"sections_title": "intr stoch proc"
+		},
+		{
+			"sections_title": "apld complx anly"
+		},
+		{
+			"sections_title": "appl linear algb"
+		},
+		{
+			"sections_title": "euclidn geometry"
+		},
+		{
+			"sections_title": "abstr linear alg"
+		},
+		{
+			"sections_title": "intr number thry"
+		},
+		{
+			"sections_title": "tpcs number thry"
+		},
+		{
+			"sections_title": "diff equations 2"
+		},
+		{
+			"sections_title": "calculus iv"
+		},
+		{
+			"sections_title": "prob phys app"
+		},
+		{
+			"sections_title": "real variabls i"
+		},
+		{
+			"sections_title": "real variabls ii"
+		},
+		{
+			"sections_title": "intr algebra"
+		},
+		{
+			"sections_title": "intr grp theory"
+		},
+		{
+			"sections_title": "int rings&module"
+		},
+		{
+			"sections_title": "intro to math"
+		},
+		{
+			"sections_title": "intro lin prog"
+		},
+		{
+			"sections_title": "alg coding crypt"
+		},
+		{
+			"sections_title": "algbr & cod thry"
+		},
+		{
+			"sections_title": "appl nonln dy&ch"
+		},
+		{
+			"sections_title": "math modl in sci"
+		},
+		{
+			"sections_title": "app part diff eq"
+		},
+		{
+			"sections_title": "green's func&var"
+		},
+		{
+			"sections_title": "num mthds dff eq"
+		},
+		{
+			"sections_title": "var & aprx mtds"
+		},
+		{
+			"sections_title": "math demonstrtns"
+		},
+		{
+			"sections_title": "probability"
+		},
+		{
+			"sections_title": "stochastic proc"
+		},
+		{
+			"sections_title": "real analysis i"
+		},
+		{
+			"sections_title": "real analysis ii"
+		},
+		{
+			"sections_title": "groups&fields"
+		},
+		{
+			"sections_title": "flds&galois thry"
+		},
+		{
+			"sections_title": "tpcs algebra"
+		},
+		{
+			"sections_title": "intr mod diff ge"
+		},
+		{
+			"sections_title": "topics topology"
+		},
+		{
+			"sections_title": "number theory"
+		},
+		{
+			"sections_title": "complex analysis"
+		},
+		{
+			"sections_title": "mod discr opt pr"
+		},
+		{
+			"sections_title": "opt grphs&netwks"
+		},
+		{
+			"sections_title": "math rsrch&writn"
+		},
+		{
+			"sections_title": "asymp&prtb mthds"
+		},
+		{
+			"sections_title": "algebra i"
+		},
+		{
+			"sections_title": "algebra ii"
+		},
+		{
+			"sections_title": "discrete math"
+		},
+		{
+			"sections_title": "meas thry&integr"
+		},
+		{
+			"sections_title": "complex analy"
+		},
+		{
+			"sections_title": "complex analy i"
+		},
+		{
+			"sections_title": "functional analy"
+		},
+		{
+			"sections_title": "ptl dif eqn flud"
+		},
+		{
+			"sections_title": "prt diff equa i"
+		},
+		{
+			"sections_title": "num anly prtl df"
+		},
+		{
+			"sections_title": "combinatorial op"
+		},
+		{
+			"sections_title": "diff geometry i"
+		},
+		{
+			"sections_title": "algb topology i"
+		},
+		{
+			"sections_title": "algb geometry i"
+		},
+		{
+			"sections_title": "lie theory i"
+		},
+		{
+			"sections_title": "elem number thry"
+		},
+		{
+			"sections_title": "analyt num thry"
+		},
+		{
+			"sections_title": "harmonic anal i"
+		},
+		{
+			"sections_title": "probability i"
+		},
+		{
+			"sections_title": "probability ii"
+		},
+		{
+			"sections_title": "cnt tme stchastc"
+		},
+		{
+			"sections_title": "mthds asymp anal"
+		},
+		{
+			"sections_title": "pertrb diff equa"
+		},
+		{
+			"sections_title": "intr dyn systems"
+		},
+		{
+			"sections_title": "complex fluids"
+		},
+		{
+			"sections_title": "math electrophys"
+		},
+		{
+			"sections_title": "msc major essay"
+		},
+		{
+			"sections_title": "intro mdvl studi"
+		},
+		{
+			"sections_title": "euro lit 5-14cnt"
+		},
+		{
+			"sections_title": "tech skills prac"
+		},
+		{
+			"sections_title": "engin science i"
+		},
+		{
+			"sections_title": "engin science ii"
+		},
+		{
+			"sections_title": "mech design"
+		},
+		{
+			"sections_title": "eng concepts i"
+		},
+		{
+			"sections_title": "eng concepts ii"
+		},
+		{
+			"sections_title": "tech communicatn"
+		},
+		{
+			"sections_title": "mech of material"
+		},
+		{
+			"sections_title": "fluid mechanics"
+		},
+		{
+			"sections_title": "data anl&mch eng"
+		},
+		{
+			"sections_title": "data anl mec lab"
+		},
+		{
+			"sections_title": "mech design i"
+		},
+		{
+			"sections_title": "mech design ii"
+		},
+		{
+			"sections_title": "therm sys design"
+		},
+		{
+			"sections_title": "mech eng project"
+		},
+		{
+			"sections_title": "mtrl mech design"
+		},
+		{
+			"sections_title": "engineering anyl"
+		},
+		{
+			"sections_title": "mech materials"
+		},
+		{
+			"sections_title": "mechatronic syst"
+		},
+		{
+			"sections_title": "msrmnts&instrmnt"
+		},
+		{
+			"sections_title": "eng msr & instrm"
+		},
+		{
+			"sections_title": "heat transfer i"
+		},
+		{
+			"sections_title": "fluid dynamics"
+		},
+		{
+			"sections_title": "indus fluid mech"
+		},
+		{
+			"sections_title": "manu pro process"
+		},
+		{
+			"sections_title": "acst & noise ctl"
+		},
+		{
+			"sections_title": "sens & actuators"
+		},
+		{
+			"sections_title": "mcht sys instrum"
+		},
+		{
+			"sections_title": "biomechatronics"
+		},
+		{
+			"sections_title": "eng economics"
+		},
+		{
+			"sections_title": "biofluids"
+		},
+		{
+			"sections_title": "ortho biomech"
+		},
+		{
+			"sections_title": "fund inj biomech"
+		},
+		{
+			"sections_title": "biomech research"
+		},
+		{
+			"sections_title": "fuel cell systms"
+		},
+		{
+			"sections_title": "thrmoflds capstn"
+		},
+		{
+			"sections_title": "design project"
+		},
+		{
+			"sections_title": "mechtron dsn prj"
+		},
+		{
+			"sections_title": "elec/mec dsn prj"
+		},
+		{
+			"sections_title": "biomed dsgn proj"
+		},
+		{
+			"sections_title": "mech material"
+		},
+		{
+			"sections_title": "fnte elmnt anlys"
+		},
+		{
+			"sections_title": "mech vibrations"
+		},
+		{
+			"sections_title": "indust robotics"
+		},
+		{
+			"sections_title": "automatic cntrl"
+		},
+		{
+			"sections_title": "co ctrl mec sys"
+		},
+		{
+			"sections_title": "mod cont engin"
+		},
+		{
+			"sections_title": "dynam syst model"
+		},
+		{
+			"sections_title": "nrgy conv systms"
+		},
+		{
+			"sections_title": "heat vent air co"
+		},
+		{
+			"sections_title": "intrnl comb eng"
+		},
+		{
+			"sections_title": "comp fluid dyn"
+		},
+		{
+			"sections_title": "aerodyn aircft 1"
+		},
+		{
+			"sections_title": "airc design: aer"
+		},
+		{
+			"sections_title": "airc desig: stru"
+		},
+		{
+			"sections_title": "intr ship hydrdy"
+		},
+		{
+			"sections_title": "exp thermofluids"
+		},
+		{
+			"sections_title": "comp aid manufac"
+		},
+		{
+			"sections_title": "int ac research"
+		},
+		{
+			"sections_title": "industrial eng"
+		},
+		{
+			"sections_title": "inds acoustc&vib"
+		},
+		{
+			"sections_title": "linear vibrtns"
+		},
+		{
+			"sections_title": "trans phenom i"
+		},
+		{
+			"sections_title": "lin fea sld&heat"
+		},
+		{
+			"sections_title": "cntrl sens & act"
+		},
+		{
+			"sections_title": "fndns contrl eng"
+		},
+		{
+			"sections_title": "modl dynam systm"
+		},
+		{
+			"sections_title": "fdmt inj biomech"
+		},
+		{
+			"sections_title": "acoustics & cont"
+		},
+		{
+			"sections_title": "fuel cell system"
+		},
+		{
+			"sections_title": "el-mh sy dsgn pr"
+		},
+		{
+			"sections_title": "microelectromech"
+		},
+		{
+			"sections_title": "robotics: k dyn"
+		},
+		{
+			"sections_title": "convec ht transf"
+		},
+		{
+			"sections_title": "combustion"
+		},
+		{
+			"sections_title": "intrl cmbstn eng"
+		},
+		{
+			"sections_title": "exp fluid mech"
+		},
+		{
+			"sections_title": "adv eng acoustcs"
+		},
+		{
+			"sections_title": "multi-axis mach"
+		},
+		{
+			"sections_title": "mch tool str&vib"
+		},
+		{
+			"sections_title": "cad/cam prin&pra"
+		},
+		{
+			"sections_title": "proj mec studies"
+		},
+		{
+			"sections_title": "research seminar"
+		},
+		{
+			"sections_title": "immunogenetics"
+		},
+		{
+			"sections_title": "human cytogenet"
+		},
+		{
+			"sections_title": "dev orign disord"
+		},
+		{
+			"sections_title": "human bioc genet"
+		},
+		{
+			"sections_title": "humn genom&genet"
+		},
+		{
+			"sections_title": "gn&cl biol cancr"
+		},
+		{
+			"sections_title": "genome analysis"
+		},
+		{
+			"sections_title": "adv hum mole gen"
+		},
+		{
+			"sections_title": "biolgy of cancer"
+		},
+		{
+			"sections_title": "adv human gene"
+		},
+		{
+			"sections_title": "genetics& ethics"
+		},
+		{
+			"sections_title": "tpcs med gen res"
+		},
+		{
+			"sections_title": "cncpts clin gene"
+		},
+		{
+			"sections_title": "intro cln lab ro"
+		},
+		{
+			"sections_title": "adv clin rotatn"
+		},
+		{
+			"sections_title": "mole & cell biol"
+		},
+		{
+			"sections_title": "exptl med method"
+		},
+		{
+			"sections_title": "gastroenterology"
+		},
+		{
+			"sections_title": "msc thesis"
+		},
+		{
+			"sections_title": "pulmonry pthphyl"
+		},
+		{
+			"sections_title": "cardiology"
+		},
+		{
+			"sections_title": "cardiovas path"
+		},
+		{
+			"sections_title": "mol reg cell gro"
+		},
+		{
+			"sections_title": "int env micrbiol"
+		},
+		{
+			"sections_title": "intro microbiol"
+		},
+		{
+			"sections_title": "med micb & immun"
+		},
+		{
+			"sections_title": "basic microb lab"
+		},
+		{
+			"sections_title": "basic microb tec"
+		},
+		{
+			"sections_title": "microb ecophys"
+		},
+		{
+			"sections_title": "immunology"
+		},
+		{
+			"sections_title": "molecul virology"
+		},
+		{
+			"sections_title": "paradm bact path"
+		},
+		{
+			"sections_title": "moleclr micb lab"
+		},
+		{
+			"sections_title": "micb techn's"
+		},
+		{
+			"sections_title": "molc immn&vir lb"
+		},
+		{
+			"sections_title": "adv micb techn's"
+		},
+		{
+			"sections_title": "microbl genetics"
+		},
+		{
+			"sections_title": "anlysis mcro g&g"
+		},
+		{
+			"sections_title": "food microbi lab"
+		},
+		{
+			"sections_title": "food microbi"
+		},
+		{
+			"sections_title": "env microbi lab"
+		},
+		{
+			"sections_title": "env microbi tech"
+		},
+		{
+			"sections_title": "adv immunology"
+		},
+		{
+			"sections_title": "top mol bac path"
+		},
+		{
+			"sections_title": "bioinformatics"
+		},
+		{
+			"sections_title": "top mol virology"
+		},
+		{
+			"sections_title": "viral infec humn"
+		},
+		{
+			"sections_title": "adv bact pathgns"
+		},
+		{
+			"sections_title": "top immun resrch"
+		},
+		{
+			"sections_title": "microbio&biotech"
+		},
+		{
+			"sections_title": "expermntl micb"
+		},
+		{
+			"sections_title": "cel dynam bacter"
+		},
+		{
+			"sections_title": "micb eco genomic"
+		},
+		{
+			"sections_title": "exprmtl research"
+		},
+		{
+			"sections_title": "exprmtl molecbio"
+		},
+		{
+			"sections_title": "research problem"
+		},
+		{
+			"sections_title": "adv immunogeneti"
+		},
+		{
+			"sections_title": "tp mol pth & imm"
+		},
+		{
+			"sections_title": "cnsl mat cr prov"
+		},
+		{
+			"sections_title": "birth meaning"
+		},
+		{
+			"sections_title": "appl hlth serv"
+		},
+		{
+			"sections_title": "lactation conslt"
+		},
+		{
+			"sections_title": "theory & practic"
+		},
+		{
+			"sections_title": "crit apprais lit"
+		},
+		{
+			"sections_title": "pharmacology"
+		},
+		{
+			"sections_title": "primry care thry"
+		},
+		{
+			"sections_title": "midwifery care i"
+		},
+		{
+			"sections_title": "ethics mtrnycare"
+		},
+		{
+			"sections_title": "clinical skills"
+		},
+		{
+			"sections_title": "thry var prim cr"
+		},
+		{
+			"sections_title": "sr rsrch project"
+		},
+		{
+			"sections_title": "pro is in midwif"
+		},
+		{
+			"sections_title": "adv topics"
+		},
+		{
+			"sections_title": "clinical clerkship"
+		},
+		{
+			"sections_title": "comp thry&prctc"
+		},
+		{
+			"sections_title": "minerolgy mn eng"
+		},
+		{
+			"sections_title": "intro to mining"
+		},
+		{
+			"sections_title": "intr mnrl proces"
+		},
+		{
+			"sections_title": "undg min des"
+		},
+		{
+			"sections_title": "rock mech fun"
+		},
+		{
+			"sections_title": "rock fragmentatn"
+		},
+		{
+			"sections_title": "drill & blast"
+		},
+		{
+			"sections_title": "surf min des"
+		},
+		{
+			"sections_title": "phys mineral prc"
+		},
+		{
+			"sections_title": "flotation"
+		},
+		{
+			"sections_title": "model & simulatn"
+		},
+		{
+			"sections_title": "eng econ"
+		},
+		{
+			"sections_title": "ventltn&occ hlth"
+		},
+		{
+			"sections_title": "mine vent"
+		},
+		{
+			"sections_title": "rock mech"
+		},
+		{
+			"sections_title": "mine mgmt"
+		},
+		{
+			"sections_title": "ind auto rob"
+		},
+		{
+			"sections_title": "pro pre met"
+		},
+		{
+			"sections_title": "adv prcss minlgy"
+		},
+		{
+			"sections_title": "coal prep tech"
+		},
+		{
+			"sections_title": "min wast mgmt"
+		},
+		{
+			"sections_title": "main eng"
+		},
+		{
+			"sections_title": "cave mn sys: d&p"
+		},
+		{
+			"sections_title": "min & the env"
+		},
+		{
+			"sections_title": "hvy oil snd mine"
+		},
+		{
+			"sections_title": "min plant feas"
+		},
+		{
+			"sections_title": "min method"
+		},
+		{
+			"sections_title": "mining in future"
+		},
+		{
+			"sections_title": "adv coal prep"
+		},
+		{
+			"sections_title": "pro pre met ore"
+		},
+		{
+			"sections_title": "env tech iss"
+		},
+		{
+			"sections_title": "min envi case"
+		},
+		{
+			"sections_title": "min geostat"
+		},
+		{
+			"sections_title": "mdl indstrl syst"
+		},
+		{
+			"sections_title": "mgmt sc meth"
+		},
+		{
+			"sections_title": "min eco fin"
+		},
+		{
+			"sections_title": "min & soc"
+		},
+		{
+			"sections_title": "rock slope"
+		},
+		{
+			"sections_title": "eng proj"
+		},
+		{
+			"sections_title": "str&fnc mrne anl"
+		},
+		{
+			"sections_title": "eco adp seaweeds"
+		},
+		{
+			"sections_title": "pop&comm ec mr o"
+		},
+		{
+			"sections_title": "sem&pprs mrne sc"
+		},
+		{
+			"sections_title": "techncl commnctn"
+		},
+		{
+			"sections_title": "met thermodyn i"
+		},
+		{
+			"sections_title": "pyrometallurgy"
+		},
+		{
+			"sections_title": "transport phen i"
+		},
+		{
+			"sections_title": "heat transport"
+		},
+		{
+			"sections_title": "matls in design"
+		},
+		{
+			"sections_title": "manufacturing"
+		},
+		{
+			"sections_title": "met thermodyn ii"
+		},
+		{
+			"sections_title": "hydrometalrgy i"
+		},
+		{
+			"sections_title": "hydromtl i lab"
+		},
+		{
+			"sections_title": "modlg matls proc"
+		},
+		{
+			"sections_title": "mass transport"
+		},
+		{
+			"sections_title": "trans phen ii"
+		},
+		{
+			"sections_title": "mech beh matls"
+		},
+		{
+			"sections_title": "phse transformtn"
+		},
+		{
+			"sections_title": "struc&prpty lab"
+		},
+		{
+			"sections_title": "ceramics"
+		},
+		{
+			"sections_title": "ceramics 1"
+		},
+		{
+			"sections_title": "eng tech commun"
+		},
+		{
+			"sections_title": "plymr&p matrx cp"
+		},
+		{
+			"sections_title": "coat&surf modfcn"
+		},
+		{
+			"sections_title": "microstruct anls"
+		},
+		{
+			"sections_title": "econ aspects"
+		},
+		{
+			"sections_title": "env degrad mtrls"
+		},
+		{
+			"sections_title": "corrosion engrng"
+		},
+		{
+			"sections_title": "hydrometllrgy ii"
+		},
+		{
+			"sections_title": "monitor & optimz"
+		},
+		{
+			"sections_title": "eng project i"
+		},
+		{
+			"sections_title": "eng project ii"
+		},
+		{
+			"sections_title": "nanofibre tech"
+		},
+		{
+			"sections_title": "weld & join mtrl"
+		},
+		{
+			"sections_title": "microstrtr eng"
+		},
+		{
+			"sections_title": "microstrtr model"
+		},
+		{
+			"sections_title": "electrnc matrls"
+		},
+		{
+			"sections_title": "failure of mtrls"
+		},
+		{
+			"sections_title": "nondestrctv eval"
+		},
+		{
+			"sections_title": "seminar iii"
+		},
+		{
+			"sections_title": "comp materials"
+		},
+		{
+			"sections_title": "mtrl manufact"
+		},
+		{
+			"sections_title": "sep sc aq met pr"
+		},
+		{
+			"sections_title": "adv hydromtlrgy"
+		},
+		{
+			"sections_title": "fin el heat tran"
+		},
+		{
+			"sections_title": "hydrmtllgcl rctr"
+		},
+		{
+			"sections_title": "adv nanofbr tech"
+		},
+		{
+			"sections_title": "mcr evl dfrm mtl"
+		},
+		{
+			"sections_title": "phys micrfabrctn"
+		},
+		{
+			"sections_title": "adv ceramics"
+		},
+		{
+			"sections_title": "topics frac mech"
+		},
+		{
+			"sections_title": "adv compsit mtrl"
+		},
+		{
+			"sections_title": "adv biomaterials"
+		},
+		{
+			"sections_title": "prnc muscl form"
+		},
+		{
+			"sections_title": "diatnc hrmny&vce"
+		},
+		{
+			"sections_title": "intro musc thry"
+		},
+		{
+			"sections_title": "intr to diatonic"
+		},
+		{
+			"sections_title": "class brass&perc"
+		},
+		{
+			"sections_title": "intr music tech"
+		},
+		{
+			"sections_title": "hist music i"
+		},
+		{
+			"sections_title": "hist music ii"
+		},
+		{
+			"sections_title": "class woodwinds"
+		},
+		{
+			"sections_title": "class voice"
+		},
+		{
+			"sections_title": "opera repertr i"
+		},
+		{
+			"sections_title": "class piano i"
+		},
+		{
+			"sections_title": "clbrtv piano i"
+		},
+		{
+			"sections_title": "contem players"
+		},
+		{
+			"sections_title": "jazz ensemble"
+		},
+		{
+			"sections_title": "piano chamber"
+		},
+		{
+			"sections_title": "lyric diction"
+		},
+		{
+			"sections_title": "chrmtc hrmny&vce"
+		},
+		{
+			"sections_title": "musical forms"
+		},
+		{
+			"sections_title": "hist music iii"
+		},
+		{
+			"sections_title": "hist music iv"
+		},
+		{
+			"sections_title": "opera repertr 2"
+		},
+		{
+			"sections_title": "class piano ii"
+		},
+		{
+			"sections_title": "clbrtv piano ii"
+		},
+		{
+			"sections_title": "cmp&anl ap p ton"
+		},
+		{
+			"sections_title": "cmp&anl ap m mod"
+		},
+		{
+			"sections_title": "rdngs orch rep"
+		},
+		{
+			"sections_title": "instrumentation"
+		},
+		{
+			"sections_title": "orchestration"
+		},
+		{
+			"sections_title": "conducting"
+		},
+		{
+			"sections_title": "instr conducting"
+		},
+		{
+			"sections_title": "chor conducting"
+		},
+		{
+			"sections_title": "computer music"
+		},
+		{
+			"sections_title": "hist poplr music"
+		},
+		{
+			"sections_title": "opera tht tech1"
+		},
+		{
+			"sections_title": "keyboard hrmy&tr"
+		},
+		{
+			"sections_title": "baroque music"
+		},
+		{
+			"sections_title": "hist of jazz"
+		},
+		{
+			"sections_title": "intr schenkrn an"
+		},
+		{
+			"sections_title": "counterpoint"
+		},
+		{
+			"sections_title": "imgng muscl perf"
+		},
+		{
+			"sections_title": "opera tht tech2"
+		},
+		{
+			"sections_title": "piano pd ii: app"
+		},
+		{
+			"sections_title": "vocal techniques"
+		},
+		{
+			"sections_title": "hist of opera i"
+		},
+		{
+			"sections_title": "song repertre ii"
+		},
+		{
+			"sections_title": "orch repertoire"
+		},
+		{
+			"sections_title": "int ethnmuscolgy"
+		},
+		{
+			"sections_title": "art song int prf"
+		},
+		{
+			"sections_title": "ubc singers"
+		},
+		{
+			"sections_title": "early music ens"
+		},
+		{
+			"sections_title": "ubc chamb string"
+		},
+		{
+			"sections_title": "contemp players"
+		},
+		{
+			"sections_title": "adv ship strctur"
+		},
+		{
+			"sections_title": "adv ship hydrdyn"
+		},
+		{
+			"sections_title": "shp prod ind eng"
+		},
+		{
+			"sections_title": "shpbld proj mgmt"
+		},
+		{
+			"sections_title": "ship dynm contrl"
+		},
+		{
+			"sections_title": "marine enginring"
+		},
+		{
+			"sections_title": "cmptr ship desgn"
+		},
+		{
+			"sections_title": "neast&egypt arch"
+		},
+		{
+			"sections_title": "ancient nr east"
+		},
+		{
+			"sections_title": "hist anc egypt"
+		},
+		{
+			"sections_title": "art&archae eygpt"
+		},
+		{
+			"sections_title": "egyptomania"
+		},
+		{
+			"sections_title": "ancnt egpt lit"
+		},
+		{
+			"sections_title": "ancent egypt lit"
+		},
+		{
+			"sections_title": "neuroscience i"
+		},
+		{
+			"sections_title": "neuroscience ii"
+		},
+		{
+			"sections_title": "fndtn nurs pract"
+		},
+		{
+			"sections_title": "adults & famlies"
+		},
+		{
+			"sections_title": "relational pract"
+		},
+		{
+			"sections_title": "crit inq &resrch"
+		},
+		{
+			"sections_title": "ldrshp, ethics"
+		},
+		{
+			"sections_title": "childbring women"
+		},
+		{
+			"sections_title": "infnt chld youth"
+		},
+		{
+			"sections_title": "adlt mntl illnss"
+		},
+		{
+			"sections_title": "commnty & popltn"
+		},
+		{
+			"sections_title": "adlts & families"
+		},
+		{
+			"sections_title": "rl div hlth expr"
+		},
+		{
+			"sections_title": "crit inq & rs pr"
+		},
+		{
+			"sections_title": "practice praxis"
+		},
+		{
+			"sections_title": "ldrshp ethcs pol"
+		},
+		{
+			"sections_title": "synthesis projct"
+		},
+		{
+			"sections_title": "adlt acute condn"
+		},
+		{
+			"sections_title": "chldbrg families"
+		},
+		{
+			"sections_title": "chldren&families"
+		},
+		{
+			"sections_title": "mntl hlth concrn"
+		},
+		{
+			"sections_title": "commnty&pop hlth"
+		},
+		{
+			"sections_title": "ethc&poltc nurs"
+		},
+		{
+			"sections_title": "rsrch evidence"
+		},
+		{
+			"sections_title": "stat lit nursing"
+		},
+		{
+			"sections_title": "hlth promo prac"
+		},
+		{
+			"sections_title": "pharcgy prm care"
+		},
+		{
+			"sections_title": "pthophysiol proc"
+		},
+		{
+			"sections_title": "cl pro prim care"
+		},
+		{
+			"sections_title": "adv hlth assess"
+		},
+		{
+			"sections_title": "fndtns nurs prac"
+		},
+		{
+			"sections_title": "leadrshp nursing"
+		},
+		{
+			"sections_title": "admn ldrshp nurs"
+		},
+		{
+			"sections_title": "adv prct nurs"
+		},
+		{
+			"sections_title": "educ prc nurs"
+		},
+		{
+			"sections_title": "soc epidemiology"
+		},
+		{
+			"sections_title": "quant mtds&anyl"
+		},
+		{
+			"sections_title": "meths nurs sci"
+		},
+		{
+			"sections_title": "adv quant design"
+		},
+		{
+			"sections_title": "primary care i"
+		},
+		{
+			"sections_title": "primary care ii"
+		},
+		{
+			"sections_title": "primary care iii"
+		},
+		{
+			"sections_title": "fam nrs pract"
+		},
+		{
+			"sections_title": "phil evidence"
+		},
+		{
+			"sections_title": "eth&profl issues"
+		},
+		{
+			"sections_title": "msn major essay"
+		},
+		{
+			"sections_title": "sch adv rsrch pr"
+		},
+		{
+			"sections_title": "primry care proj"
+		},
+		{
+			"sections_title": "reprd endocrin i"
+		},
+		{
+			"sections_title": "physlgy m/f/nbrn"
+		},
+		{
+			"sections_title": "fetl&perntl metb"
+		},
+		{
+			"sections_title": "reprd endocrn ii"
+		},
+		{
+			"sections_title": "sem reprd biol"
+		},
+		{
+			"sections_title": "perinatal epidem"
+		},
+		{
+			"sections_title": "concepts in onco"
+		},
+		{
+			"sections_title": "backgrd med lab"
+		},
+		{
+			"sections_title": "biochem med lab"
+		},
+		{
+			"sections_title": "cytogenetics"
+		},
+		{
+			"sections_title": "hum histology"
+		},
+		{
+			"sections_title": "mod microscopy"
+		},
+		{
+			"sections_title": "med lab safety"
+		},
+		{
+			"sections_title": "nuclear medicine"
+		},
+		{
+			"sections_title": "bac,myc,vir&para"
+		},
+		{
+			"sections_title": "intro human path"
+		},
+		{
+			"sections_title": "haematology"
+		},
+		{
+			"sections_title": "histochemistry"
+		},
+		{
+			"sections_title": "sem curr topics"
+		},
+		{
+			"sections_title": "clin chem"
+		},
+		{
+			"sections_title": "med lab toxiclgy"
+		},
+		{
+			"sections_title": "lab admin"
+		},
+		{
+			"sections_title": "immunopathology"
+		},
+		{
+			"sections_title": "infection contro"
+		},
+		{
+			"sections_title": "viral infections"
+		},
+		{
+			"sections_title": "clk in lab medic"
+		},
+		{
+			"sections_title": "micr infectn ctl"
+		},
+		{
+			"sections_title": "epid infect cont"
+		},
+		{
+			"sections_title": "fnd humn histopt"
+		},
+		{
+			"sections_title": "tpcs path rsrch"
+		},
+		{
+			"sections_title": "tech mlc biol&ex"
+		},
+		{
+			"sections_title": "drugs & society"
+		},
+		{
+			"sections_title": "intro to pcol"
+		},
+		{
+			"sections_title": "intro pharmaclgy"
+		},
+		{
+			"sections_title": "human pharmclgy"
+		},
+		{
+			"sections_title": "rnl bs drug ther"
+		},
+		{
+			"sections_title": "systematic pcol"
+		},
+		{
+			"sections_title": "systmtc pcol lab"
+		},
+		{
+			"sections_title": "drug assay&phrmc"
+		},
+		{
+			"sections_title": "drugs &intercell"
+		},
+		{
+			"sections_title": "design & bioassy"
+		},
+		{
+			"sections_title": "pcol anaesthesia"
+		},
+		{
+			"sections_title": "ms thesis"
+		},
+		{
+			"sections_title": "basic persian 1"
+		},
+		{
+			"sections_title": "basic persian 2"
+		},
+		{
+			"sections_title": "pers writ & read"
+		},
+		{
+			"sections_title": "int persian 1"
+		},
+		{
+			"sections_title": "int persian 2"
+		},
+		{
+			"sections_title": "adv persian 1"
+		},
+		{
+			"sections_title": "pharmacy ii"
+		},
+		{
+			"sections_title": "pharmacokinetics"
+		},
+		{
+			"sections_title": "biophys pharm i"
+		},
+		{
+			"sections_title": "biophys pharm ii"
+		},
+		{
+			"sections_title": "bio pharm chem i"
+		},
+		{
+			"sections_title": "pgx genetcs drgs"
+		},
+		{
+			"sections_title": "pharmacology i"
+		},
+		{
+			"sections_title": "pharmacology ii"
+		},
+		{
+			"sections_title": "therapeutics i"
+		},
+		{
+			"sections_title": "therapeutics ii"
+		},
+		{
+			"sections_title": "non-pres drugs 1"
+		},
+		{
+			"sections_title": "non-pres drugs"
+		},
+		{
+			"sections_title": "non-pres drug 2"
+		},
+		{
+			"sections_title": "non-pres drug ii"
+		},
+		{
+			"sections_title": "pathophys i"
+		},
+		{
+			"sections_title": "cases pharm ii"
+		},
+		{
+			"sections_title": "pharm mgmt"
+		},
+		{
+			"sections_title": "pharm skills iii"
+		},
+		{
+			"sections_title": "admn of injectns"
+		},
+		{
+			"sections_title": "peer teaching 2"
+		},
+		{
+			"sections_title": "drug safety"
+		},
+		{
+			"sections_title": "clin pharcknetcs"
+		},
+		{
+			"sections_title": "renl pharthrptcs"
+		},
+		{
+			"sections_title": "phar chem ii"
+		},
+		{
+			"sections_title": "phar chem i"
+		},
+		{
+			"sections_title": "phar chem iii"
+		},
+		{
+			"sections_title": "pain res & thera"
+		},
+		{
+			"sections_title": "pharmacology iii"
+		},
+		{
+			"sections_title": "pharmacology iv"
+		},
+		{
+			"sections_title": "envirn&cell toxi"
+		},
+		{
+			"sections_title": "therapeutics iii"
+		},
+		{
+			"sections_title": "therapeutics iv"
+		},
+		{
+			"sections_title": "ped geri drg thp"
+		},
+		{
+			"sections_title": "ph-ecn&tec asmnt"
+		},
+		{
+			"sections_title": "phar care aborig"
+		},
+		{
+			"sections_title": "oncolg pharmther"
+		},
+		{
+			"sections_title": "nat hlth prodcts"
+		},
+		{
+			"sections_title": "non-pres drug 3"
+		},
+		{
+			"sections_title": "drugs hlth iii"
+		},
+		{
+			"sections_title": "non-pres drug 4"
+		},
+		{
+			"sections_title": "drugs hlth iv"
+		},
+		{
+			"sections_title": "pathopysio ii"
+		},
+		{
+			"sections_title": "pathophysio iii"
+		},
+		{
+			"sections_title": "pharm scie iii"
+		},
+		{
+			"sections_title": "cs phar sci iv"
+		},
+		{
+			"sections_title": "adv pharmacother"
+		},
+		{
+			"sections_title": "adv conc pharmac"
+		},
+		{
+			"sections_title": "adv appl clin ph"
+		},
+		{
+			"sections_title": "nanomedicines"
+		},
+		{
+			"sections_title": "diag img & rdoph"
+		},
+		{
+			"sections_title": "phar res tech i"
+		},
+		{
+			"sections_title": "phar res tech ii"
+		},
+		{
+			"sections_title": "advan lab phar"
+		},
+		{
+			"sections_title": "adv hos phr mngt"
+		},
+		{
+			"sections_title": "phar rs:prn&meth"
+		},
+		{
+			"sections_title": "intro to phil"
+		},
+		{
+			"sections_title": "intro philosophy"
+		},
+		{
+			"sections_title": "intr philsphy ii"
+		},
+		{
+			"sections_title": "log & crit think"
+		},
+		{
+			"sections_title": "critical thinkng"
+		},
+		{
+			"sections_title": "scientifc reason"
+		},
+		{
+			"sections_title": "minds & machines"
+		},
+		{
+			"sections_title": "phil after 1800"
+		},
+		{
+			"sections_title": "sex gend philos"
+		},
+		{
+			"sections_title": "darwin, evolutin"
+		},
+		{
+			"sections_title": "fnd chin thought"
+		},
+		{
+			"sections_title": "phi wis ear ind"
+		},
+		{
+			"sections_title": "bud-bra-jai-int"
+		},
+		{
+			"sections_title": "phil of biol"
+		},
+		{
+			"sections_title": "directed reading"
+		},
+		{
+			"sections_title": "m.a. thesis"
+		},
+		{
+			"sections_title": "found of phrm"
+		},
+		{
+			"sections_title": "med management 1"
+		},
+		{
+			"sections_title": "study dsgn&int 1"
+		},
+		{
+			"sections_title": "phrm in practc 1"
+		},
+		{
+			"sections_title": "tech in hlthcare"
+		},
+		{
+			"sections_title": "path for pt 1"
+		},
+		{
+			"sections_title": "clin practice i"
+		},
+		{
+			"sections_title": "clinical dec i"
+		},
+		{
+			"sections_title": "exercise move i"
+		},
+		{
+			"sections_title": "path for pt 2"
+		},
+		{
+			"sections_title": "clin prac ii"
+		},
+		{
+			"sections_title": "clinical dec ii"
+		},
+		{
+			"sections_title": "exercise move ii"
+		},
+		{
+			"sections_title": "case integr i"
+		},
+		{
+			"sections_title": "path for pt 3"
+		},
+		{
+			"sections_title": "clin prac iva"
+		},
+		{
+			"sections_title": "clin prac iv"
+		},
+		{
+			"sections_title": "clin prac ivb"
+		},
+		{
+			"sections_title": "case intgr iii"
+		},
+		{
+			"sections_title": "clin prac vi a"
+		},
+		{
+			"sections_title": "clin prac vi b"
+		},
+		{
+			"sections_title": "clin make iv"
+		},
+		{
+			"sections_title": "intro physics"
+		},
+		{
+			"sections_title": "energy & waves"
+		},
+		{
+			"sections_title": "elec light & rad"
+		},
+		{
+			"sections_title": "enrich physics 1"
+		},
+		{
+			"sections_title": "physics1"
+		},
+		{
+			"sections_title": "enrich physics 2"
+		},
+		{
+			"sections_title": "physics2"
+		},
+		{
+			"sections_title": "enrch exper phys"
+		},
+		{
+			"sections_title": "intro exper phys"
+		},
+		{
+			"sections_title": "dynamics & waves"
+		},
+		{
+			"sections_title": "exprmnt phys lab"
+		},
+		{
+			"sections_title": "intr phys eng i"
+		},
+		{
+			"sections_title": "intr phys eng ii"
+		},
+		{
+			"sections_title": "intro phys lab"
+		},
+		{
+			"sections_title": "mechanics i"
+		},
+		{
+			"sections_title": "reltvty & quanta"
+		},
+		{
+			"sections_title": "thermal phys i"
+		},
+		{
+			"sections_title": "intro cptnl phys"
+		},
+		{
+			"sections_title": "inter mechanics"
+		},
+		{
+			"sections_title": "mechanics"
+		},
+		{
+			"sections_title": "intmd exp phys 1"
+		},
+		{
+			"sections_title": "intmd exp phys 2"
+		},
+		{
+			"sections_title": "elec & magnetism"
+		},
+		{
+			"sections_title": "intro quant mech"
+		},
+		{
+			"sections_title": "intro to biophys"
+		},
+		{
+			"sections_title": "hon electrcl lab"
+		},
+		{
+			"sections_title": "intro math phys"
+		},
+		{
+			"sections_title": "fluids"
+		},
+		{
+			"sections_title": "exp acoustics"
+		},
+		{
+			"sections_title": "acoustics"
+		},
+		{
+			"sections_title": "electrical lab"
+		},
+		{
+			"sections_title": "energy & climate"
+		},
+		{
+			"sections_title": "physics of musc"
+		},
+		{
+			"sections_title": "front phys&astro"
+		},
+		{
+			"sections_title": "frontiers physcs"
+		},
+		{
+			"sections_title": "dir rsrch proj"
+		},
+		{
+			"sections_title": "directed studies"
+		},
+		{
+			"sections_title": "appl clscl mech"
+		},
+		{
+			"sections_title": "intr elem prtcls"
+		},
+		{
+			"sections_title": "electromag theor"
+		},
+		{
+			"sections_title": "aplic quant mech"
+		},
+		{
+			"sections_title": "statistical mech"
+		},
+		{
+			"sections_title": "statistical phys"
+		},
+		{
+			"sections_title": "intro med phys"
+		},
+		{
+			"sections_title": "radiation biophy"
+		},
+		{
+			"sections_title": "intr to gen rela"
+		},
+		{
+			"sections_title": "optics"
+		},
+		{
+			"sections_title": "comp phys"
+		},
+		{
+			"sections_title": "zoological phys"
+		},
+		{
+			"sections_title": "appld nuclr phys"
+		},
+		{
+			"sections_title": "solid state phys"
+		},
+		{
+			"sections_title": "quantum mech i"
+		},
+		{
+			"sections_title": "quantuum mech i"
+		},
+		{
+			"sections_title": "quantum mech ii"
+		},
+		{
+			"sections_title": "cond matter i"
+		},
+		{
+			"sections_title": "cond matter ii"
+		},
+		{
+			"sections_title": "sp rlvty & elcmg"
+		},
+		{
+			"sections_title": "relativty & elec"
+		},
+		{
+			"sections_title": "nuclear physics"
+		},
+		{
+			"sections_title": "elm prticle phys"
+		},
+		{
+			"sections_title": "quant fld theory"
+		},
+		{
+			"sections_title": "stat mechanics"
+		},
+		{
+			"sections_title": "quantum elctrdyn"
+		},
+		{
+			"sections_title": "rdiothrpy phy i"
+		},
+		{
+			"sections_title": "rdiothrpy phy ii"
+		},
+		{
+			"sections_title": "adv rad biophys"
+		},
+		{
+			"sections_title": "rdtn dosimetry"
+		},
+		{
+			"sections_title": "radiolog imging"
+		},
+		{
+			"sections_title": "nuc medicine"
+		},
+		{
+			"sections_title": "biomed optics"
+		},
+		{
+			"sections_title": "anat phys stats"
+		},
+		{
+			"sections_title": "particle acclrtr"
+		},
+		{
+			"sections_title": "radioiso sci&med"
+		},
+		{
+			"sections_title": "physcal cosmolgy"
+		},
+		{
+			"sections_title": "exp mth quan mtr"
+		},
+		{
+			"sections_title": "urbn plan cncpts"
+		},
+		{
+			"sections_title": "plan theory&hist"
+		},
+		{
+			"sections_title": "urbnism glbl lif"
+		},
+		{
+			"sections_title": "env & sus concep"
+		},
+		{
+			"sections_title": "urb dsgn thr&met"
+		},
+		{
+			"sections_title": "quantat skills"
+		},
+		{
+			"sections_title": "qualitativ data"
+		},
+		{
+			"sections_title": "legal concepts"
+		},
+		{
+			"sections_title": "plan pract mthds"
+		},
+		{
+			"sections_title": "cty plan craft"
+		},
+		{
+			"sections_title": "sem r prpty dv&p"
+		},
+		{
+			"sections_title": "urban transport"
+		},
+		{
+			"sections_title": "urbn restructing"
+		},
+		{
+			"sections_title": "nat resrce mngmt"
+		},
+		{
+			"sections_title": "plan thy adv sem"
+		},
+		{
+			"sections_title": "phd colloquium"
+		},
+		{
+			"sections_title": "intro to politic"
+		},
+		{
+			"sections_title": "government can"
+		},
+		{
+			"sections_title": "investigat polit"
+		},
+		{
+			"sections_title": "intr comp poltcs"
+		},
+		{
+			"sections_title": "cur poli thought"
+		},
+		{
+			"sections_title": "intro global pol"
+		},
+		{
+			"sections_title": "federalsm canada"
+		},
+		{
+			"sections_title": "bc governmt&poli"
+		},
+		{
+			"sections_title": "ca prsp hmn rght"
+		},
+		{
+			"sections_title": "parliament&party"
+		},
+		{
+			"sections_title": "european integrt"
+		},
+		{
+			"sections_title": "democratization"
+		},
+		{
+			"sections_title": "env poli&polcy"
+		},
+		{
+			"sections_title": "intrnl poli econ"
+		},
+		{
+			"sections_title": "eth wld pol"
+		},
+		{
+			"sections_title": "nuc weapns cntrl"
+		},
+		{
+			"sections_title": "quant mthd poli"
+		},
+		{
+			"sections_title": "peace & conflict"
+		},
+		{
+			"sections_title": "intermed polish"
+		},
+		{
+			"sections_title": "lit&film translt"
+		},
+		{
+			"sections_title": "1st yr port i"
+		},
+		{
+			"sections_title": "1st year port ii"
+		},
+		{
+			"sections_title": "elementary port"
+		},
+		{
+			"sections_title": "2nd yr port i"
+		},
+		{
+			"sections_title": "2nd year port ii"
+		},
+		{
+			"sections_title": "intermed port"
+		},
+		{
+			"sections_title": "advanced port"
+		},
+		{
+			"sections_title": "port for busines"
+		},
+		{
+			"sections_title": "bio cog psych"
+		},
+		{
+			"sections_title": "dev soc cli psy"
+		},
+		{
+			"sections_title": "biol & cog psych"
+		},
+		{
+			"sections_title": "soc, dev, clin"
+		},
+		{
+			"sections_title": "rsrch mthds"
+		},
+		{
+			"sections_title": "think clr psych"
+		},
+		{
+			"sections_title": "analys beh data"
+		},
+		{
+			"sections_title": "experml psyc&lab"
+		},
+		{
+			"sections_title": "brn dys&recovery"
+		},
+		{
+			"sections_title": "infancy"
+		},
+		{
+			"sections_title": "brain & behviour"
+		},
+		{
+			"sections_title": "cultural psych"
+		},
+		{
+			"sections_title": "psychlgy sport"
+		},
+		{
+			"sections_title": "health psycholgy"
+		},
+		{
+			"sections_title": "childhood & adol"
+		},
+		{
+			"sections_title": "applied dev psyc"
+		},
+		{
+			"sections_title": "psyc of gender"
+		},
+		{
+			"sections_title": "environ. psych."
+		},
+		{
+			"sections_title": "soci:media cont"
+		},
+		{
+			"sections_title": "forensic psych"
+		},
+		{
+			"sections_title": "memory i"
+		},
+		{
+			"sections_title": "gambling & decis"
+		},
+		{
+			"sections_title": "psyc language i"
+		},
+		{
+			"sections_title": "evolutnary psych"
+		},
+		{
+			"sections_title": "adv rsr beh sci"
+		},
+		{
+			"sections_title": "biopsychology"
+		},
+		{
+			"sections_title": "motivation"
+		},
+		{
+			"sections_title": "learning"
+		},
+		{
+			"sections_title": "cog neuroscience"
+		},
+		{
+			"sections_title": "meth in research"
+		},
+		{
+			"sections_title": "sensation & perc"
+		},
+		{
+			"sections_title": "clinical psyc"
+		},
+		{
+			"sections_title": "psych religion"
+		},
+		{
+			"sections_title": "cognitv neuropsy"
+		},
+		{
+			"sections_title": "hormones&behavor"
+		},
+		{
+			"sections_title": "drg&behav nrosci"
+		},
+		{
+			"sections_title": "health psych"
+		},
+		{
+			"sections_title": "teaching of psyc"
+		},
+		{
+			"sections_title": "exp npsy & an mo"
+		},
+		{
+			"sections_title": "assm intrv techn"
+		},
+		{
+			"sections_title": "behav assessment"
+		},
+		{
+			"sections_title": "psycopathy child"
+		},
+		{
+			"sections_title": "eth & prof clin"
+		},
+		{
+			"sections_title": "intro psychthrpy"
+		},
+		{
+			"sections_title": "cog/beh interven"
+		},
+		{
+			"sections_title": "clinical res des"
+		},
+		{
+			"sections_title": "srvy soc psyc ii"
+		},
+		{
+			"sections_title": "psychoneuroendro"
+		},
+		{
+			"sections_title": "intro punjabi 1"
+		},
+		{
+			"sections_title": "intro punjabi"
+		},
+		{
+			"sections_title": "intmd punjabi"
+		},
+		{
+			"sections_title": "adv punjabi"
+		},
+		{
+			"sections_title": "devotional lit"
+		},
+		{
+			"sections_title": "intro abrhmc rel"
+		},
+		{
+			"sections_title": "ne&biblical myth"
+		},
+		{
+			"sections_title": "scriptures of ne"
+		},
+		{
+			"sections_title": "intr judaism"
+		},
+		{
+			"sections_title": "intr hebrw bible"
+		},
+		{
+			"sections_title": "prophecy&kingshp"
+		},
+		{
+			"sections_title": "arch and bible"
+		},
+		{
+			"sections_title": "midrsh&rabb imag"
+		},
+		{
+			"sections_title": "jews & christian"
+		},
+		{
+			"sections_title": "jews&judaism can"
+		},
+		{
+			"sections_title": "org chrst litery"
+		},
+		{
+			"sections_title": "org christ socl"
+		},
+		{
+			"sections_title": "clas christ trad"
+		},
+		{
+			"sections_title": "gospl&hist jesus"
+		},
+		{
+			"sections_title": "paul of tarsus"
+		},
+		{
+			"sections_title": "sem relg & lit"
+		},
+		{
+			"sections_title": "neuroantmy/phys"
+		},
+		{
+			"sections_title": "adv conc rehb rs"
+		},
+		{
+			"sections_title": "eval src evidenc"
+		},
+		{
+			"sections_title": "evidnc for pract"
+		},
+		{
+			"sections_title": "rehab theory"
+		},
+		{
+			"sections_title": "reas & dec-mking"
+		},
+		{
+			"sections_title": "meas in practice"
+		},
+		{
+			"sections_title": "assess plan eval"
+		},
+		{
+			"sections_title": "dev rehab prog"
+		},
+		{
+			"sections_title": "rehab learning"
+		},
+		{
+			"sections_title": "major proj prt 1"
+		},
+		{
+			"sections_title": "dvl envrn thoght"
+		},
+		{
+			"sections_title": "perspec res&env"
+		},
+		{
+			"sections_title": "sem resrce & env"
+		},
+		{
+			"sections_title": "qual mthd intdsc"
+		},
+		{
+			"sections_title": "humn tech sytems"
+		},
+		{
+			"sections_title": "social eco syst"
+		},
+		{
+			"sections_title": "watershed mgmt"
+		},
+		{
+			"sections_title": "urban watershed"
+		},
+		{
+			"sections_title": "water int dev"
+		},
+		{
+			"sections_title": "climate change"
+		},
+		{
+			"sections_title": "climate chnge"
+		},
+		{
+			"sections_title": "risk resrce mgmt"
+		},
+		{
+			"sections_title": "environ anyl"
+		},
+		{
+			"sections_title": "lit&cult rmnc ii"
+		},
+		{
+			"sections_title": "int rom lang cin"
+		},
+		{
+			"sections_title": "theory & prac"
+		},
+		{
+			"sections_title": "hlth & occpt i"
+		},
+		{
+			"sections_title": "prac skills i"
+		},
+		{
+			"sections_title": "pro prct i"
+		},
+		{
+			"sections_title": "prac skills ii"
+		},
+		{
+			"sections_title": "evidence prac i"
+		},
+		{
+			"sections_title": "thry,prac skills"
+		},
+		{
+			"sections_title": "prac skills iii"
+		},
+		{
+			"sections_title": "pract project"
+		},
+		{
+			"sections_title": "pro practice ii"
+		},
+		{
+			"sections_title": "soci environ"
+		},
+		{
+			"sections_title": "dev effective pr"
+		},
+		{
+			"sections_title": "basic russian i"
+		},
+		{
+			"sections_title": "basic russian ii"
+		},
+		{
+			"sections_title": "2nd year russian"
+		},
+		{
+			"sections_title": "19th c russ writ"
+		},
+		{
+			"sections_title": "20th c russ writ"
+		},
+		{
+			"sections_title": "third-year russ"
+		},
+		{
+			"sections_title": "russ throug film"
+		},
+		{
+			"sections_title": "fourth-year russ"
+		},
+		{
+			"sections_title": "dostoevsky trnsl"
+		},
+		{
+			"sections_title": "intro sanskrit 1"
+		},
+		{
+			"sections_title": "intro sanskrit"
+		},
+		{
+			"sections_title": "intermd sanskrit"
+		},
+		{
+			"sections_title": "major scan lit"
+		},
+		{
+			"sections_title": "vikings & myth"
+		},
+		{
+			"sections_title": "crime fiction"
+		},
+		{
+			"sections_title": "top dan & n euro"
+		},
+		{
+			"sections_title": "scie seminar"
+		},
+		{
+			"sections_title": "communicate scie"
+		},
+		{
+			"sections_title": "soci of family"
+		},
+		{
+			"sections_title": "indig peoples"
+		},
+		{
+			"sections_title": "citizen & ident"
+		},
+		{
+			"sections_title": "soc life course"
+		},
+		{
+			"sections_title": "social stats i"
+		},
+		{
+			"sections_title": "consum&consumptn"
+		},
+		{
+			"sections_title": "built environmnt"
+		},
+		{
+			"sections_title": "soci meth survey"
+		},
+		{
+			"sections_title": "soci meth rsrch"
+		},
+		{
+			"sections_title": "soci of food"
+		},
+		{
+			"sections_title": "sociology aging"
+		},
+		{
+			"sections_title": "interpers dynamc"
+		},
+		{
+			"sections_title": "contemp chin soc"
+		},
+		{
+			"sections_title": "social thought"
+		},
+		{
+			"sections_title": "contemp theory"
+		},
+		{
+			"sections_title": "rs dsg&tec: quan"
+		},
+		{
+			"sections_title": "rs dsg&tec: qual"
+		},
+		{
+			"sections_title": "anlyz quant data"
+		},
+		{
+			"sections_title": "qual data anlys"
+		},
+		{
+			"sections_title": "adv soil process"
+		},
+		{
+			"sections_title": "adv soil mgmt"
+		},
+		{
+			"sections_title": "adv soil s,a&di"
+		},
+		{
+			"sections_title": "adv fld&soil sci"
+		},
+		{
+			"sections_title": "land water semnr"
+		},
+		{
+			"sections_title": "int wtrshd mngmt"
+		},
+		{
+			"sections_title": "urbn wtrshd mgmt"
+		},
+		{
+			"sections_title": "wtr intrntl dvlp"
+		},
+		{
+			"sections_title": "agr wtrshd mgmt"
+		},
+		{
+			"sections_title": "prof comms strat"
+		},
+		{
+			"sections_title": "intr soc welfare"
+		},
+		{
+			"sections_title": "intr soc work"
+		},
+		{
+			"sections_title": "sowk practice i"
+		},
+		{
+			"sections_title": "interviewing skl"
+		},
+		{
+			"sections_title": "int sem in sw th"
+		},
+		{
+			"sections_title": "intr sowk resrch"
+		},
+		{
+			"sections_title": "soc anl sowk"
+		},
+		{
+			"sections_title": "cult&race sowk"
+		},
+		{
+			"sections_title": "can soci plcy"
+		},
+		{
+			"sections_title": "sowk practice ii"
+		},
+		{
+			"sections_title": "adv int sem in sw th"
+		},
+		{
+			"sections_title": "first nat soc is"
+		},
+		{
+			"sections_title": "com mtl hlth prc"
+		},
+		{
+			"sections_title": "health care team"
+		},
+		{
+			"sections_title": "dis and justice"
+		},
+		{
+			"sections_title": "adv can soc plcy"
+		},
+		{
+			"sections_title": "sowk practice"
+		},
+		{
+			"sections_title": "communic skills"
+		},
+		{
+			"sections_title": "social analysis"
+		},
+		{
+			"sections_title": "fst ntns soc iss"
+		},
+		{
+			"sections_title": "fndtn msw seminr"
+		},
+		{
+			"sections_title": "sowk prac addict"
+		},
+		{
+			"sections_title": "fmly mdt&cnfl rs"
+		},
+		{
+			"sections_title": "pr mental health"
+		},
+		{
+			"sections_title": "sowk prc fld age"
+		},
+		{
+			"sections_title": "soc wrk & justce"
+		},
+		{
+			"sections_title": "hlth & soc care"
+		},
+		{
+			"sections_title": "adv int seminar"
+		},
+		{
+			"sections_title": "intl social dev"
+		},
+		{
+			"sections_title": "soc work doc sem"
+		},
+		{
+			"sections_title": "socthry, id&ethc"
+		},
+		{
+			"sections_title": "adv qual inquiry"
+		},
+		{
+			"sections_title": "beginner span i"
+		},
+		{
+			"sections_title": "beginner span ii"
+		},
+		{
+			"sections_title": "intermed span i"
+		},
+		{
+			"sections_title": "intermed span ii"
+		},
+		{
+			"sections_title": "convers span i"
+		},
+		{
+			"sections_title": "convers span ii"
+		},
+		{
+			"sections_title": "int lit analysis"
+		},
+		{
+			"sections_title": "analys hisp txt"
+		},
+		{
+			"sections_title": "ltn amer revoln"
+		},
+		{
+			"sections_title": "advanced span i"
+		},
+		{
+			"sections_title": "advanced span ii"
+		},
+		{
+			"sections_title": "pen lit to 1700"
+		},
+		{
+			"sections_title": "pen lit frm 1700"
+		},
+		{
+			"sections_title": "s-am lit to 1820"
+		},
+		{
+			"sections_title": "s-am lit aft1820"
+		},
+		{
+			"sections_title": "advancd span iii"
+		},
+		{
+			"sections_title": "medieval lit"
+		},
+		{
+			"sections_title": "rsc sem lit&cltr"
+		},
+		{
+			"sections_title": "std hisp cinema"
+		},
+		{
+			"sections_title": "basic finance"
+		},
+		{
+			"sections_title": "manag accounting"
+		},
+		{
+			"sections_title": "fin reporting"
+		},
+		{
+			"sections_title": "can health pol"
+		},
+		{
+			"sections_title": "gov bus & h care"
+		},
+		{
+			"sections_title": "strat hr mgmt"
+		},
+		{
+			"sections_title": "econ evaluation"
+		},
+		{
+			"sections_title": "health economics"
+		},
+		{
+			"sections_title": "oper & logistics"
+		},
+		{
+			"sections_title": "des & measure 1"
+		},
+		{
+			"sections_title": "des & measure 2"
+		},
+		{
+			"sections_title": "prog plan & eval"
+		},
+		{
+			"sections_title": "app stat in mgmt"
+		},
+		{
+			"sections_title": "biostatistics"
+		},
+		{
+			"sections_title": "soc deter health"
+		},
+		{
+			"sections_title": "qual health care"
+		},
+		{
+			"sections_title": "hlth care law"
+		},
+		{
+			"sections_title": "ethcs hlth care"
+		},
+		{
+			"sections_title": "sociocult determ"
+		},
+		{
+			"sections_title": "work int health"
+		},
+		{
+			"sections_title": "tpcs hlth inform"
+		},
+		{
+			"sections_title": "stats health sc"
+		},
+		{
+			"sections_title": "aging"
+		},
+		{
+			"sections_title": "imprv pblic hlth"
+		},
+		{
+			"sections_title": "violenc lifespan"
+		},
+		{
+			"sections_title": "an meth epid res"
+		},
+		{
+			"sections_title": "epid methods 1"
+		},
+		{
+			"sections_title": "epidem methods 2"
+		},
+		{
+			"sections_title": "appl epid mthds"
+		},
+		{
+			"sections_title": "sci epidmgl thnk"
+		},
+		{
+			"sections_title": "quantv res methd"
+		},
+		{
+			"sections_title": "meas health care"
+		},
+		{
+			"sections_title": "cancer epid"
+		},
+		{
+			"sections_title": "dsgn clin trial"
+		},
+		{
+			"sections_title": "clinical epidlgy"
+		},
+		{
+			"sections_title": "hlth cr dec anly"
+		},
+		{
+			"sections_title": "survlnc&monitrng"
+		},
+		{
+			"sections_title": "syst overviews"
+		},
+		{
+			"sections_title": "syst rev hlth rs"
+		},
+		{
+			"sections_title": "rsch surgical pr"
+		},
+		{
+			"sections_title": "math mdl com dis"
+		},
+		{
+			"sections_title": "qual mth res des"
+		},
+		{
+			"sections_title": "cntrl com dis"
+		},
+		{
+			"sections_title": "apprch enquiry"
+		},
+		{
+			"sections_title": "tps environ hlth"
+		},
+		{
+			"sections_title": "hlth & human sec"
+		},
+		{
+			"sections_title": "biol p hlth prac"
+		},
+		{
+			"sections_title": "iss public hlth"
+		},
+		{
+			"sections_title": "ldrship pub hlth"
+		},
+		{
+			"sections_title": "soc detrmin hlth"
+		},
+		{
+			"sections_title": "occ & env health"
+		},
+		{
+			"sections_title": "hltcr systm anyl"
+		},
+		{
+			"sections_title": "occ & env tox"
+		},
+		{
+			"sections_title": "tox & publ hlth"
+		},
+		{
+			"sections_title": "occ hlt ill prcs"
+		},
+		{
+			"sections_title": "occ & env hyg"
+		},
+		{
+			"sections_title": "aborig pb health"
+		},
+		{
+			"sections_title": "perinatl epidlgy"
+		},
+		{
+			"sections_title": "hlth srv res i"
+		},
+		{
+			"sections_title": "prog pln & eval"
+		},
+		{
+			"sections_title": "health serv res"
+		},
+		{
+			"sections_title": "economic eval"
+		},
+		{
+			"sections_title": "sem can hlth pol"
+		},
+		{
+			"sections_title": "cdn hlth pol"
+		},
+		{
+			"sections_title": "outcome eval"
+		},
+		{
+			"sections_title": "hlth tech asmnt"
+		},
+		{
+			"sections_title": "soc det pop hlth"
+		},
+		{
+			"sections_title": "soc detrmn hlth"
+		},
+		{
+			"sections_title": "com hlth prom"
+		},
+		{
+			"sections_title": "priorty setting"
+		},
+		{
+			"sections_title": "sbst use addictn"
+		},
+		{
+			"sections_title": "inj prvntn"
+		},
+		{
+			"sections_title": "chem&biol hz mea"
+		},
+		{
+			"sections_title": "chem&biol hz con"
+		},
+		{
+			"sections_title": "ergonomics"
+		},
+		{
+			"sections_title": "q mthds exp data"
+		},
+		{
+			"sections_title": "elem stat applic"
+		},
+		{
+			"sections_title": "statistical mthd"
+		},
+		{
+			"sections_title": "intro prob&stats"
+		},
+		{
+			"sections_title": "elem statistics"
+		},
+		{
+			"sections_title": "int stats applic"
+		},
+		{
+			"sections_title": "int stat infernc"
+		},
+		{
+			"sections_title": "rltnships data"
+		},
+		{
+			"sections_title": "sample surveys"
+		},
+		{
+			"sections_title": "stoch signal&sys"
+		},
+		{
+			"sections_title": "dsgn&anl expermt"
+		},
+		{
+			"sections_title": "meths stat learn"
+		},
+		{
+			"sections_title": "algo class pred"
+		},
+		{
+			"sections_title": "time srs forcast"
+		},
+		{
+			"sections_title": "case studies"
+		},
+		{
+			"sections_title": "stat infrnce i"
+		},
+		{
+			"sections_title": "stat infrnce ii"
+		},
+		{
+			"sections_title": "stat meth hd bio"
+		},
+		{
+			"sections_title": "tech stat conslt"
+		},
+		{
+			"sections_title": "sts proseminar"
+		},
+		{
+			"sections_title": "sts core seminar"
+		},
+		{
+			"sections_title": "sts mstrs colloq"
+		},
+		{
+			"sections_title": "surgical rsrch"
+		},
+		{
+			"sections_title": "surg intl health"
+		},
+		{
+			"sections_title": "global disabilit"
+		},
+		{
+			"sections_title": "surg disast resp"
+		},
+		{
+			"sections_title": "elem swedish 1"
+		},
+		{
+			"sections_title": "elem swedish 2"
+		},
+		{
+			"sections_title": "int swedish 1"
+		},
+		{
+			"sections_title": "int swedish 2"
+		},
+		{
+			"sections_title": "intro to theatre"
+		},
+		{
+			"sections_title": "intro to acting"
+		},
+		{
+			"sections_title": "intro tech thtr"
+		},
+		{
+			"sections_title": "intro tech prod"
+		},
+		{
+			"sections_title": "drama ideas i"
+		},
+		{
+			"sections_title": "drama ideas ii"
+		},
+		{
+			"sections_title": "play-intr&prod"
+		},
+		{
+			"sections_title": "technicl prod"
+		},
+		{
+			"sections_title": "bgn bfa acting i"
+		},
+		{
+			"sections_title": "bgn bfa act ii"
+		},
+		{
+			"sections_title": "bgn voice&move"
+		},
+		{
+			"sections_title": "bgn voic/move ii"
+		},
+		{
+			"sections_title": "costume dsgn i"
+		},
+		{
+			"sections_title": "sound design"
+		},
+		{
+			"sections_title": "drama perform"
+		},
+		{
+			"sections_title": "intro to drcting"
+		},
+		{
+			"sections_title": "hist of thtr i"
+		},
+		{
+			"sections_title": "hist theory dir"
+		},
+		{
+			"sections_title": "perf study ii"
+		},
+		{
+			"sections_title": "scenery prod i"
+		},
+		{
+			"sections_title": "scene painting i"
+		},
+		{
+			"sections_title": "stage management"
+		},
+		{
+			"sections_title": "costume constr"
+		},
+		{
+			"sections_title": "int bfa acting i"
+		},
+		{
+			"sections_title": "int bfa act ii"
+		},
+		{
+			"sections_title": "inter vs&m i"
+		},
+		{
+			"sections_title": "int vs&m ii"
+		},
+		{
+			"sections_title": "scenery dsgn ii"
+		},
+		{
+			"sections_title": "costume dsgn ii"
+		},
+		{
+			"sections_title": "lighting dsgn ii"
+		},
+		{
+			"sections_title": "dramaturgy"
+		},
+		{
+			"sections_title": "hist of thtr ii"
+		},
+		{
+			"sections_title": "mjrs & hnrs sem"
+		},
+		{
+			"sections_title": "scenery prod ii"
+		},
+		{
+			"sections_title": "scene paint ii"
+		},
+		{
+			"sections_title": "costum constr ii"
+		},
+		{
+			"sections_title": "adv bfa acting i"
+		},
+		{
+			"sections_title": "adv bfa act ii"
+		},
+		{
+			"sections_title": "adv spch&move i"
+		},
+		{
+			"sections_title": "adv spch&move ii"
+		},
+		{
+			"sections_title": "bibliog & resrch"
+		},
+		{
+			"sections_title": "sc dsgn std i"
+		},
+		{
+			"sections_title": "cs dsgn std i"
+		},
+		{
+			"sections_title": "directn & prod"
+		},
+		{
+			"sections_title": "studio eco reg"
+		},
+		{
+			"sections_title": "studio sust neig"
+		},
+		{
+			"sections_title": "hist&theor desig"
+		},
+		{
+			"sections_title": "policymaking"
+		},
+		{
+			"sections_title": "green the city"
+		},
+		{
+			"sections_title": "urbn frst welbng"
+		},
+		{
+			"sections_title": "ecolgcl restortn"
+		},
+		{
+			"sections_title": "sem urban studes"
+		},
+		{
+			"sections_title": "urb syst & socty"
+		},
+		{
+			"sections_title": "urb systs plan"
+		},
+		{
+			"sections_title": "vant col project"
+		},
+		{
+			"sections_title": "sustn&eng design"
+		},
+		{
+			"sections_title": "fnd comp vis art"
+		},
+		{
+			"sections_title": "dig media studio"
+		},
+		{
+			"sections_title": "intro studi one"
+		},
+		{
+			"sections_title": "fdn&media studio"
+		},
+		{
+			"sections_title": "studio two"
+		},
+		{
+			"sections_title": "mean&mtrl studio"
+		},
+		{
+			"sections_title": "digital arts"
+		},
+		{
+			"sections_title": "drawing"
+		},
+		{
+			"sections_title": "painting"
+		},
+		{
+			"sections_title": "intro photo"
+		},
+		{
+			"sections_title": "int digital phot"
+		},
+		{
+			"sections_title": "intro prnt media"
+		},
+		{
+			"sections_title": "basic sculpt"
+		},
+		{
+			"sections_title": "digital arts i"
+		},
+		{
+			"sections_title": "digital arts ii"
+		},
+		{
+			"sections_title": "intrmd drawng i"
+		},
+		{
+			"sections_title": "intrmd drawng ii"
+		},
+		{
+			"sections_title": "intrmd paint i"
+		},
+		{
+			"sections_title": "intrmd paint ii"
+		},
+		{
+			"sections_title": "int photo i"
+		},
+		{
+			"sections_title": "int photo ii"
+		},
+		{
+			"sections_title": "intermd print ii"
+		},
+		{
+			"sections_title": "int print ii"
+		},
+		{
+			"sections_title": "int prnt media 3"
+		},
+		{
+			"sections_title": "int sculpture i"
+		},
+		{
+			"sections_title": "special study i"
+		},
+		{
+			"sections_title": "studio theory i"
+		},
+		{
+			"sections_title": "studio theory ii"
+		},
+		{
+			"sections_title": "adv seminar i"
+		},
+		{
+			"sections_title": "adv seminar ii"
+		},
+		{
+			"sections_title": "studio v"
+		},
+		{
+			"sections_title": "mfa studio v"
+		},
+		{
+			"sections_title": "studio vi"
+		},
+		{
+			"sections_title": "mfa studio vi"
+		},
+		{
+			"sections_title": "intr wd pr&fr mg"
+		},
+		{
+			"sections_title": "intr wd pr&trade"
+		},
+		{
+			"sections_title": "communictn strat"
+		},
+		{
+			"sections_title": "prog wd prod app"
+		},
+		{
+			"sections_title": "quant meth wood"
+		},
+		{
+			"sections_title": "contemp tpcs"
+		},
+		{
+			"sections_title": "mechncs wood prd"
+		},
+		{
+			"sections_title": "wood anat & id"
+		},
+		{
+			"sections_title": "wood-phy dryg"
+		},
+		{
+			"sections_title": "wood-phy mechncs"
+		},
+		{
+			"sections_title": "sec wood prd man"
+		},
+		{
+			"sections_title": "2-&solid c grphc"
+		},
+		{
+			"sections_title": "machine componen"
+		},
+		{
+			"sections_title": "wood adhsv&coatg"
+		},
+		{
+			"sections_title": "wood sawmill dry"
+		},
+		{
+			"sections_title": "appl mech matrls"
+		},
+		{
+			"sections_title": "job costg&eng ec"
+		},
+		{
+			"sections_title": "engineering econ"
+		},
+		{
+			"sections_title": "globlzn&sustainb"
+		},
+		{
+			"sections_title": "wood finishing"
+		},
+		{
+			"sections_title": "wd finish prtctn"
+		},
+		{
+			"sections_title": "wood ind manag"
+		},
+		{
+			"sections_title": "wd prp&prd manu"
+		},
+		{
+			"sections_title": "prpty,ident&uses"
+		},
+		{
+			"sections_title": "wood strctr dsgn"
+		},
+		{
+			"sections_title": "cad/cam"
+		},
+		{
+			"sections_title": "furniture constr"
+		},
+		{
+			"sections_title": "glued wood prod"
+		},
+		{
+			"sections_title": "wood composites"
+		},
+		{
+			"sections_title": "enviro facl dsgn"
+		},
+		{
+			"sections_title": "mdl decision sup"
+		},
+		{
+			"sections_title": "proj prog major"
+		},
+		{
+			"sections_title": "prnc wood cut&tl"
+		},
+		{
+			"sections_title": "wood prod capstn"
+		},
+		{
+			"sections_title": "rsrch&writ human"
+		},
+		{
+			"sections_title": "comp animal phyl"
+		}
+	]
+}
