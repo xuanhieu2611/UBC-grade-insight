@@ -17,4 +17,4 @@ In the project folder:
 
 3. `yarn build` to compile your project. You must run this command after making changes to your TypeScript files. This is also how you run your back end
 
-4. Run `./frontend/index.html' to run the front end and you can play around from here.
+4. Run `./frontend/index.html` to run the front end and you can play around from here.
